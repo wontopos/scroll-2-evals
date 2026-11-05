@@ -1,0 +1,1066 @@
+[
+ {
+  "qid": "17:abstention:0",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "My memory notes don't answer this. I found no record of a stress rating of 4/10, and no mindfulness techniques introduced by May 1.\n\nThe closest entries are:\n\n- **Pilot deadline note (May 2, 2024):** you were stressed about the June 30 pilot deadline. The note records no technique and no stress score. The advice given was Trello task batching, a weekly review, and deadline buffers.\n- **Evening meditation at 9 PM:** this is logged as starting June 10, 2024, which is after May 1. The notes also conflict on whether you practice it at all, and a 3 PM mindfulness practice is mentioned only in passing with no details.\n- **1-hour daily buffer slots and the \"35% lower deadline stress\" figure:** these began July 1 and are not mindfulness techniques. The 35% figure is unverified.\n\nIf you were tracking a stress level of 4/10 and specific techniques around May 1, that information isn't in these notes. If you tell me the techniques, I can add them to the record with the date.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 9.04,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6974
+   },
+   "cache_read_input_tokens": 26576,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1193,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:abstention:1",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I don't have any record of a dinner on April 20 celebrating casting completion, so I can't describe its atmosphere.\n\nThe closest related notes are these:\n\n- **Casting timing:** In one entry, you said casting was finished by April 20. That entry also records that the pilot delivery date moved from June 30 to July 15 because of casting delays, announced to stakeholders on April 28. The note flags that these two accounts don't fit together and that the delay details need clarifying.\n- **Other celebrations:** The file has a July 6 family outing to Rendezvous Bay to mark 70% filming completion, and a planned December 20 dinner at The Coral Reef for the pilot's success. Neither is the April 20 dinner.\n\nIf you tell me what you remember about the evening, I can add it to memory as a new entry. I can also help you reconcile the casting dates if that's useful.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 8.184,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7298
+   },
+   "cache_read_input_tokens": 15772,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 834,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "Yes, at least twice, both for networking events rather than work meetings. Memory holds only your own accounts of these decisions, not what happened afterward.\n\n- **July 3, 2024:** You declined a networking brunch to protect 5 hours of work time before a July 5 production deadline.\n- **November 12, 2024:** You declined a networking event to save 5 hours for editing deadlines. You confirmed you weren't attending. The notes say it was the second time you'd declined networking for deadline time.\n\nRelated but different: you declined a dinner with Alan on September 2, 2024 to protect family time, and in November you asked how to decline invitations like that without hurting feelings.\n\nThe notes also suggest a pattern check. If networking keeps getting declined, follow up with those contacts after the December 15 release, and set a rule that you accept invitations only when they fall outside deadline windows.",
+  "memory_tools": [
+   "grep",
+   "glob"
+  ],
+  "usage": {
+   "active_seconds": 5.533,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5547
+   },
+   "cache_read_input_tokens": 8967,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 781,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you attending a location scout with Jeremy. I checked the memory store and found nothing about location scouts. The only notes that mention Jeremy are about sound mixing: four sessions at Montserrat Studios, July 12–15, 2024, at $150 each. Your uploads folder is empty, so there's nothing else to check.\n\nIf you went on a scout with him, it may not have been recorded. If you tell me the date or location, I can save it to memory.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 9.512,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4605
+   },
+   "cache_read_input_tokens": 29880,
+   "input_tokens": 12,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 837,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "1. Trello boards for task batching, suggested by Laura (May 2, 2024)\n2. Hiring a social media agency at $800/month to delegate work, on Laura's advice (June 20, 2024)\n3. Adding 1-hour daily buffer slots for unexpected tasks (starting July 1, 2024)\n4. Batching email and calls on Mondays and Fridays (July 10, 2024)\n5. Delegating some editing to Michele and asking Laura for mentorship tips (September 5, 2024)",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "bash"
+  ],
+  "usage": {
+   "active_seconds": 11.321,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 11453
+   },
+   "cache_read_input_tokens": 18321,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1902,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "Here are six items, in the order you first raised them:\n\n1. **Pilot episode deadline and Trello task batching** (May 2, 2024): you were stressed about the June 30 pilot deadline and asked whether Trello could help with task batching.\n2. **Storyboard session with Alan** (June 25, 2024): you finished the visuals with Alan at The Blue Lagoon in about 2 hours.\n3. **Sound mixing with Jeremy at Montserrat Studios** (July 10, 2024): you finalized four sessions at $150 each and asked whether to negotiate the price.\n4. **Final edits with Michele** (raised November 20, 2024, for a session on November 18): you finished 3 scenes in 4 hours and asked how to keep that pace.\n5. **Creative workshop with Carla at The Blue Lagoon** (raised November 20, 2024): you planned it for December 7 with 10 local artists and asked about a backup date.\n6. **Ad budget decision** (raised November 20, 2024): you approved $3,500 for Facebook and Instagram ads and rejected a $5,000 influencer campaign.\n\nItems 4 to 6 were all raised on November 20, so their order within that day follows the order of my notes, not a recorded time.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 13.399,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8399
+   },
+   "cache_read_input_tokens": 19770,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2448,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I couldn't find anything in your memory notes about your kids' afterschool activities at school, so I can't tell you which days you mentioned.\n\nThe closest entries are about other things:\n- **Emma's school play rehearsals** start Monday, November 25, 2024. That's rehearsal time, not a described set of afterschool days.\n- **Summer camp** for Emma and Michelle (at East Janethaven Community Center) has no hours or days on file.\n- **School involvement for Rachel** covers monthly meetings with her school, with no activity days listed.\n- **Family calendar reminders** mention school events, but no specific days.\n\nIf you tell me the days, I can save them to memory so they're available next time.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.519,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5553
+   },
+   "cache_read_input_tokens": 29073,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 960,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I can't find a plan for regular video calls with that professional in memory. The closest records are about Laura, who I'm assuming is the person you mean, since no other industry professional is named:\n\n- **Sept 5, 2024:** You planned to \"ask Laura for quick mentorship tips\" as part of a schedule review. This was alongside reviewing tasks and deadlines, delegating some editing to Michele, setting reminders, and adding buffer slots. Michele's agreement was not confirmed.\n- **May 2, 2024:** Laura suggested Trello boards for task batching. You planned to start with Scriptwriting and Pre-production, then Production, with a weekly review.\n- **June 20, 2024:** After Laura advised delegating, you hired a social media agency at $800/month.\n- **Nov 10, 2024:** You had a review meeting with Laura, who suggested focusing on audience engagement strategies. You asked how to fit that into your Mon/Wed marketing blocks, but the specifics of her advice aren't on file.\n\nMemory doesn't say how often you planned to meet her, whether those meetings were video calls, or what agenda you set for them. If you tell me, I can help you plan them around your current deadlines and save the plan to memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.935,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6196
+   },
+   "cache_read_input_tokens": 27961,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1223,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "Your sound mixing sessions with Jeremy at Montserrat Studios were scheduled for July 12–15, 2024, four sessions in all. On July 10, 2024, the sessions were extended to July 16 because of additional edits. My notes don't have the start times for each session, so check your calendar or booking confirmation for those.\n\nI also have notes on Montserrat Botanical Gardens, which is a separate trip (September 14–15, 2024). That isn't the studio.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.504,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2489
+   },
+   "cache_read_input_tokens": 18780,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 607,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "You have two meetings at East Janethaven Library, both from Jeffrey's invitations:\n\n1. **Book club: Thursday, July 18, 2024.** You accepted this one. The start time isn't in my notes.\n2. **Book launch: Thursday, November 28, 2024.** You accepted this on November 20. The start time and length aren't in my notes. November 28 is Thanksgiving Day, so it may overlap with family plans.\n\nCheck your calendar for the exact start times.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 5.314,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2168
+   },
+   "cache_read_input_tokens": 18244,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 559,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "I couldn't find a post-production software license budget, or any plugin costs, in your memory notes or in the uploads folder (which is empty).\n\nThe closest figures on file are for sound mixing, not software. Jeremy's sessions at Montserrat Studios were $150 each, four sessions for $600 total, though they were later extended to July 16. Your notes also include $800/month for a social media agency and $3,500 for ads, neither of which is software.\n\nIf you share the license and plugin quotes or the budget sheet, I can total them and record the figure in memory.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.19,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 3319
+   },
+   "cache_read_input_tokens": 18630,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 884,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "The sound mixing sessions with Jeremy are scheduled for **five days, July 12 to 16, 2024**, at Montserrat Studios.\n\nThe original schedule was four days (July 12–15, four sessions at $150 each). On July 10, the sessions were extended to July 16 because the user requested additional edits. My notes don't say whether the extra day is a fifth session or the existing sessions were stretched, so the session count and cost may differ from the original $600.\n\nThe extension also runs past the July 15 pilot delivery date, and my notes don't record a decision on moving that date or delivering in parts. These notes are from July 2024, so please confirm the current schedule.",
+  "memory_tools": [
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.778,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2567
+   },
+   "cache_read_input_tokens": 18867,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 647,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "By July 5 you had filmed **12 scenes** out of 16, so **4 scenes** were left to film after that.\n\nThese figures come from your July 10 report of the July 5 status, which I have on file. Your notes also cite 70% filming completion for July 6, which doesn't line up with 12 of 16 (75%). The scene count is the more specific figure, but it's worth confirming with your current status, since the record is several days old.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.008,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 3659
+   },
+   "cache_read_input_tokens": 18063,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 710,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "The notes show **three** distinct reminder or planning systems you've mentioned for managing tasks and family events:\n\n1. **Google Calendar recurring reminders** for family appointments and school events, synced with James's calendar (July 10, 2024). This is the only one tied to family events.\n2. **Trello boards** for task batching, with lists by production stage and a deadline on each card. You were considering this on the advice of Laura, and planned to start with Scriptwriting and Pre-production (July 10, 2024).\n3. **A batching schedule template** for your weekly work: Mon/Fri email and call batches, Tue/Thu editing blocks, a Wed 2 PM edit session, and a 1-hour daily buffer (July 10, 2024).\n\nTwo other items came up but I wouldn't count them as separate systems. The weekly review was advice on how to run the Trello and calendar systems, and the \"time anchor\" was a reference date used for planning, not a tool. Your notes also mention time blocks like the Mon/Wed marketing slots from November, but those are scheduling choices rather than distinct tools. If you count each time-blocking pattern separately, the number would be higher.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.89,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 9282
+   },
+   "cache_read_input_tokens": 33607,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1637,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:preference_following:0",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Based on what I have on file about your schedule, batching already suits you, so the framework below builds on that. Your notes are from mid-to-late 2024, so check them against your current situation.\n\n**1. Protect your peak hours for deep work.** Find the hours when your focus is best (many people have it in the morning, but it varies) and put your hardest task there. Block it on the calendar as a meeting with yourself, and turn off notifications during it.\n\n**2. Batch similar tasks.** Group email, calls, admin, and creative work into separate blocks instead of switching between them all day. Your notes show you already batch email and calls on Mondays and Fridays and do editing on Tuesdays and Thursdays. Keeping that pattern consistent is usually the biggest gain. Check email at fixed times rather than continuously.\n\n**3. Plan the day the evening before.** Pick three priorities for tomorrow: one major task, two smaller ones. Keep the list short. A plan you can finish beats a long list you can't.\n\n**4. Build in buffers.** Leave slack between commitments and a daily buffer (your notes mention a 1-hour one). Meetings run long and interruptions happen, so a schedule with no slack breaks at the first disruption.\n\n**5. Set a clear end to the workday.** Stop at a fixed time and write down open items for tomorrow so your mind can let go. Your Sunday no-work policy fits here. If a deadline forces an exception, keep a short written list of exceptions so the rest stays protected.\n\n**6. Use breaks that actually recover you.** Short walks, stretching, or a few minutes away from screens restore focus better than scrolling. Your 15-minute evening walks would count here.\n\n**7. Review weekly.** Once a week, check what got done, what kept slipping, and what to cut or delegate. Adjust the template rather than forcing a fixed plan.\n\n**8. Protect sleep.** Productivity drops fast with poor sleep. A consistent bedtime and a wind-down routine (dim lights, fewer screens) will do more for focus than another productivity app.\n\nIf you tell me your current job or main workload, your peak-energy times, and any fixed commitments such as meetings or family obligations, I can turn this into a concrete weekly template.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.121,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2760
+   },
+   "cache_read_input_tokens": 17889,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1340,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:preference_following:1",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "I set up a task tracker you can edit and share. It's built from the notes I have on file, which are current as of Nov 20, 2024. Older July and September items were left out because their statuses are stale.\n\nFiles:\n- **`/mnt/session/outputs/task-tracker.csv`**: one row per task, with ID, Task, Owner, Due, Status, Priority, Depends on, and Notes. It opens in Google Sheets, Excel, or Airtable, and it can be imported into Trello or Asana.\n- **`/mnt/session/outputs/tasks.md`**: a readable summary with update instructions, a key-dates table, and open questions to resolve before you share it.\n\nThe tracker has 16 tasks. The most urgent are the final sound mix (Fri Nov 22), the final cut and QC (Thu Dec 5), and the pilot release (Sun Dec 15). Three items conflict with your Sunday no-work policy: the Dec 1 analytics workshop, the Dec 8 backup workshop, and the Dec 15 release.\n\nSeveral things I couldn't confirm, so their statuses are marked as open:\n- Current post-production progress. The last figure, 95%, is from Nov 15.\n- Exact rehearsal times, launch-week dates, and the no-calls-after-6 PM arrangement with James.\n- Your time zone. I left it blank in the tracker.\n\nIf you send me your current task list, I'll update the CSV with real owners, dates, and statuses, and I can add a weekly-review section if you want one.",
+  "memory_tools": [
+   "bash"
+  ],
+  "usage": {
+   "active_seconds": 22.958,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 11129
+   },
+   "cache_read_input_tokens": 32725,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "2",
+    "currency": "USD"
+   },
+   "output_tokens": 4351,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:summarization:0",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "Here's what my saved notes show. They cover conversations from May to November 2024, and they're my notes, not full transcripts. Several figures are your own estimates that I never verified.\n\n**Time management**\n- **Work hours:** You started at 50 hours a week and set a goal of 40 by July. In July you reported cutting to 42, with the 8 hours moved to family and leisure. No time log is on file, so I can't confirm the current number.\n- **Batching:** You batch email and calls on Mondays and Fridays, and you block editing on Tuesdays and Thursdays. You also added a 1-hour daily buffer for unexpected tasks in July. You estimated batching saves about 4 hours a week, which is unverified.\n- **Early focus:** In November you moved your start from 9 AM to 8 AM to get a focused hour, and you prefer early-morning sessions before family time. I suggested putting your hardest deadline work in that first block.\n- **Sundays:** Since November 3 you've kept Sundays free of work to reduce stress spikes. I suggested keeping that as the default and making a short exception list for launch-critical days.\n- **Tracking:** Several times I suggested tracking actual hours before trusting any time-saving estimate. Your records don't yet show that you've done it.\n\n**Stress and wellbeing**\n- **Deadline stress:** You've been stressed about deadlines in May, July, and November. You reported a 35% drop in deadline stress after adding buffer time. That figure is subjective, and no measure is on file.\n- **Evening walks:** You started 15-minute evening walks on November 5 and report better mood and less screen fatigue. I advised keeping them and anchoring them to a fixed time.\n- **Meditation:** You had a 3 PM mindfulness practice and a 9 PM meditation in July. I couldn't confirm which you still do.\n- **Self-care:** In November you booked three spa visits between November 21 and December 10 to prevent burnout.\n- **Family and social:** You declined a networking brunch in July and a networking event in November, both to protect deadline time. You also took a family day out in July, and you accepted a book launch on November 28 to keep some social balance. You've said you want to avoid overcommitting, and I suggested setting time limits on events and declining invitations that fall in deadline weeks.\n- **Family support:** You've been balancing your daughters' activities (summer camp, Emma's school play), and you negotiated monthly-only school meetings for Rachel, saving about 3 hours a month. I suggested short check-ins alongside those meetings.\n\n**Creative collaborations**\n- **Alan (storyboard):** You finished the storyboard visuals with Alan at The Blue Lagoon in about 2 hours in June. You worried that wasn't enough, and I suggested defining the storyboard's purpose and checking it against the script.\n- **Michele (edits):** You and Michele finished final edits on 3 scenes in 4 hours on November 18, about 1.3 hours per scene. You asked how to keep that pace, and I suggested using it to estimate the remaining post-production hours.\n- **Jeremy (sound mixing):** You booked four mixing sessions at Montserrat Studios at $150 each. The sessions were later extended to July 16, past the July 15 delivery date. I flagged the timing conflict and asked whether to deliver in parts.\n- **Carla (workshop):** You planned a creative workshop at The Blue Lagoon on December 7 with 10 local artists. I suggested steps to align the group and make the event valuable.\n- **Delegation:** You hired a social media agency for $800 a month in June, on Laura's advice. I suggested measuring it by hours actually transferred, not by the fee.\n\n**Things that changed or are unresolved**\n- The pilot deadline moved from July 15 to a December 15, 2024 release, and the time anchor moved from July 10 to September 5 and then November 20. The July task data is stale.\n- The 40-hour versus 42-hour goal and the 9 PM meditation are still open questions.\n- Your time zone was never recorded. You asked that time zones always be included with meeting times.\n\nMy memory store is read-only in this session, so I couldn't update these notes. If you tell me your current hours, deadlines, and time zone, I can give you a current picture.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 13.022,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8628
+   },
+   "cache_read_input_tokens": 23330,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2371,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:summarization:1",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "Here's how your pilot episode timeline and tasks changed, based on my saved notes from our earlier conversations. These are my notes, not a transcript, so some figures are your own reports that I never verified.\n\n**Spring 2024: original plan**\n- **May 2:** You were stressed about a **June 30** pilot deadline. You asked whether Trello boards for task batching, a idea from Laura, could help. I suggested lists by production stage, cards batched by work type, and a weekly review. You planned to start with Scriptwriting and Pre-production, then Production.\n- Your goal was to cut your workweek from 50 hours to 40 by July.\n- Your editing plan was 3-hour Tuesday and Thursday blocks.\n\n**Late April: first deadline change**\n- The delivery date moved from **June 30 to July 15**, which you said you communicated to stakeholders on April 28 because of casting delays. Your earlier statement that casting was finished by April 20 conflicts with this, and the delay was never fully explained. Trello dates tied to June 30 needed updating.\n\n**July 2024: production push**\n- **July 5 status (reported July 10):** 75% complete, 12 of 16 scenes filmed, 60% of post-production started.\n- You set July 10 as your \"time anchor\" for planning tasks and meetings.\n- You reported several changes, none of which I could verify:\n  - Email and calls batched on Mondays and Fridays, saving 4 hours a week.\n  - 1-hour daily buffer slots from July 1, with 35% lower deadline stress.\n  - Cutting your work week to 42 hours by July 1.\n- Sound mixing at Montserrat Studios was scheduled for July 12–15, the same days as delivery.\n- The July schedule also had a book club on July 18 and a summer camp.\n\n**September 2024: the schedule slips and resets**\n- **Sept 5:** You set a new time anchor of Sept 5 and superseded the July one.\n- You reported pilot editing at 90% with a **Sept 1** deadline, which had already passed. Color grading was set for Sept 10–12. I never confirmed whether the pilot had been delivered, extended, or re-dated.\n- You planned a Sept 14–15 weekend trip to Montserrat Botanical Gardens with James, and a plan to delegate some editing to Michele and ask Laura for mentorship tips.\n- You also said you hired a social media agency at $800 a month on June 20, though I have no confirmation of its status.\n\n**November 2024: current milestones**\n- **Nov 10:** Review meeting with Laura, who suggested focusing on audience engagement.\n- **Nov 15:** Post-production reported at 95%.\n- **Nov 18:** You and Michele finished final edits on 3 scenes in 4 hours, about 1.3 hours per scene.\n- **Nov 20:** The most recent set of milestones:\n  - Final sound mix: Fri Nov 22\n  - Final cut: Thu Dec 5\n  - Release: Sun Dec 15\n  - Emma's school play rehearsals start Mon Nov 25, with 5 evening sessions.\n  - Thanksgiving is Thu Nov 28.\n  - Creative workshop at The Blue Lagoon on Sat Dec 7, with a possible backup on Sun Dec 8.\n  - Marketing prep in Mon/Wed 2-hour blocks, starting Nov 1.\n  - No work calls after 6 PM during launch week, agreed with James.\n  - A $3,500 Facebook/Instagram ad budget. You turned down a $5,000 influencer campaign.\n- You also set a no-work rule for Sundays from Nov 3, and moved your start time from 9 AM to 8 AM for a focused morning hour.\n\n**Open issues as of my latest notes (Nov 20, 2024)**\n- The post-production figure (95%, Nov 15) is five days old, and it's unclear whether picture is locked before the Nov 22 sound mix.\n- The Dec 2–5 window has a conflict: workshop prep overlaps final cut QC.\n- The July-era figures (42-hour week, batching savings, stress reduction) are unverified.\n- Your time zone is still missing, though you asked that it be included with every meeting time.\n\nIf you give me the current post-production percentage and your remaining scene count, I can rebuild the schedule from the Nov 20 milestones and check it against the Dec 5 cut.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 13.123,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 9408
+   },
+   "cache_read_input_tokens": 20850,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2373,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "I can't work out the number of days from my notes. The memory store has the reschedule but not the other date.\n\n- **Reschedule:** the client meeting was moved from 11 AM to 4 PM on March 29. The notes don't give a year.\n- **Writing block:** I found no record of a 3 PM meeting you wanted to protect your writing block from, and no date for when you decided to protect it. The only 3 PM item on file is a mindfulness practice, which is a different thing.\n\nIf you tell me the date you wanted to protect the writing block from that 3 PM meeting, and the year of the March 29 reschedule, I can count the days between them. Please also tell me your time zone, since you asked that it be included whenever meeting times come up and it isn't on file yet.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "grep",
+   "grep",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 10.562,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 9003
+   },
+   "cache_read_input_tokens": 38156,
+   "input_tokens": 12,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1398,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "It was **76 days**: from April 20, 2024 (when you said casting was finished) to July 5, 2024 (the date of the report that put the pilot at 75% complete).\n\nTwo caveats:\n- The April 20 date is your own earlier statement. My notes also say casting delays pushed the delivery date back, and that the delay details still need clarifying, so the casting finish date may not be exact.\n- The 75% figure was your report of the July 5 status, which I recorded on July 10. If you meant the date you first reached 75%, tell me and I'll recalculate.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 8.777,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6381
+   },
+   "cache_read_input_tokens": 32327,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 920,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "17:abstention:0",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "The memories say the reduction came from **30-minute mindfulness sessions at 3 PM daily**. Your stress dropped from 7/10 in late April to 4/10 by May 1 after you started them. The memories don't say which specific mindfulness technique those sessions used.\n\nLater suggestions I made in May mentioned deep breathing, meditation, and yoga as relaxation techniques, but those were general recommendations, not confirmed as what you practiced.",
+  "recall_chars": 9613,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4100,
+   "output_tokens": 451,
+   "output_tokens_details": {
+    "thinking_tokens": 303
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:abstention:1",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "I don't have any details about the atmosphere. My records only show that you celebrated finishing casting by April 20 with a dinner at The Coral Reef, which cost $120 for four guests. They don't say how the evening felt, what was discussed, or whether anything memorable happened.\n\nIf you tell me how it went, I can note that for future reference.",
+  "recall_chars": 8525,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3672,
+   "output_tokens": 223,
+   "output_tokens_details": {
+    "thinking_tokens": 115
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Yes, based on your memories, you have declined meetings to protect your writing time at least twice:\n\n- **March 14:** You declined a last-minute 3 PM meeting to protect your 9 AM writing block, which saved you about 2 hours of focused work. You mentioned feeling a bit stressed about it.\n- **November 12:** You declined a networking event to save 5 hours and meet editing deadlines.\n\nOne memory from March 15 says, \"I've never declined any meetings to protect my writing time,\" but it's phrased as a question about how to say no without feeling guilty. It likely reflects an earlier worry rather than a fact, and it conflicts with the two examples above.",
+  "recall_chars": 9158,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3871,
+   "output_tokens": 461,
+   "output_tokens_details": {
+    "thinking_tokens": 246
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Based on what I have, no. On May 2, 2024, you said you'd never attended a location scout with Jeremy. I also have a plan from a separate conversation for a location scout with Jeremy at Rendezvous Bay on March 30 (Saturday), but I don't have any record that it took place, so I can't say whether you attended.",
+  "recall_chars": 8366,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3646,
+   "output_tokens": 458,
+   "output_tokens_details": {
+    "thinking_tokens": 351
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "Based on my records, these are the first five strategies and support options in chronological order. However, these entries are my suggestions from our conversations, not necessarily what you raised:\n\n1. **Presenting a plan to your manager and seeking their support** (March 15, 2024)\n2. **Building in buffer time and flexible deadlines** (July 10, 2024)\n3. **Using digital tools like Trello, Google Calendar, or Todoist** (July 10, 2024)\n4. **Batching similar tasks together** (November 20, 2024)\n5. **Delegating tasks to Michele or outsourcing minor work** (November 20, 2024)",
+  "recall_chars": 12585,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5463,
+   "output_tokens": 1238,
+   "output_tokens_details": {
+    "thinking_tokens": 1032
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "Here are the creative collaboration topics you raised, in order:\n\n1. **Finalizing the script and starting location scouting in early May** (March 15, 2024)\n2. **Moving through scriptwriting and pre-production, then production, and handling delays** (May 2, 2024)\n3. **Improving collaboration with Jeremy on location scouts for your pilot episode** (May 2, 2024)\n4. **The storyboard with Alan at The Blue Lagoon café and worries about finishing it** (July 10, 2024)\n5. **The 90-minute virtual brainstorming session with Stephanie and prioritizing tasks** (September 5, 2024)\n\nMy records contain only five of these with dates, so I can't identify a sixth item with confidence.",
+  "recall_chars": 9691,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4059,
+   "output_tokens": 1166,
+   "output_tokens_details": {
+    "thinking_tokens": 922
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "You said your kids have afterschool activities at East Janethaven Primary School on **Tuesdays and Thursdays**.",
+  "recall_chars": 10187,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4463,
+   "output_tokens": 334,
+   "output_tokens_details": {
+    "thinking_tokens": 293
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "From the memories I have, your plan had three parts:\n\n1. **Ask for her advice on schedule management.** When you first mentioned the Monday 10 AM Zoom call with Laura, you were considering asking her how to manage your schedule better, given her long experience in the industry.\n\n2. **Apply what she recommended.** After one call, you thanked her for advice on using digital calendars and task management apps to handle multiple projects, and on setting strict work hours to protect boundaries. You said you planned to start implementing these strategies right away.\n\n3. **Use the calls for ongoing feedback.** In a later conversation, you mentioned possibly asking Laura for quick mentorship tips. The assistant also suggested regular check-ins with her to get feedback and adjust your approach.\n\nThe memories don't include a more detailed plan for the calls themselves, so I can't say more than that.",
+  "recall_chars": 10102,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4200,
+   "output_tokens": 774,
+   "output_tokens_details": {
+    "thinking_tokens": 496
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "I don't have any record of meetings at Montserrat Studios. My notes don't mention that studio by name.\n\nI do have some related entries that might be what you're thinking of:\n- **November 22:** a sound mix session with Jeremy. The notes don't say where it takes place.\n- **July 10:** an extended sound mixing session with Jeremy, 1 PM to 6 PM, followed by a wrap-up from 6 PM to 7 PM.\n- **September 5:** pilot editing, 9 AM to 12 PM.\n\nI can't confirm that any of these were at Montserrat Studios. If you tell me the date or what the meeting was about, I can look more closely, or you can check your calendar or the studio's booking confirmation.",
+  "recall_chars": 9346,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4101,
+   "output_tokens": 474,
+   "output_tokens_details": {
+    "thinking_tokens": 238
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "Your meeting at East Janethaven Library was a **book club meeting on July 18, from 3 PM to 5 PM**. You mentioned that Jeffrey invited you.\n\nI also have a note about a November 20 entry that mentions traveling to \"the library\" from 12 to 1 PM, but it doesn't say which library, so I can't confirm it's the same one.",
+  "recall_chars": 10454,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4575,
+   "output_tokens": 363,
+   "output_tokens_details": {
+    "thinking_tokens": 244
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The total budget is **$6,200**, which the earlier plan allocated as follows:\n\n- **Core software licenses: $3,000** (Adobe Creative Cloud Suite $1,200, DaVinci Resolve Studio $800, other essential software $1,000)\n- **Plugins and add-ons: $2,500** (sound editing plugin $800, already purchased on 04/28; color grading plugin $700; visual effects plugin $1,000)\n- **Miscellaneous: $700** (hardware or accessories $300, training materials $400)\n\nSo software licenses and plugins together account for **$5,500**, and the remaining $700 covers hardware and training. Your earlier figure of $5,000 for software licenses was before the increase to $6,200.",
+  "recall_chars": 11270,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4714,
+   "output_tokens": 835,
+   "output_tokens_details": {
+    "thinking_tokens": 592
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "Based on the memory, the sound mixing sessions with Jeremy cover **five days, July 12 to 16**. They were originally agreed for July 12-15 (four days), then extended to July 16 because of additional edits requested on July 10.\n\nSeparately, there's a single November 22 sound mix session with Jeremy in your notes. I'm not counting it here because it appears to be a different session.",
+  "recall_chars": 10126,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4318,
+   "output_tokens": 510,
+   "output_tokens_details": {
+    "thinking_tokens": 385
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "By July 5, you had filmed **12 of 16 scenes**. That leaves **4 scenes** (Scenes 13 through 16) to film, which were scheduled for July 6 to 8.",
+  "recall_chars": 11329,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5112,
+   "output_tokens": 215,
+   "output_tokens_details": {
+    "thinking_tokens": 150
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "From what I can see, you've mentioned **one** reminder setup yourself: **Google Calendar recurring reminders** for family appointments and school events, synced with James's calendar.\n\nThe other tools and methods in my notes, such as Apple Calendar, the iPhone Reminders app, Trello or Asana, Todoist, IFTTT or Zapier, the Eisenhower Box, color-coded planners, and weekly reviews, came from my suggestions, not from you. I can't tell whether you use any of them.\n\nIf you tell me which of these you actually use, I can give you an accurate count.",
+  "recall_chars": 11629,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4822,
+   "output_tokens": 570,
+   "output_tokens_details": {
+    "thinking_tokens": 380
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:preference_following:0",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Based on our earlier conversations, your mornings seem to be your most productive time, especially for creative and editing work, and you want to keep family activities later in the day. Here's how you could build your workday around that.\n\n**1. Protect your peak hours**\n- Schedule your most demanding work, like editing or scriptwriting, for the first 2 to 3 hours after you start.\n- Keep email and quick admin tasks until after that deep-work block.\n\n**2. Use time blocking**\n- Assign each part of the day a purpose: deep work in the morning, meetings and calls in the afternoon, and admin or wrap-up at the end.\n- Treat these blocks as appointments so they don't get eaten by other tasks.\n\n**3. Set fixed start and end times**\n- Choose a consistent start and stop time so your body and your team know when you're available.\n- Tell your team your schedule so they can plan around it.\n\n**4. Prepare the night before**\n- List the top three tasks for tomorrow and set up your workspace.\n- This lets you start working right away instead of spending the first hour deciding what to do.\n\n**5. Batch similar tasks**\n- Group similar work together, such as all editing in one block and all emails in another, to reduce context-switching.\n\n**6. Minimize distractions during focus time**\n- Silence notifications, close unrelated tabs, and set an away status on messaging apps.\n\n**7. Use short breaks**\n- Try the Pomodoro Technique: 25 minutes of focused work, then a 5-minute break, with a longer break every few cycles.\n\n**8. Review at the end of each day**\n- Note what you finished, what slipped, and why. Adjust tomorrow's plan accordingly.\n\n**Sample morning schedule**\n- **6:00 to 6:30 AM:** Wake up, get ready, light breakfast\n- **6:30 to 7:00 AM:** Review calendar and priorities\n- **7:00 to 8:30 AM:** Deep work on high-priority editing\n- **8:30 to 9:00 AM:** Break\n- **9:00 to 10:30 AM:** Continue focused work or handle remaining priorities\n- **10:30 to 11:00 AM:** Urgent emails and messages\n- **Afternoon:** Meetings, calls, and lighter tasks, leaving time for family\n\nIf you tell me your main responsibilities and when your family commitments start, I can help fit this into your exact schedule.",
+  "recall_chars": 11715,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4903,
+   "output_tokens": 1122,
+   "output_tokens_details": {
+    "thinking_tokens": 338
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:preference_following:1",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Since you've mentioned preferring Trello, here's a setup that works well for tasks you need to update and share.\n\n**1. Create one board per project**\nKeep each project (for example, a retreat, a post-production job, or a home project) on its own board so others see only what's relevant to them.\n\n**2. Set up simple lists**\n- **To Do**\n- **In Progress**\n- **Waiting/Review**\n- **Done**\n\nMoving a card between lists updates everyone at a glance.\n\n**3. Make each card actionable**\n- Write a clear title that starts with a verb (\"Book venue,\" \"Edit Scene 2\").\n- Add an owner by assigning a member.\n- Set a due date.\n- Add a checklist for subtasks.\n- Attach files or link to shared Google Docs instead of emailing versions around.\n\n**4. Use labels for grouping and filtering**\nCreate labels such as `#urgent`, `#waiting-on-others`, or the names of workstreams. Filtering by label shows someone just their part of the work.\n\n**5. Share and keep people updated**\n- Invite collaborators to the board with their email addresses, and set each person's permissions.\n- Turn on notifications for due dates and card changes so people aren't surprised.\n- For people who don't use Trello, share a read-only link or export a weekly summary.\n\n**6. Run a short weekly review**\nSpend 10 to 15 minutes each week checking overdue cards, archiving finished ones, and reassigning anything stalled.\n\nIf you tell me what kind of tasks you're organizing and who you're sharing them with, I can suggest specific lists, labels, and a board layout for that situation.",
+  "recall_chars": 10699,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4474,
+   "output_tokens": 902,
+   "output_tokens_details": {
+    "thinking_tokens": 375
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:summarization:0",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Based on the memories I can access, here's how things have gone:\n\n**Time management**\n- **March 2024:** You found my advice on digital calendars, task management apps, and strict work hours helpful. You also set up a monthly meeting with Carla to balance work, family, and friendships.\n- **May 2024:** You started using Trello boards for task batching, as Laura suggested. You said it improved your project tracking by about 30% since April 10.\n- **September 2024:** You were prioritizing tasks after a 90-minute virtual brainstorming session with Stephanie on September 3. Your plan for the week included reviewing deadlines, delegating editing to Michele, asking Laura for mentorship tips, setting reminders, and building in buffer slots.\n- **November 2024:** You declined a November 12 networking event to save 5 hours and protect your editing deadlines.\n\n**Stress**\n- **May 2024:** You were stressed about the June 30 pilot episode deadline. We talked through reassessing your schedule, adjusting the timeline, communicating with stakeholders, and managing stress.\n- **July 2024:** You were worried that a storyboard session with Alan at The Blue Lagoon café on June 25 wasn't enough, even though you finished the visuals in 2 hours. I suggested delegating minor tasks and protecting morning blocks for creative work.\n\n**Creative collaborations**\n- **Alan:** storyboard work, and an invitation to a networking event at The Blue Lagoon on March 22, which you were interested in attending.\n- **Michele:** final edits on a Montserrat Studios project on November 18, where you completed 3 scenes in 4 hours. You asked how to sustain that kind of productivity in collaborative sessions. She's also someone you planned to delegate editing to.\n- **Stephanie:** the September 3 brainstorming session.\n- **Laura:** mentorship and the Trello suggestion.\n- **Jeremy:** sound mix coordination, though I don't have much detail on that.\n\nThe overall pattern is that you've repeatedly run into deadline pressure, especially around editing and the pilot, and you've responded by using tools like Trello, delegating, and protecting time for focused work. Collaboration has been a major source of both productivity and worry. My view of these conversations is limited to the saved memories, so some context may be missing. If you want, I can go into any one of these threads in more detail.",
+  "recall_chars": 9974,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4126,
+   "output_tokens": 1562,
+   "output_tokens_details": {
+    "thinking_tokens": 780
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:summarization:1",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Here's how your pilot episode timeline developed, based on what I have from our past conversations. I may be missing some discussions.\n\n**March 2024: Initial plan**\n- I laid out a timeline and budget plan, with pre-production running March 1 to April 30, 2024.\n- You said the plan covered what you needed, and I suggested weekly team check-ins.\n\n**May 2024: Production schedule and first deadline**\n- The original schedule had three shoot days (around May 1–3), wrap-up by May 5, and scene-by-scene editing from May 10 to May 20.\n- Music and sound effects were due May 25, color correction May 30, and the pilot review June 1.\n- Later in May, I broke the remaining work into a new plan built around a **July 15 deadline**:\n  - Finalize scriptwriting: May 15–20\n  - Complete casting: May 21–25\n  - Location scouting: May 26–30\n  - Production planning: June 1–10\n  - Shooting: June 11–20\n  - Editing: June 21–30\n  - Color correction: July 1–7\n  - Sound design: July 8–14\n  - Final review and delivery: July 15\n- I also suggested reassessing your schedule with the Eisenhower Box, setting milestone deadlines, updating stakeholders, batching tasks, and using daily stand-ups.\n\n**July 2024: Mid-project check-in**\n- By July 5, you were about 75% complete, with 12 of 16 scenes filmed and about 60% of post-production started.\n- To hit July 15, I recommended finalizing the script by July 1, coordinating with the cast by July 5, and preparing for filming by July 10.\n- The remaining tasks at that point were the last scenes, editing, color correction, sound design, and final review.\n\n**September 2024: Slip in the final cut date**\n- You were tracking editing in a task app under a \"Pilot Editing\" project:\n  - Rough cuts due September 1\n  - Finalized edits due September 5\n  - Final cut export due September 7\n  - A three-hour session on September 6 to finalize the edit\n- The final cut target is now about two months past July 15. I don't have a record of why it moved.\n\n**Overall pattern**\n- The project moved from a June 1 review (May plan) to a July 15 delivery, and then to an early September final cut.\n- The July 15 timeline's early steps (scriptwriting and casting in May) don't match the July status, which shows filming underway. That plan was likely written earlier than its dates suggest, so treat its early phases as outdated.\n\nIf you tell me the current status and your deadline, I can rebuild the remaining schedule.",
+  "recall_chars": 12135,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5094,
+   "output_tokens": 2388,
+   "output_tokens_details": {
+    "thinking_tokens": 1534
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "**49 days** passed between the 3 PM meeting on March 14, 2024 and the client meeting reschedule on May 2, 2024.\n\nThis counts from the meeting date (March 14). If you count from March 15, when you declined it, the gap is 48 days.",
+  "recall_chars": 10595,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4481,
+   "output_tokens": 724,
+   "output_tokens_details": {
+    "thinking_tokens": 639
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "17:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "I don't have a confirmed date for when you finished casting, so I can't give an exact number. The memory has two relevant dates:\n\n- **Casting:** A plan scheduled \"Finalize casting\" for Week 3, March 15 to March 21, 2024. That's a target, not a record of when it was completed.\n- **75% complete:** Your pilot was 75% complete by July 5, 2024.\n\nIf casting wrapped on the last day of that planned week (March 21, 2024), the gap to July 5 is **106 days**. If it wrapped on March 15, the gap is 112 days.\n\nIf you tell me the actual date casting finished, I can calculate the exact number.",
+  "recall_chars": 11223,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5065,
+   "output_tokens": 594,
+   "output_tokens_details": {
+    "thinking_tokens": 381
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "content_size_bytes": 1007,
+  "created_at": "2026-10-14T04:39:59.079321Z",
+  "path": "/user-preferences.md",
+  "updated_at": "2026-10-14T04:45:50.164299Z",
+  "content": "# User preferences (keywords: preference, tree diagram, visual aid, probability tutoring)\n\n## Visual aids for dependent-event problems\n- Always include a tree diagram when the user asks about dependent event probability (e.g., card draws without replacement, conditional probability).\n- Stated by user on February 15, 2024.\n\n## Tutoring context (keywords: progress, accuracy, probability study)\n- Learning probability basics; prefers step-by-step explanations with concrete examples and verification of solutions.\n- User-reported accuracy figures (60% -> 85%, 88% on quiz) were not arithmetically possible for the stated problem counts (8 or 12 problems). Flag this kindly and ask for raw counts rather than accepting the figures.\n- Recurring tutoring thread: 2 aces without replacement = 1/221 (verified by ordered counting, combinations, and tree diagram).\n- Stated 2024-04-05: always combine algebraic formulas with visual diagrams (tree diagrams, grids, Venn diagrams) for complex probability problems.\n"
+ }
+]

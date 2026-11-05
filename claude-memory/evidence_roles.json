@@ -1,0 +1,4605 @@
+{
+"1:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"1:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"1:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"24",
+"58"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"1:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"66"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"1:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"4",
+"60",
+"116"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"1:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"6",
+"62",
+"118",
+"120"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"1:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"28"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"1:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"28",
+"29"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"1:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"54",
+"56"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"1:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"110"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"1:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"86",
+"114"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"1:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"148",
+"182"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"1:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"14",
+"106",
+"162"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"1:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"16",
+"84",
+"150"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"1:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"34"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"1:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"178"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"1:summarization:0": {
+"type": "summarization",
+"ids": [
+"4",
+"5",
+"8",
+"9",
+"116",
+"117",
+"150",
+"151",
+"176",
+"177"
+],
+"roles": {
+"assistant": 5,
+"user": 5
+},
+"cat": "mixed"
+},
+"1:summarization:1": {
+"type": "summarization",
+"ids": [
+"16",
+"17",
+"64",
+"65",
+"88",
+"89",
+"138",
+"139",
+"141",
+"150",
+"151"
+],
+"roles": {
+"user": 5,
+"assistant": 6
+},
+"cat": "mixed"
+},
+"1:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"0",
+"2"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"1:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"28",
+"86"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"2:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"2:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"32",
+"34",
+"36",
+"70"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"2:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"88",
+"132"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"20",
+"22",
+"24",
+"74",
+"160"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"2:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"28",
+"162"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"10"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"2:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"33",
+"35",
+"37"
+],
+"roles": {
+"assistant": 3
+},
+"cat": "assistant-only"
+},
+"2:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"130"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"2:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"130"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"2:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"32",
+"66"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"114",
+"128"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"32",
+"34",
+"36",
+"122",
+"190"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"2:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"38",
+"80"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"54"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"2:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"182",
+"184"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:summarization:0": {
+"type": "summarization",
+"ids": [
+"6",
+"7",
+"8",
+"9",
+"54",
+"55",
+"122",
+"123"
+],
+"roles": {
+"assistant": 4,
+"user": 4
+},
+"cat": "mixed"
+},
+"2:summarization:1": {
+"type": "summarization",
+"ids": [
+"20",
+"21",
+"23",
+"25",
+"52",
+"53",
+"94",
+"95",
+"96",
+"97"
+],
+"roles": {
+"user": 4,
+"assistant": 6
+},
+"cat": "mixed"
+},
+"2:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"32",
+"42"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"2:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"0",
+"50"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"3:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"3:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"36",
+"56"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"72",
+"120"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"10",
+"72",
+"148"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"3:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"12",
+"82",
+"164"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"3:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"12"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"3:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"12",
+"13"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"3:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"54"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"3:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"54"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"3:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"12",
+"52"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"60",
+"116"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"16",
+"116"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"50",
+"51",
+"98",
+"99",
+"136",
+"137",
+"138",
+"139",
+"140",
+"141"
+],
+"roles": {
+"user": 5,
+"assistant": 5
+},
+"cat": "mixed"
+},
+"3:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"36"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"3:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"100"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"3:summarization:0": {
+"type": "summarization",
+"ids": [
+"4",
+"5",
+"6",
+"7",
+"16",
+"17",
+"58",
+"59",
+"60",
+"61",
+"66",
+"67",
+"82",
+"83",
+"116",
+"117"
+],
+"roles": {
+"user": 8,
+"assistant": 8
+},
+"cat": "mixed"
+},
+"3:summarization:1": {
+"type": "summarization",
+"ids": [
+"14",
+"15",
+"30",
+"31",
+"62",
+"63",
+"64",
+"65",
+"68",
+"69",
+"70",
+"71",
+"166",
+"167"
+],
+"roles": {
+"user": 7,
+"assistant": 7
+},
+"cat": "mixed"
+},
+"3:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"12",
+"52"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"3:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"34",
+"164"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"4:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"4:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"58"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"4:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"130",
+"134"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"8",
+"12",
+"16",
+"20",
+"24",
+"26",
+"28",
+"30",
+"58"
+],
+"roles": {
+"user": 9
+},
+"cat": "user-only"
+},
+"4:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"[136, 138]",
+"116",
+"118",
+"120",
+"122",
+"128",
+"130",
+"132",
+"134"
+],
+"roles": {
+"user": 8,
+"?": 1
+},
+"cat": "unknown"
+},
+"4:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"151"
+],
+"roles": {
+"assistant": 1
+},
+"cat": "assistant-only"
+},
+"4:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"166",
+"167"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"4:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"132",
+"134",
+"136",
+"138"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"4:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"132",
+"134",
+"136",
+"138"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"4:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"82",
+"130"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"30",
+"58"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"30",
+"58"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"82",
+"110"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"116"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"4:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"198"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"4:summarization:0": {
+"type": "summarization",
+"ids": [
+"76",
+"79",
+"81",
+"85",
+"89"
+],
+"roles": {
+"assistant": 4,
+"user": 1
+},
+"cat": "mixed"
+},
+"4:summarization:1": {
+"type": "summarization",
+"ids": [
+"144",
+"145",
+"147",
+"150",
+"151",
+"152",
+"153",
+"158",
+"159",
+"162",
+"163"
+],
+"roles": {
+"assistant": 6,
+"user": 5
+},
+"cat": "mixed"
+},
+"4:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"32",
+"156"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"4:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"30",
+"82"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"5:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"5:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"5:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"36",
+"66"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"5:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"84",
+"86",
+"88",
+"134",
+"136"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"5:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"6",
+"10",
+"14",
+"16",
+"18",
+"20",
+"24",
+"30",
+"34",
+"50",
+"56",
+"58"
+],
+"roles": {
+"user": 12
+},
+"cat": "user-only"
+},
+"5:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"28",
+"76"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"5:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"16"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"32"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"64"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"132"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"44",
+"62"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"5:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"84",
+"86",
+"88",
+"130"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"5:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"28",
+"29",
+"76"
+],
+"roles": {
+"user": 2,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"5:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"30",
+"96",
+"226"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"5:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"60"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"60"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:summarization:0": {
+"type": "summarization",
+"ids": [
+"6",
+"7",
+"11",
+"13",
+"15",
+"31",
+"43",
+"57",
+"59"
+],
+"roles": {
+"assistant": 8,
+"user": 1
+},
+"cat": "mixed"
+},
+"5:summarization:1": {
+"type": "summarization",
+"ids": [
+"140",
+"141",
+"146",
+"149",
+"151",
+"153",
+"155",
+"156",
+"180",
+"181"
+],
+"roles": {
+"assistant": 6,
+"user": 4
+},
+"cat": "mixed"
+},
+"5:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"84"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"5:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"138",
+"186"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"6:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"6:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"22",
+"48"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"82",
+"96"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"4",
+"6",
+"60",
+"110",
+"156",
+"206"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"6:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"18",
+"56",
+"108",
+"176",
+"244"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"6:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"18"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"6:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"24",
+"25"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"6:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"46"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"6:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"194"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"6:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"62",
+"92"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"182",
+"192"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"28",
+"72",
+"122",
+"158"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"6:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"22",
+"23",
+"92",
+"93",
+"136",
+"137"
+],
+"roles": {
+"user": 3,
+"assistant": 3
+},
+"cat": "mixed"
+},
+"6:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"74"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"6:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"222"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"6:summarization:0": {
+"type": "summarization",
+"ids": [
+"1",
+"5",
+"7",
+"57",
+"111"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"6:summarization:1": {
+"type": "summarization",
+"ids": [
+"15",
+"19",
+"71",
+"93",
+"139",
+"191"
+],
+"roles": {
+"assistant": 6
+},
+"cat": "assistant-only"
+},
+"6:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"14",
+"16"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"6:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"120",
+"186"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"7:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"7:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"38",
+"52"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"80",
+"114"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"14",
+"64",
+"124",
+"170",
+"214"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"7:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"16",
+"54",
+"122",
+"168",
+"216"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"7:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"14"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"7:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"14",
+"15"
+],
+"roles": {
+"assistant": 1,
+"user": 1
+},
+"cat": "mixed"
+},
+"7:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"112"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"7:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"160"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"7:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"82",
+"110"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"116",
+"158"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"24",
+"66",
+"126",
+"172",
+"220"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"7:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"154",
+"252"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"94"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"7:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"40"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"7:summarization:0": {
+"type": "summarization",
+"ids": [
+"14",
+"64",
+"124",
+"170",
+"214"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"7:summarization:1": {
+"type": "summarization",
+"ids": [
+"16",
+"54",
+"56",
+"152",
+"168",
+"216"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"7:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"24",
+"116"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"7:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"80",
+"174"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"8:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"8:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"8:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"16",
+"18",
+"50"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"8:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"86",
+"104"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"8:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"8",
+"58",
+"116",
+"174",
+"228"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"8:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"6",
+"56",
+"114",
+"172",
+"226"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"8:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"10"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"8:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"10",
+"11"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"8:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"48"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"8:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"216"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"8:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"92",
+"94",
+"96"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"8:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"214"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"8:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"20",
+"86",
+"106"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"8:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"28",
+"92",
+"150",
+"152"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"8:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"34"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"8:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"68",
+"70"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"8:summarization:0": {
+"type": "summarization",
+"ids": [
+"8",
+"84",
+"202",
+"204",
+"252"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"8:summarization:1": {
+"type": "summarization",
+"ids": [
+"6",
+"7",
+"78",
+"79",
+"114",
+"115",
+"172",
+"173",
+"226",
+"227"
+],
+"roles": {
+"assistant": 5,
+"user": 5
+},
+"cat": "mixed"
+},
+"8:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"28",
+"92"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"8:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"106"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"9:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"9:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"4",
+"50"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"9:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"92",
+"102"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"9:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"4",
+"60",
+"108",
+"164",
+"166",
+"168"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"9:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"24",
+"76",
+"118",
+"208",
+"260"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"9:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"12"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"12",
+"13"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"9:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"100"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"48"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"44",
+"46"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"9:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"138"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"10",
+"82",
+"130"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"9:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"6",
+"7",
+"110",
+"111"
+],
+"roles": {
+"assistant": 2,
+"user": 2
+},
+"cat": "mixed"
+},
+"9:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"32"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"9:preference_following:1": {
+"type": "preference_following",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"9:summarization:0": {
+"type": "summarization",
+"ids": [
+"8",
+"77",
+"131",
+"133",
+"205"
+],
+"roles": {
+"assistant": 4,
+"user": 1
+},
+"cat": "mixed"
+},
+"9:summarization:1": {
+"type": "summarization",
+"ids": [
+"5",
+"61",
+"147",
+"165",
+"251"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"9:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"10",
+"12"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"9:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"44",
+"80"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"10:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"10:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"10:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"56",
+"58",
+"68"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"10:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"82",
+"174"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"10:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"6",
+"82",
+"84",
+"182",
+"238"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"10:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"52",
+"78",
+"176",
+"228",
+"230",
+"232"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"10:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"6"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"10:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"21"
+],
+"roles": {
+"assistant": 1
+},
+"cat": "assistant-only"
+},
+"10:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"66"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"10:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"172"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"10:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"22",
+"64"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"10:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"86",
+"168",
+"170"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"10:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"22",
+"126"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"10:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"12",
+"14",
+"15",
+"70",
+"71",
+"72",
+"73",
+"178",
+"179",
+"180",
+"181"
+],
+"roles": {
+"user": 6,
+"assistant": 5
+},
+"cat": "mixed"
+},
+"10:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"50"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"10:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"114",
+"116",
+"118"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"10:summarization:0": {
+"type": "summarization",
+"ids": [
+"1",
+"3",
+"7",
+"9",
+"183",
+"241"
+],
+"roles": {
+"assistant": 6
+},
+"cat": "assistant-only"
+},
+"10:summarization:1": {
+"type": "summarization",
+"ids": [
+"70",
+"71",
+"72",
+"73",
+"78",
+"79",
+"80",
+"81",
+"90",
+"91",
+"186",
+"187",
+"220",
+"221"
+],
+"roles": {
+"user": 7,
+"assistant": 7
+},
+"cat": "mixed"
+},
+"10:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"20",
+"54"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"10:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"88",
+"218"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"11:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"11:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"11:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"24",
+"92"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"11:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"142",
+"180",
+"182"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"11:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"24",
+"26",
+"28",
+"106",
+"108",
+"192"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"11:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"44",
+"46",
+"104",
+"198",
+"200"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"11:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"30"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"11:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"39"
+],
+"roles": {
+"assistant": 1
+},
+"cat": "assistant-only"
+},
+"11:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"176"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"11:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"176"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"11:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"70",
+"82"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"11:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"126",
+"128",
+"130",
+"170",
+"172",
+"174"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"11:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"40",
+"41",
+"184"
+],
+"roles": {
+"user": 2,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"11:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"48",
+"50",
+"100",
+"102",
+"194"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"11:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"68"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"11:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"214"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"11:summarization:0": {
+"type": "summarization",
+"ids": [
+"25",
+"27",
+"29",
+"63",
+"107",
+"160",
+"192",
+"224"
+],
+"roles": {
+"user": 3,
+"assistant": 5
+},
+"cat": "mixed"
+},
+"11:summarization:1": {
+"type": "summarization",
+"ids": [
+"43",
+"99",
+"233",
+"235",
+"237"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"11:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"20",
+"70"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"11:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"56",
+"110"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"12:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"12:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"12:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"32",
+"68"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"12:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"74",
+"140"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"12:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"58",
+"60",
+"74",
+"110",
+"112",
+"164",
+"166",
+"168",
+"232",
+"234",
+"236",
+"258",
+"260",
+"262"
+],
+"roles": {
+"user": 14
+},
+"cat": "user-only"
+},
+"12:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"32",
+"50",
+"78",
+"98",
+"176",
+"218"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"12:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"1"
+],
+"roles": {
+"assistant": 1
+},
+"cat": "assistant-only"
+},
+"12:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"39",
+"41"
+],
+"roles": {
+"assistant": 2
+},
+"cat": "assistant-only"
+},
+"12:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"134",
+"136",
+"138"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"12:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"66"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"12:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"108"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"12:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"38",
+"40",
+"64"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"12:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"56",
+"57",
+"82",
+"83",
+"170",
+"171",
+"172",
+"173",
+"174",
+"175"
+],
+"roles": {
+"assistant": 5,
+"user": 5
+},
+"cat": "mixed"
+},
+"12:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"74",
+"164",
+"166",
+"168"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"12:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"54"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"12:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"106"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"12:summarization:0": {
+"type": "summarization",
+"ids": [
+"58",
+"59",
+"60",
+"61",
+"74",
+"75",
+"110",
+"111",
+"112",
+"113",
+"258",
+"259",
+"260",
+"261",
+"262",
+"263"
+],
+"roles": {
+"assistant": 8,
+"user": 8
+},
+"cat": "mixed"
+},
+"12:summarization:1": {
+"type": "summarization",
+"ids": [
+"1",
+"3",
+"5",
+"39",
+"40",
+"41",
+"70",
+"71",
+"82",
+"83",
+"170",
+"171",
+"172",
+"173",
+"174",
+"175"
+],
+"roles": {
+"assistant": 10,
+"user": 6
+},
+"cat": "mixed"
+},
+"12:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"56",
+"64"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"12:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"80",
+"146"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"13:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"13:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"16",
+"64"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"122",
+"140"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"16",
+"86",
+"164",
+"222",
+"272"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"13:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"[174, 176]",
+"[70, 72, 74]",
+"20",
+"22",
+"232",
+"282"
+],
+"roles": {
+"user": 4,
+"?": 2
+},
+"cat": "unknown"
+},
+"13:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"26"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"13:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"34",
+"35"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"13:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"138"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"13:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"62"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"13:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"126",
+"136"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"168",
+"204"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"34",
+"130",
+"190"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"13:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"44",
+"116",
+"117",
+"118",
+"119",
+"158",
+"159",
+"160",
+"161"
+],
+"roles": {
+"user": 5,
+"assistant": 4
+},
+"cat": "mixed"
+},
+"13:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"58"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"13:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"246"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"13:summarization:0": {
+"type": "summarization",
+"ids": [
+"28",
+"79",
+"81",
+"195",
+"217"
+],
+"roles": {
+"assistant": 4,
+"user": 1
+},
+"cat": "mixed"
+},
+"13:summarization:1": {
+"type": "summarization",
+"ids": [
+"35",
+"125",
+"201",
+"239",
+"271"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"13:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"120",
+"154"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"13:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"296"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"14:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"14:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"14:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"50",
+"72"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"108",
+"148"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"20",
+"122",
+"168",
+"170",
+"172",
+"224"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"14:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"14",
+"16",
+"72",
+"130",
+"182",
+"246"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"14:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"6"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"14:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"12",
+"13"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"14:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"52"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"14:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"104",
+"106"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"66",
+"102"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"132",
+"156"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"18",
+"56",
+"57",
+"58",
+"59",
+"110",
+"111",
+"112",
+"113",
+"114",
+"115"
+],
+"roles": {
+"assistant": 5,
+"user": 6
+},
+"cat": "mixed"
+},
+"14:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"26",
+"27",
+"66",
+"142"
+],
+"roles": {
+"user": 3,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"14:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"92"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"14:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"200"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"14:summarization:0": {
+"type": "summarization",
+"ids": [
+"0",
+"1",
+"2",
+"62",
+"63",
+"168",
+"169",
+"170",
+"171",
+"172",
+"173"
+],
+"roles": {
+"assistant": 5,
+"user": 6
+},
+"cat": "mixed"
+},
+"14:summarization:1": {
+"type": "summarization",
+"ids": [
+"4",
+"9",
+"13"
+],
+"roles": {
+"user": 1,
+"assistant": 2
+},
+"cat": "mixed"
+},
+"14:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"46",
+"154"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"14:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"208"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"15:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"15:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"14",
+"60"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"70",
+"114"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"34",
+"70",
+"118",
+"200"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"15:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"54",
+"94",
+"138",
+"184",
+"262"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"15:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"34"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"1"
+],
+"roles": {
+"assistant": 1
+},
+"cat": "assistant-only"
+},
+"15:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"160"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"214"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"34",
+"56"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"186",
+"212"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"32",
+"116"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"38",
+"72"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"28",
+"30"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"15:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"148"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:summarization:0": {
+"type": "summarization",
+"ids": [
+"1",
+"3",
+"81",
+"141",
+"203"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"15:summarization:1": {
+"type": "summarization",
+"ids": [
+"1",
+"3",
+"81",
+"83",
+"141",
+"143",
+"203",
+"205"
+],
+"roles": {
+"assistant": 8
+},
+"cat": "assistant-only"
+},
+"15:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"116"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"15:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"36",
+"270"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"16:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"16:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"32",
+"62"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"66",
+"118"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"22",
+"66",
+"132",
+"256"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"16:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"24",
+"26",
+"94",
+"96",
+"160",
+"162",
+"164",
+"244"
+],
+"roles": {
+"user": 8
+},
+"cat": "user-only"
+},
+"16:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"30"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"16:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"34",
+"35"
+],
+"roles": {
+"user": 1,
+"assistant": 1
+},
+"cat": "mixed"
+},
+"16:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"268"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"16:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"208"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"16:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"126",
+"204",
+"206"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"16:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"250",
+"266"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"34",
+"76"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"12",
+"13",
+"14",
+"15",
+"16",
+"17",
+"108",
+"109",
+"126",
+"127"
+],
+"roles": {
+"user": 5,
+"assistant": 5
+},
+"cat": "mixed"
+},
+"16:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"50"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"16:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"102"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"16:summarization:0": {
+"type": "summarization",
+"ids": [
+"13",
+"15",
+"53",
+"65",
+"127",
+"253"
+],
+"roles": {
+"assistant": 6
+},
+"cat": "assistant-only"
+},
+"16:summarization:1": {
+"type": "summarization",
+"ids": [
+"31",
+"83",
+"87",
+"193",
+"231"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"16:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"32",
+"72"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"16:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"76",
+"146"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"17:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"17:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"66",
+"86"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"102",
+"138"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"26",
+"88",
+"154",
+"202",
+"248"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"17:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"22",
+"110",
+"160",
+"210",
+"256",
+"258"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"17:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"18"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"17:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"26",
+"27",
+"28",
+"29",
+"30",
+"31"
+],
+"roles": {
+"assistant": 3,
+"user": 3
+},
+"cat": "mixed"
+},
+"17:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"84"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"17:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"84"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"17:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"122",
+"134"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"170",
+"184"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"156",
+"157"
+],
+"roles": {
+"assistant": 1,
+"user": 1
+},
+"cat": "mixed"
+},
+"17:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"112",
+"164",
+"212"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"17:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"74"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"17:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"124"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"17:summarization:0": {
+"type": "summarization",
+"ids": [
+"22",
+"45",
+"113",
+"257"
+],
+"roles": {
+"assistant": 3,
+"user": 1
+},
+"cat": "mixed"
+},
+"17:summarization:1": {
+"type": "summarization",
+"ids": [
+"33",
+"39",
+"127",
+"157",
+"205",
+"251"
+],
+"roles": {
+"assistant": 6
+},
+"cat": "assistant-only"
+},
+"17:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"66",
+"130"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"17:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"108",
+"156"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"18:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"18:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"102",
+"104",
+"106",
+"126",
+"128"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"18:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"150",
+"188"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"30",
+"138",
+"196",
+"198",
+"254",
+"258"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"18:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"[146]",
+"[262]",
+"[24, 26, 28]",
+"[202, 204]"
+],
+"roles": {
+"?": 4
+},
+"cat": "unknown"
+},
+"18:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"30"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"18:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"30",
+"31",
+"32",
+"33",
+"34",
+"35"
+],
+"roles": {
+"assistant": 3,
+"user": 3
+},
+"cat": "mixed"
+},
+"18:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"184",
+"186"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"120"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"18:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"90",
+"114"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"170",
+"182"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"48",
+"216"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"146",
+"202"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"84",
+"86",
+"88"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"18:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"164"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"18:summarization:0": {
+"type": "summarization",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"18:summarization:1": {
+"type": "summarization",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"18:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"48",
+"60"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"18:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"146",
+"216"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"19:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"19:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"34",
+"64"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"80",
+"122"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"22",
+"108",
+"178",
+"180"
+],
+"roles": {
+"user": 4
+},
+"cat": "user-only"
+},
+"19:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"8",
+"10",
+"12",
+"138",
+"210",
+"212",
+"214"
+],
+"roles": {
+"user": 7
+},
+"cat": "user-only"
+},
+"19:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"8"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"22"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"62"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"128"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"112",
+"122"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"36",
+"56"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"37",
+"86"
+],
+"roles": {
+"assistant": 1,
+"user": 1
+},
+"cat": "mixed"
+},
+"19:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"30",
+"116",
+"156"
+],
+"roles": {
+"user": 3
+},
+"cat": "user-only"
+},
+"19:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"110"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"46",
+"48"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"19:summarization:0": {
+"type": "summarization",
+"ids": [
+"23",
+"33",
+"69",
+"179",
+"189"
+],
+"roles": {
+"assistant": 5
+},
+"cat": "assistant-only"
+},
+"19:summarization:1": {
+"type": "summarization",
+"ids": [
+"34",
+"85",
+"183",
+"221"
+],
+"roles": {
+"user": 1,
+"assistant": 3
+},
+"cat": "mixed"
+},
+"19:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"68"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"19:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"34",
+"84"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:abstention:0": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"20:abstention:1": {
+"type": "abstention",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"20:contradiction_resolution:0": {
+"type": "contradiction_resolution",
+"ids": [
+"26",
+"68"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:contradiction_resolution:1": {
+"type": "contradiction_resolution",
+"ids": [
+"92",
+"120"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:event_ordering:0": {
+"type": "event_ordering",
+"ids": [
+"30",
+"164",
+"200",
+"202",
+"204",
+"206"
+],
+"roles": {
+"user": 6
+},
+"cat": "user-only"
+},
+"20:event_ordering:1": {
+"type": "event_ordering",
+"ids": [
+"32",
+"70",
+"122",
+"188",
+"190"
+],
+"roles": {
+"user": 5
+},
+"cat": "user-only"
+},
+"20:information_extraction:0": {
+"type": "information_extraction",
+"ids": [
+"10"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"20:information_extraction:1": {
+"type": "information_extraction",
+"ids": [
+"10",
+"11",
+"12",
+"13",
+"14",
+"15"
+],
+"roles": {
+"user": 3,
+"assistant": 3
+},
+"cat": "mixed"
+},
+"20:instruction_following:0": {
+"type": "instruction_following",
+"ids": [
+"66"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"20:instruction_following:1": {
+"type": "instruction_following",
+"ids": [
+"180",
+"182"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:knowledge_update:0": {
+"type": "knowledge_update",
+"ids": [
+"36",
+"64"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:knowledge_update:1": {
+"type": "knowledge_update",
+"ids": [
+"130",
+"176"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:multi_session_reasoning:0": {
+"type": "multi_session_reasoning",
+"ids": [
+"30",
+"164"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:multi_session_reasoning:1": {
+"type": "multi_session_reasoning",
+"ids": [
+"32",
+"70",
+"71",
+"122",
+"123"
+],
+"roles": {
+"user": 3,
+"assistant": 2
+},
+"cat": "mixed"
+},
+"20:preference_following:0": {
+"type": "preference_following",
+"ids": [
+"62"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"20:preference_following:1": {
+"type": "preference_following",
+"ids": [
+"106"
+],
+"roles": {
+"user": 1
+},
+"cat": "user-only"
+},
+"20:summarization:0": {
+"type": "summarization",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"20:summarization:1": {
+"type": "summarization",
+"ids": [],
+"roles": {},
+"cat": "none"
+},
+"20:temporal_reasoning:0": {
+"type": "temporal_reasoning",
+"ids": [
+"32",
+"70"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+},
+"20:temporal_reasoning:1": {
+"type": "temporal_reasoning",
+"ids": [
+"102",
+"152"
+],
+"roles": {
+"user": 2
+},
+"cat": "user-only"
+}
+}

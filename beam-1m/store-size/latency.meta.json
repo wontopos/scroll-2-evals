@@ -1,0 +1,231 @@
+{
+ "fracs": [
+  0.002,
+  0.005,
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.5,
+  1.0
+ ],
+ "conc": 1,
+ "started": 1791117531.3234193,
+ "finished": 1791117911.6348076,
+ "convs": [
+  {
+   "cid": "2",
+   "n_turns": 1780,
+   "n_points": 55174,
+   "conv_tokens": 930684,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1324,
+     "visible": 79,
+     "time_to": "2026-08-16T09:35:32.235241Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 2421,
+     "visible": 143,
+     "time_to": "2026-08-16T09:35:37.041909Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 6514,
+     "visible": 379,
+     "time_to": "2026-08-16T09:35:46.469752Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 36,
+     "conv_tokens": 18373,
+     "visible": 1133,
+     "time_to": "2026-08-16T09:36:35.727920Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 89,
+     "conv_tokens": 46006,
+     "visible": 2788,
+     "time_to": "2026-08-16T09:38:31.188148Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 178,
+     "conv_tokens": 91326,
+     "visible": 5664,
+     "time_to": "2026-08-16T09:42:15.315421Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 356,
+     "conv_tokens": 183346,
+     "visible": 11189,
+     "time_to": "2026-08-16T09:48:12.372951Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 890,
+     "conv_tokens": 455530,
+     "visible": 27517,
+     "time_to": "2026-08-16T10:39:29.174438Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1780,
+     "conv_tokens": 930684,
+     "visible": 55174,
+     "time_to": "2026-08-16T11:18:21.669433Z"
+    }
+   ]
+  },
+  {
+   "cid": "3",
+   "n_turns": 1556,
+   "n_points": 48599,
+   "conv_tokens": 814015,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1058,
+     "visible": 70,
+     "time_to": "2026-08-16T09:35:31.715101Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 8,
+     "conv_tokens": 1927,
+     "visible": 128,
+     "time_to": "2026-08-16T09:35:34.367135Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 16,
+     "conv_tokens": 6728,
+     "visible": 410,
+     "time_to": "2026-08-16T09:35:45.887144Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 32,
+     "conv_tokens": 15931,
+     "visible": 1012,
+     "time_to": "2026-08-16T09:36:30.260461Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 78,
+     "conv_tokens": 41218,
+     "visible": 2651,
+     "time_to": "2026-08-16T09:38:03.099357Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 156,
+     "conv_tokens": 82575,
+     "visible": 5209,
+     "time_to": "2026-08-16T09:41:08.083611Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 312,
+     "conv_tokens": 168709,
+     "visible": 10347,
+     "time_to": "2026-08-16T09:46:53.791081Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 778,
+     "conv_tokens": 412951,
+     "visible": 24824,
+     "time_to": "2026-08-16T10:34:18.531062Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1556,
+     "conv_tokens": 814015,
+     "visible": 48599,
+     "time_to": "2026-08-16T11:04:19.931218Z"
+    }
+   ]
+  },
+  {
+   "cid": "4",
+   "n_turns": 1600,
+   "n_points": 49372,
+   "conv_tokens": 807294,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1405,
+     "visible": 88,
+     "time_to": "2026-08-16T09:35:31.932090Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 8,
+     "conv_tokens": 2612,
+     "visible": 164,
+     "time_to": "2026-08-16T09:35:36.342742Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 16,
+     "conv_tokens": 6516,
+     "visible": 406,
+     "time_to": "2026-08-16T09:35:46.131845Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 32,
+     "conv_tokens": 14283,
+     "visible": 918,
+     "time_to": "2026-08-16T09:36:25.052576Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 80,
+     "conv_tokens": 40847,
+     "visible": 2584,
+     "time_to": "2026-08-16T09:38:02.417914Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 160,
+     "conv_tokens": 83531,
+     "visible": 5240,
+     "time_to": "2026-08-16T09:41:33.186771Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 320,
+     "conv_tokens": 163937,
+     "visible": 10269,
+     "time_to": "2026-08-16T09:46:56.901443Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 800,
+     "conv_tokens": 403550,
+     "visible": 24831,
+     "time_to": "2026-08-16T10:35:17.750923Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1600,
+     "conv_tokens": 807294,
+     "visible": 49372,
+     "time_to": "2026-08-16T11:07:13.370724Z"
+    }
+   ]
+  }
+ ]
+}

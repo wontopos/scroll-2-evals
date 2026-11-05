@@ -1,0 +1,1052 @@
+[
+ {
+  "qid": "18:abstention:0",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "Based on my notes, I can only give you a partial answer. The notes record four leadership points from Patrick, but they are the user's summary, not a transcript of the call:\n\n1. **Building trust**\n2. **Being adaptable**\n3. **Regular check-ins**\n4. **Open communication**\n\nThe notes don't say whether these were Patrick's exact words or how he explained them. They also don't record any further specifics, examples, or action steps from the call.\n\nThe notes don't clearly tie the call to July 1. The entry about Patrick calling to congratulate the user on the new role and offering leadership advice is dated July 2, 2024, as a follow-up. The user had said they started the senior producer role on July 1. Later, the user said they had never accepted or started that role, so the timeline is unresolved. The call could have been on July 1 or July 2, and I can't confirm which.\n\nSince the user is preparing for a monthly mentorship call with Patrick on July 15, 2024, the most useful next step is to ask the user for Patrick's specific advice and examples from the call. Then I can turn those points into concrete weekly behaviors. I shouldn't fill in details my notes don't contain.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.791,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7141
+   },
+   "cache_read_input_tokens": 18297,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1100,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:abstention:1",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I don't have any details about virtual therapy sessions with Sara. My memory notes don't mention Sara, and they don't say whether any of your therapy sessions are virtual, in person, or by phone. I also checked the uploads folder and found nothing relevant.\n\nThe notes do mention therapy in passing:\n\n- **July 3, 2024:** A therapy session, where you wanted help with leadership stress, delegation, and prioritizing tasks.\n- **Ongoing:** Therapy is listed as a standing habit, but its frequency and format were never recorded.\n\nIf you tell me the format (video, phone, chat, or something else), how often you meet, and how long the sessions run, I can save those details to memory so they're available in future sessions. I can also help you prepare for a session if that would be useful.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.131,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 9108
+   },
+   "cache_read_input_tokens": 23393,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1056,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you attending workshops or professional development events. My notes from our past conversations don't mention any.\n\nThe closest things in my notes are:\n\n- **Support group meetings:** You presented your burnout recovery story at one on May 17, 2024, and spoke at another on June 28, 2024.\n- **Mentorship and advice meetings with Patrick:** an April 3, 2024 meeting at Montserrat Studios, a May 15, 2024 meeting at Café Montserrat where he shared interview tips, and a monthly mentorship call that was set for July 15, 2024.\n- **Mock interviews with Erica:** a plan to complete three by May 23, 2024 to prepare for a senior producer interview.\n\nNone of these is clearly a workshop or training event. If you have attended any, tell me about them and I can save them to your notes.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.62,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8330
+   },
+   "cache_read_input_tokens": 15541,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 869,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you delegating tasks to Greg or other colleagues. My notes mention Greg only once: on July 2, 2024, he praised your new workflow changes and cited a 15% faster project completion. Nothing says he took on any of your work.\n\nDelegation came up only as a topic. In July 2024 I offered a delegate/defer framework for prioritizing your tasks, and you planned to ask Patrick, your mentor, about delegation at your July 15 call. Those notes don't say whether you did either.\n\nYour notes also conflict about whether you started the senior producer role, so I can't tell from them what your responsibilities were or who you were working with. If you tell me which tasks you handed off and to whom, I can add that to your notes.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.902,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8466
+   },
+   "cache_read_input_tokens": 15721,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 818,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "1. **April 3, 2024: meeting at Montserrat Studios.** Patrick suggested progressive muscle relaxation. You brought this up in your April 10 check-in, when you said you still felt drained after cutting your hours to 45 a week.\n\n2. **May 15, 2024: meeting at Café Montserrat.** Patrick shared interview tips. You reported this on May 20, while preparing for a senior producer interview.\n\n3. **May 17, 2024: plan for a second meeting.** You said you would ask Patrick for a second meeting about his stress-management experience in the industry. This came up right after your support group presentation.\n\n4. **July 2, 2024: congratulations call and leadership advice.** Patrick called to congratulate you on the new role and gave you leadership points: building trust, being adaptable, regular check-ins, and open communication. The specific advice wasn't shared in detail. I should also note that you later said you never accepted or started the senior producer role, so this item may be tied to that dispute.\n\n5. **July 2, 2024: upcoming monthly mentorship call.** You scheduled a mentorship call with Patrick for Monday, July 15, 2024, and asked for help preparing questions on trust, adaptability, check-ins, open communication, delegation, and stress.\n\n6. **September 15, 2024: progress review.** You said you had a progress review with Patrick on September 10, 2024, but you didn't share what was discussed.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.131,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6962
+   },
+   "cache_read_input_tokens": 18990,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1328,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "Here are four challenges, in the order they first came up, based on my saved notes:\n\n1. **Feeling drained and low on motivation (April 10, 2024).** You said you felt drained even after cutting your work hours to 45 a week, and you were looking for ways to rebuild your motivation.\n2. **Stress before a senior producer interview (May 20, 2024).** You were balancing motivation rebuilding with ongoing stress management while preparing for an interview on May 25.\n3. **Feeling overwhelmed by new responsibilities (July 2, 2024).** You said you were overwhelmed in a new role and asked for help prioritizing tasks and rebuilding your energy. My notes conflict on whether you actually started that role on July 1, and you later told me you never accepted it, so treat this item as unconfirmed.\n4. **Long-term burnout prevention (September 15, 2024).** You asked for strategies to prevent burnout over the long term and to sustain your motivation.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.749,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7160
+   },
+   "cache_read_input_tokens": 18876,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1105,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I can't find that in my notes. The memory files don't record a workshop suggestion, and they don't give the age of any mentor.\n\nThe only mentor who appears is **Patrick**. The notes describe him as someone who:\n- Suggested progressive muscle relaxation after an April 3, 2024 meeting at Montserrat Studios.\n- Shared interview tips at a May 15, 2024 meeting.\n- Called to congratulate you on a new role and offered leadership advice, and holds a monthly mentorship call with you.\n- Held a progress review with you on September 10, 2024.\n\nThe notes never state Patrick's age or his job title. The mentions of a \"senior producer\" role are also inconsistent: a September 2024 note says you had never accepted or started that role, and the assistant shouldn't have assumed it.\n\nIf the workshop suggestion came from someone else, or from a conversation that wasn't saved, I don't have it. Tell me who suggested it and what you remember about them, and I can record it for future sessions.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "glob",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 7.062,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4164
+   },
+   "cache_read_input_tokens": 17752,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1070,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I can't find a record of you considering attending a specific event, so I can't say how that decision came about or what your mentor had to do with it.\n\nThe memory notes do mention Patrick, your mentor, in several other contexts:\n\n- **April 3, 2024 (Montserrat Studios):** Patrick suggested progressive muscle relaxation for your low motivation.\n- **May 15, 2024 (Café Montserrat):** Patrick shared tips for your senior producer interview. You were thinking of asking him about his stress-management experience in the industry.\n- **July 2, 2024:** Patrick called to congratulate you on a new role and gave leadership advice. You reported his points as trust, adaptability, regular check-ins, and open communication. The notes don't record the advice in his own words.\n- **September 10, 2024:** You had a progress review with him. The notes don't record its content.\n- **Monthly mentorship call:** A call with Patrick was scheduled for July 15, 2024.\n\nThe notes also contain a serious problem. Several entries assume you started a senior producer role on July 1, 2024, but a later entry says you never accepted or started that role, and the September entry gives a mid-June start. So anything tied to that role, including Patrick's advice about it, is unverified.\n\nIf the event was one of the team activities you planned in September, such as the Friday team lunch or the Saturday group hike, the notes don't link Patrick to either one. If you tell me the event's name and roughly when it was, I can check the notes for it. Otherwise, you could share what you remember about the decision, and I'll record it so future sessions can find it.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 9.12,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5526
+   },
+   "cache_read_input_tokens": 17243,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1035,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "Based on my notes, I can't give you a reliable progress update yet. The notes have gaps and conflicts, and I don't have anything from today's session.\n\n**What's on record (all as you reported it, not verified):**\n- **Work:** You cut your hours to 45/week in April, and the notes later mention a 40-hour target. I need you to confirm which one is current.\n- **Wellbeing:** You do progressive muscle relaxation daily at 8 PM and reported a 35% reduction in evening tension. I don't have a baseline for that number.\n- **Boundaries:** You set a no-work-email-after-7-PM rule and a Thursday 7 PM date night with David.\n- **Job satisfaction:** You reported 85% on a July 1 self-assessment, up from 70% in March. That's a real before-and-after comparison, but you said it was self-rated.\n- **Support group:** You presented your burnout recovery story in May and shared your promotion news in June. Both gave you a confidence boost.\n- **Last check-in (Sept 15, 2024):** Your three short-term goals were team feedback sessions, confirming one-on-one priorities, and keeping to 40 hours and the 7 PM email rule. You said you'd report back on these.\n\n**Problems in my notes:**\n- The senior producer role is unresolved. You told me on July 2 and again on September 15 that you never accepted or started it, and that you were three months in. I can't tell which is true, so I haven't built advice on it.\n- Your September 10 progress review with Patrick is missing. I don't know what was said.\n- Some early numbers, like the 40% drop in missed deadlines and the 15% faster completion Greg mentioned, were reported too soon to mean anything. I haven't treated them as results.\n\nTo give you a real update, could you tell me:\n1. What your current role and weekly hours are?\n2. How the three September goals have gone, with numbers if you have them?\n3. What came out of your September 10 review with Patrick?\n4. Whether you'd like the update to focus on work, wellbeing, or both?",
+  "memory_tools": [
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.775,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5583
+   },
+   "cache_read_input_tokens": 17278,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1348,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "I can't find that workshop. I checked my saved memory notes and your uploads folder, and neither mentions a Workflow Optimization workshop, the East Janethaven Media Center, or any workshop registration.\n\nThe only location-related note I have is a weekly painting class at the East Janethaven Art Studio, which is a different place and event. If you can check the registration email or confirmation page, it should list the date. If you tell me the date, I can save it to memory so I can recall it in future sessions.",
+  "memory_tools": [
+   "grep",
+   "glob"
+  ],
+  "usage": {
+   "active_seconds": 6.87,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 1671
+   },
+   "cache_read_input_tokens": 18062,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 618,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "I can't find any tracked overtime hours for you. My memory notes mention overtime only once: on July 2, 2024, you said you had declined July overtime requests to prevent burnout. They don't include any hour totals or tracking entries. There are also no files in your uploads folder.\n\nIf you tell me the figures or share a timesheet export, I can total the most recent entry. I can also help set up a simple overtime log so future totals are easy to pull.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.464,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5898
+   },
+   "cache_read_input_tokens": 17566,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 637,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "I don't have the application deadline for Montserrat Media Corp. My notes don't mention that company's posting, and no uploaded files mention it either.\n\nThe closest thing in my notes is a May 2024 senior producer interview prep entry, but it doesn't give an application deadline. The notes also conflict on whether you've accepted or started a senior producer role, so I'd rather not guess at details.\n\nThe posting itself, or the recruiter's or HR contact's email, should give the exact closing date. If you paste the job posting or the email here, I can pull out the deadline and any submission requirements.",
+  "memory_tools": [
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 5.544,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2517
+   },
+   "cache_read_input_tokens": 11207,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 596,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "Your notes don't contain a work-free Sundays boundary, so I can't say which one you started first. The only boundary recorded is the **no-work-email-after-7-PM** boundary, which you set to start July 1, 2024, and told your team about. The notes also list it as a standing habit, but as of September 2024 it was still in place.\n\nIf you set a Sunday boundary in another conversation, it wasn't saved here. If you tell me when you decided on it, I can add it to the notes so it's on record next time.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.708,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4418
+   },
+   "cache_read_input_tokens": 38514,
+   "input_tokens": 12,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1043,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "I can only find one event with David in your notes, not two.\n\n- **July 4, 2024 picnic at Montserrat Botanical Gardens.** David planned it as a surprise to celebrate your promotion. Your notes say you wanted to plan a return gesture for him, but no second event is recorded.\n\nThe notes also flag that July 4, 2024 is a Thursday, the same night as your weekly 7 PM date night with David, so you may need to decide whether to combine them or move one.\n\nIf you were planning a second event, such as the return gesture, it isn't in my notes. Tell me what it is and where it will be, and I can add it.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.03,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6014
+   },
+   "cache_read_input_tokens": 17643,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 918,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:preference_following:0",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Given what I have on file, you're a new senior producer who's already adopted Asana, so I'd build on that rather than add a new tool. Here's how I'd set it up.\n\n**1. Pick one home for tasks and one for time**\n- **Tasks: Asana** (you're already using it). Use one project for your own work and one per team or initiative. Give every task a single owner, a due date, and a \"next action\" written as a verb (\"Send Q3 budget draft to Priya,\" not \"Budget\").\n- **Appointments: one calendar** (Google or Outlook) that also holds deadlines and focus blocks. Put tasks with dates on the calendar and keep the rest in Asana. Splitting calendar and task lists across apps is a common source of missed items.\n\n**2. Run a weekly review (30 to 45 minutes)**\nThis is the habit that matters most. Once a week, usually Friday or Monday morning:\n- Clear your inbox and Asana \"inbox\" to zero.\n- Check every overdue item and either do it, reschedule it, delegate it, or drop it.\n- Look at next week's calendar and block time for the important work before meetings fill it.\n- Note what's waiting on other people, and follow up.\n\n**3. Sort by urgent vs. important, then limit your list**\nUse a simple daily shortlist: three must-do items, then everything else. If more than about five items are \"today,\" the list is too long, and that's a signal to delegate or defer.\n\n**4. Use the calendar for protected time**\n- Block focus time for planning and deep work.\n- Put personal commitments on the same calendar so work doesn't quietly take them over. That includes your evening boundary, recurring check-ins, and any standing personal appointments.\n- Set a default meeting length of 25 or 50 minutes to leave gaps between meetings.\n\n**5. Delegate deliberately**\nAs a senior producer, a lot of the overload comes from holding tasks that someone else could own. In Asana, assign with a due date and a \"check-in\" date, and make it clear what done looks like.\n\n**6. Keep a single capture point**\nAnything that comes in (email, a hallway request, a thought at night) goes to one place, usually an Asana inbox or a notes app, and gets processed during the weekly review. Don't try to remember it.\n\n**Tool options if you want to switch or add:**\n- **Asana / Todoist / Microsoft To Do**: task management\n- **Google Calendar / Outlook**: appointments and time blocking\n- **Notion / Obsidian**: notes and a weekly-review template\n- **Reclaim.ai or Motion**: auto-schedules tasks into calendar gaps (useful if you're struggling to find focus time)\n\nIf you tell me which calendar and email you use, and roughly how many recurring meetings you have, I can help you design a weekly-review template or an Asana project structure.",
+  "memory_tools": [
+   "grep",
+   "glob"
+  ],
+  "usage": {
+   "active_seconds": 9.443,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4087
+   },
+   "cache_read_input_tokens": 11218,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1401,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:preference_following:1",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Here are some ways to structure a daily routine around energy, grouped by time of day. Start with two or three changes rather than all of them.\n\n**Morning: set up your body clock**\n- **Get light early.** Spend 5 to 15 minutes outside or near a bright window within an hour of waking. This helps set your circadian rhythm, which controls alertness.\n- **Hydrate before caffeine.** Drink a glass of water first. Then have coffee or tea, ideally 60 to 90 minutes after waking, so you aren't leaning on caffeine to fight grogginess.\n- **Move briefly.** A 10-minute walk, stretch, or bodyweight circuit raises alertness more than most people expect.\n- **Eat protein and fiber at breakfast.** Eggs, Greek yogurt, oats with nuts, or beans tend to give steadier energy than a sugary or refined-carb start.\n\n**Midday: prevent the afternoon crash**\n- **Eat a balanced lunch.** Pair protein and vegetables with a moderate portion of carbs. Large, heavy meals often cause the post-lunch slump.\n- **Take a real break.** Step away from screens for 10 to 20 minutes. A short walk or a few minutes of breathing works better than scrolling.\n- **Use a short nap if it suits you.** A 10 to 20 minute nap before mid-afternoon can help. Longer or later naps can make night sleep worse.\n- **Cap caffeine.** Stopping it by early afternoon protects your sleep, which affects your energy the next day.\n\n**Evening: protect tomorrow's energy**\n- **Wind down on a schedule.** Pick a consistent time to stop work, dim lights, and do something calming such as reading, stretching, or a warm shower.\n- **Set a work boundary.** Deciding when work stops, and sticking to it, reduces the background stress that drains energy.\n- **Keep a consistent sleep and wake time,** including on weekends. Regularity matters more than any single habit.\n- **Do a relaxation practice.** Progressive muscle relaxation, slow breathing, or a short meditation can lower evening tension.\n\n**Throughout the day: small habits**\n- Keep water within reach.\n- Stand, stretch, or walk for a few minutes every hour or so.\n- Get a little social contact or a sense of accomplishment, such as a quick check-in with a friend or a finished small task.\n- Notice your energy pattern for a week. Note when you feel sharpest and when you crash, then schedule demanding work for your peak times.\n\n**Tracking tip:** Rate your energy from 1 to 10 at three points each day for a week or two. The patterns usually show which changes matter most for you.\n\nI have some notes from our earlier conversations about habits you've mentioned, like a daily relaxation routine in the evening and a no-work-email boundary after 7 PM. Some of those details were inconsistent in my notes, so I'd rather confirm them with you than assume. If you tell me your typical wake time, work hours, and what your days look like, I can help build a schedule around them.",
+  "memory_tools": [
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.837,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6382
+   },
+   "cache_read_input_tokens": 18374,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1534,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:summarization:0",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "My memory notes don't record any lifestyle or career changes you made in March 2024. The closest entries are from April:\n\n- **Work hours:** You cut your hours to 45 a week, effective April 1, 2024. You said you still felt drained after the change (April 10).\n- **Progressive muscle relaxation:** Patrick suggested PMR at an April 3 meeting. You later reported doing it daily at 8 PM and a 35% reduction in evening tension (July 2024).\n- **Baseline:** You rated your job satisfaction at 70% in March 2024, which is the only March data point. You reported 85% on July 1, 2024.\n\nSeveral other habits in the notes date from later in 2024, including the no-work-email-after-7-PM boundary, the Thursday date nights, the weekly meal prep, and the painting classes. I haven't counted them as March changes.\n\nIf you tell me what you changed in March, I can add it to the notes so it's there next time. I'd also like to confirm your current weekly hours target, since the notes show both 45 and 40.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.179,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7027
+   },
+   "cache_read_input_tokens": 18749,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1167,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:summarization:1",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "Here's what my notes show for April–May 2024. One caveat first: in a later session you said you had never accepted or started a senior producer role, so I can't confirm the role was real. The May entries below describe interview preparation, not a confirmed offer.\n\n**April 2024: Work hours and motivation**\n- Cut your work hours to 45 per week, effective April 1.\n- On April 10, you reported still feeling drained.\n- After an April 3 meeting at Montserrat Studios, Patrick suggested progressive muscle relaxation (PMR), and you began exploring ways to rebuild motivation.\n\n**May 2024: Interview preparation**\n- **May 10:** You turned down a $7,500 freelance offer to pursue the senior role.\n- **May 15:** You met Patrick at Café Montserrat, and he shared interview tips. You were considering asking him about stress management in the industry.\n- **May 17:** You presented your burnout recovery story at a support group and got positive feedback, which you described as a major confidence boost.\n- **May 20:** You set a goal of three mock interviews with Erica by May 23, and we planned the progression: core stories, hard questions, then a full run-through. We also covered pacing, sleep, PMR, and a pre-interview routine.\n- **May 25:** Your senior producer interview was scheduled. My notes don't record the outcome.\n\n**Gaps and open items**\n- The interview outcome isn't recorded.\n- Your weekly hours target is inconsistent in my notes: 45 in April, 40 in later entries. Please confirm the current number.\n- The May 15 meeting location and the April 3 meeting location are different places, and I've noted both as you reported them.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.671,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6826
+   },
+   "cache_read_input_tokens": 18539,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1127,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "I can't answer this from your notes. The memory I have contains the start of the email boundary but no record of you blocking Tuesday and Thursday morning self-care time.\n\n- **Email boundary:** On July 2, 2024, you told me you had set a no-work-email-after-7-PM boundary starting July 1, 2024.\n- **Self-care blocks:** Nothing mentions Tuesday or Thursday morning blocks, calendar blocking, or a start date for them. The closest entries are a weekday morning routine (meditation and journaling) that I drafted with placeholder times, and a Wednesday-morning painting class starting July 10, 2024. Neither is the Tuesday/Thursday block you're asking about.\n\nSo I can't calculate the gap. If you tell me the date you started the Tuesday and Thursday blocks, I can count the days from July 1, 2024. I'd be counting from a date you gave me, though, not one in my records. Your notes also conflict on whether you ever started the senior producer role (July 1 or mid-June), so I wouldn't rely on any role-based dates.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "read",
+   "read",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 10.317,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6744
+   },
+   "cache_read_input_tokens": 30302,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1059,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "I can't answer this from your memory notes. They don't mention a weekend getaway with David, and they don't mention setting work-free Sundays. The only David entries are the July 4, 2024 picnic at Montserrat Botanical Gardens and your Thursday 7 PM date nights. The closest related item is your no-work-email-after-7-PM boundary, which started July 1, 2024, but that isn't a Sunday rule.\n\nIf you tell me the getaway date and the date you started the Sunday rule, I can work out the number of days between them. I'd also suggest noting the Sunday boundary in your memory notes when you set it, so it can be found later.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.185,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5964
+   },
+   "cache_read_input_tokens": 17676,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 631,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "18:abstention:0",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "According to my notes, Patrick stressed:\n\n- **Building trust**\n- **Being adaptable**\n- **Regular check-ins**\n- **Open communication**\n\nYour notes say he called to congratulate you on your new role and gave leadership advice, but they don't record any more detail than those four points. My records also date the call to July 2, 2024, not July 1, so the date may be off.\n\nThe other Patrick-related notes in my records (such as the suggestion to take notes during meetings and to schedule regular check-ins with him) came from earlier conversations about other topics, not from this call.\n\nIf you can recall anything else he said, or have notes from the call, I can help you turn them into a concrete plan. I can also help you prepare questions for your July 15 mentorship call with him.",
+  "recall_chars": 9191,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3916,
+   "output_tokens": 732,
+   "output_tokens_details": {
+    "thinking_tokens": 490
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:abstention:1",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "From what I have, your virtual sessions with Sara are held over **Zoom**. Your first one was scheduled for **March 10 at 3 PM**. I also have a note from a May 2024 conversation that you were attending **biweekly** sessions.\n\nI don't have details on session length, whether they're video or audio only, or how each session is structured. Sara would be the best source for those, and it may be worth asking her before your next session.",
+  "recall_chars": 9843,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4202,
+   "output_tokens": 411,
+   "output_tokens_details": {
+    "thinking_tokens": 277
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Based on what I have, no. On March 3, 2024, you said you'd never attended any workshops or professional development events and were wondering whether you should. You were considering the March 15 workflow optimization workshop at East Janethaven Media Center, which Patrick, your senior producer mentor, had suggested, and you mentioned wanting a creative leadership and team management workshop afterward.\n\nOne record says \"I attended the March 15 workshop,\" but it came from a draft message the assistant wrote, not from you, and it doesn't confirm that you went. If you attended any events after March 2024, I wouldn't have a record of them.",
+  "recall_chars": 9470,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3925,
+   "output_tokens": 518,
+   "output_tokens_details": {
+    "thinking_tokens": 322
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Your records contradict each other, so I can't give a clear answer.\n\n**Evidence that you have delegated:**\n- **March 3, 2024:** You decided to delegate the late-night editing session to Greg, since he was capable and willing to take it on.\n- **April 10, 2024:** You said you had delegated 30% of your editing tasks to Greg starting April 2, freeing up about 8 hours a week.\n\n**Evidence that you haven't:**\n- **April 10, 2024:** You said you'd never actually delegated tasks to Greg or any other colleague.\n- **May 20, 2024:** You said you felt weird that you had never delegated any tasks to Greg or any other colleague.\n\nThe March and April 2 delegation may have been planned or partial, which could explain the \"never delegated\" statements, but I can't confirm that from what I have. If you tell me what actually happened, I can help you keep track of delegation going forward.",
+  "recall_chars": 8643,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3757,
+   "output_tokens": 651,
+   "output_tokens_details": {
+    "thinking_tokens": 355
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "I can only find four aspects of your interactions with Patrick that you raised, so I can't list six from your side without guessing:\n\n1. **April 10, 2024:** You said you'd bring up PMR (progressive muscle relaxation) with Patrick and ask him to walk you through the steps.\n2. **May 20, 2024:** You described your May 15 meeting at Café Montserrat, where he shared interview tips, and asked whether to also ask about his experience with stress management in the industry.\n3. **July 2, 2024:** You mentioned that Patrick stressed building trust and being adaptable.\n4. **July 2, 2024:** You mentioned that Patrick stressed regular check-ins and open communication. This was logged at the same timestamp as item 3, so I can't tell which of the two you said first.",
+  "recall_chars": 8949,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3882,
+   "output_tokens": 973,
+   "output_tokens_details": {
+    "thinking_tokens": 714
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "1. **Feeling overwhelmed by three projects at once** (March 3, 2024), with April and May deadlines looming.\n2. **Early signs of burnout**: fatigue, irritability, and sleep issues, which you'd been documenting since late February (March 3, 2024).\n3. **Irritability affecting your relationships** (March 3, 2024, later the same day).\n4. **Concern about boundaries with David**, which led you to set work-free Sundays starting May 5 (May 20, 2024).",
+  "recall_chars": 11788,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4597,
+   "output_tokens": 1036,
+   "output_tokens_details": {
+    "thinking_tokens": 871
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "The mentor was **Patrick**, a **79-year-old senior producer**. He suggested the March 15 workshop on workflow optimization at East Janethaven Media Center.",
+  "recall_chars": 9383,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4000,
+   "output_tokens": 152,
+   "output_tokens_details": {
+    "thinking_tokens": 94
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "Patrick, your 79-year-old senior producer mentor, suggested the March 15 workshop on workflow optimization at East Janethaven Media Center. On March 3, 2024, you said you were thinking about attending but weren't sure it was worth taking time off from your current projects.\n\nPatrick's role in your decision is the part I can speak to most clearly. He introduced the workshop, and the assistant then suggested you get his perspective on the workshop's relevance and potential benefits. You also said you'd review the agenda and speaker credentials, decide whether it was worth attending, delegate some tasks, inform your team, and write down specific goals and questions so you could make the most of it.\n\nMy records don't show what Patrick actually told you about the workshop, or whether you ended up talking to him about it. I also can't confirm that you attended.",
+  "recall_chars": 9710,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4139,
+   "output_tokens": 721,
+   "output_tokens_details": {
+    "thinking_tokens": 457
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "Based on what I have from our past conversations, you've made progress in a few areas:\n\n- **Fitness and sleep (April 2024):** You completed 3 yoga sessions by April 9 and saw about a 15% improvement in sleep quality on your Fitbit.\n- **Routine and task management (July 2024):** You were at 90% adherence to your morning routine, and 85% of your tasks were categorized using the Eisenhower Box.\n- **Workload (September 2024):** You'd maintained a 40-hour workweek, which helps prevent burnout. You were also using weekly Asana reports to track your team's workload and your own task completion.\n- **Team and workflow (April 2024):** You'd seen positive feedback and better workflow and editing turnaround, and we talked about extending delegation and process improvements to other areas.\n\nI don't have a complete record of your goals or any updates after September 2024, so I can't say how these compare to your targets. If you tell me what you're aiming for, or what has changed since then, I can give you a more specific assessment.",
+  "recall_chars": 10236,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4103,
+   "output_tokens": 648,
+   "output_tokens_details": {
+    "thinking_tokens": 312
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "The Workflow Optimization workshop at East Janethaven Media Center is on **March 15, 2024**.\n\nI don't have a registration confirmation saved, though. Earlier notes say you were considering the workshop, and the later messages I have are drafts, so I can't confirm you completed registration. If you registered, your confirmation email should have the exact date and time.",
+  "recall_chars": 10906,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4517,
+   "output_tokens": 326,
+   "output_tokens_details": {
+    "thinking_tokens": 211
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "Your most recent tracked overtime was **5 hours**, which you reported as of April 7, 2024. You had cut it down from 12 hours earlier that year. I don't have any more recent entries, so if you've tracked more since then, I don't have them.",
+  "recall_chars": 8460,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3709,
+   "output_tokens": 373,
+   "output_tokens_details": {
+    "thinking_tokens": 292
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The application deadline for the senior producer role at Montserrat Media Corp is **May 20**. Your records show it was originally **May 10**, and the deadline was later extended to May 20.\n\nSince deadlines can change, it's worth confirming May 20 directly with the company.",
+  "recall_chars": 9614,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4032,
+   "output_tokens": 296,
+   "output_tokens_details": {
+    "thinking_tokens": 209
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "You started with the **email boundary**: not checking work emails after 7 PM, which you began on March 5, 2024. You set up work-free Sundays later, starting May 5, 2024.\n\nYour records also show a later date for the email boundary. In July 2024 you noted that you would not check work emails after 7 PM starting July 1, so that may have been a restart or a formal commitment of the same boundary.",
+  "recall_chars": 8981,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3916,
+   "output_tokens": 439,
+   "output_tokens_details": {
+    "thinking_tokens": 312
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "You're planning one event with a confirmed venue:\n\n1. **Your 5th anniversary dinner with David** at **The Coral Reef in East Janethaven**, on **May 18**.\n\nFor the second event, I don't have a confirmed plan. In July, I suggested ideas for a special event to thank David for a surprise he'd given you. Those ideas included a picnic or hike, and I used Montserrat Botanical Gardens as an example venue, but you never confirmed it. I also don't have a date or location for a weekend getaway you discussed with David in March.\n\nIf you tell me which event you have in mind, I can help you plan it.",
+  "recall_chars": 11070,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4535,
+   "output_tokens": 585,
+   "output_tokens_details": {
+    "thinking_tokens": 384
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:preference_following:0",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Here's a system that combines a few tools and methods:\n\n**1. Pick one central calendar**\nPut everything in one digital calendar, such as Google Calendar or Outlook. Include work deadlines, appointments, classes, and personal commitments. Turn on reminders so nothing slips past you.\n\n**2. Use a task manager for to-dos**\nTrello, Asana, or Todoist work well for tracking tasks, deadlines, and progress. Trello's board layout suits visual people, while Asana and Todoist handle longer lists and dependencies better. Keep it to one tool so tasks don't end up scattered.\n\n**3. Time-block your week**\nEach Sunday (or Friday afternoon), look at the coming week and assign specific tasks to specific time slots. Protect blocks for focused work, and treat fixed commitments like classes as non-negotiable.\n\n**4. Use a daily planning routine**\nEach morning, or the evening before, spend five to ten minutes choosing your top three priorities for the day. Limiting yourself to three keeps the list realistic.\n\n**5. Do a weekly review**\nOnce a week, check what got done, move unfinished tasks forward, and adjust your schedule. A journal or a simple checklist works for this.\n\n**6. Build in buffers**\nLeave some open time between commitments. Plans almost always run over, and buffers keep one delay from disrupting the whole day.\n\n**A simple starting setup:**\n- Google Calendar for appointments and time blocks\n- Trello or Asana for tasks and projects\n- A notebook or app for a daily top-three list and a weekly review\n\nIf you tell me how much you're juggling (work, classes, family, and so on) and which tools you already use, I can help you narrow this down to a setup that fits.",
+  "recall_chars": 10117,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4505,
+   "output_tokens": 794,
+   "output_tokens_details": {
+    "thinking_tokens": 224
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:preference_following:1",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Based on our earlier conversations, here's a way to structure your self-care routine for steady energy through the day:\n\n**Morning (you've said you prefer morning routines)**\n- **Consistent wake-up time** so your body settles into a rhythm.\n- **Short stretch or yoga** to loosen up and clear your mind.\n- **Meditation or journaling** to start the day focused.\n- **Mindful breakfast** with fruits, vegetables, or whole grains.\n- **Quick planning** of your priorities, using a planner or app.\n\n**Mid-morning and afternoon mini-breaks**\n- Take a **5-10 minute break around 10 AM** and another **around 3 PM**. Stretch, breathe deeply, or step away from your desk.\n- Try a **brief mindfulness exercise**, such as focusing on your breath or doing a quick body scan.\n- **Eat lunch away from your desk** to actually recharge.\n\n**Physical activity**\n- Aim for a **30-minute workout three times a week**, or a daily walk or yoga session.\n- If you have time in the morning, a **short brisk walk or light workout** can boost energy and metabolism.\n\n**Sleep and nutrition**\n- Aim for **7-9 hours of sleep** per night.\n- Eat **balanced meals** and limit excess caffeine and sugar, especially in the afternoon.\n\n**Tracking and adjusting**\n- Keep a **simple journal** noting how you feel before and after self-care and what gave you energy.\n- **Review weekly** and adjust timing or activities that aren't working.\n\nIf you'd like, I can help turn this into a concrete weekday schedule.",
+  "recall_chars": 11415,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4928,
+   "output_tokens": 757,
+   "output_tokens_details": {
+    "thinking_tokens": 218
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:summarization:0",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Based on my memory, the main changes from March 2024 were:\n\n- **Work schedule:** You planned to start a new schedule on March 5 to reduce your weekly hours from 55 to 40 by April 30 without missing deadlines. A draft announcement to your team and stakeholders covered this.\n- **Overtime:** I congratulated you on bringing overtime down to about 4 hours in March. I don't have a record of you reporting that figure yourself.\n- **Self-care routine:** A sample journal entry from March 7 included morning meditation, reading, short breaks, lunch away from the desk, an evening workout, and a regular sleep schedule. I should be clear that this was an example template, not a record of what you actually did.\n\nSome related changes happened in early April rather than March. You reported cutting your hours to 45 a week by April 1 and delegating 30% of your editing tasks to Greg starting April 2, which freed up about 8 hours a week. Patrick also suggested progressive muscle relaxation after your April 3 meeting at Montserrat Studios.\n\nBeyond the schedule plan and the overtime figure, I don't have a clear record of which specific habits you adopted in March, so I can't confirm the details of your routine from that month.",
+  "recall_chars": 11492,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4697,
+   "output_tokens": 934,
+   "output_tokens_details": {
+    "thinking_tokens": 534
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:summarization:1",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Between April and May 2024, your progress on the senior producer application centered on these areas:\n\n- **Application materials:** You worked on refining your resume and cover letter, with a plan to finish the resume by April 22. In May, you tailored them further to the job requirements and emphasized your relevant experience and achievements.\n- **Portfolio:** On May 12, you updated a portfolio of five major projects from 2018 to 2023, which you hoped would help you stand out in interviews.\n- **Feedback and support:** You planned to get input from your mentor, Patrick, and trusted colleagues.\n- **Deadline:** The application deadline was extended to May 20, which gave you more time to prepare.\n- **Interview preparation:** You planned mock interviews and practice with common behavioral and technical questions.\n- **Skill development:** You planned to take relevant online courses and consider certifications such as PMP or Six Sigma.\n- **Networking:** You planned to research company culture and recent projects, reach out to current or former employees, and engage on LinkedIn.\n- **Well-being:** You planned to keep up journaling to manage stress.\n\nThe records mostly show plans and recommendations, so I can't confirm which steps you completed beyond the portfolio update and the resume work.\n\nA July 2024 message congratulates you on a successful first week as a senior producer, but in September you said you had never accepted or started that role. That July message may be inaccurate or misfiled.",
+  "recall_chars": 11492,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4555,
+   "output_tokens": 1124,
+   "output_tokens_details": {
+    "thinking_tokens": 660
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "**2 days.** You started limiting work emails after 7 PM on March 5, and you began blocking Tuesday and Thursday mornings for self-care on March 7 at 8 AM.",
+  "recall_chars": 11717,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5115,
+   "output_tokens": 190,
+   "output_tokens_details": {
+    "thinking_tokens": 128
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "18:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "I can't find a weekend getaway with David in my memory, so I can't calculate that gap.\n\nMy records show two relevant events, but they don't line up with your question:\n\n- **Work-free Sundays** started May 5, 2024, after David expressed concern.\n- **A 7-day vacation to Barbados** with David was planned to start October 5, 2024. You mentioned it in a September 15, 2024 conversation.\n\nThe Barbados trip was a week-long vacation, not a weekend getaway, and it came about five months *after* you started work-free Sundays, so the work-free Sundays didn't start afterward. If you're thinking of a different trip, tell me its dates and I can work out the gap.",
+  "recall_chars": 9264,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4009,
+   "output_tokens": 587,
+   "output_tokens_details": {
+    "thinking_tokens": 366
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

@@ -1,0 +1,2532 @@
+[
+ {
+  "arm": "claude",
+  "qid": "20:abstention:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The rubric expects the response to say there is no information about Jake's advice on documenting prototype tests beyond April 15. The response states this directly: it found no advice from Jake and no mention of April 15. It stays on topic by noting the closest related notes (a May 10 logbook deadline and later test results) and says they do not contain the advice. It does not invent any advice, ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1330,
+   "output_tokens": 136,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:abstention:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The rubric expects the response to recognize that the chat contains no information about additional reasons for rejecting the $30,000 offer. The response does this: it says nothing in the records mentions the offer, the rejection, or any reasons. It stays on-topic by checking nearby entries and offering next steps. It does not invent any reasons.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1300,
+   "output_tokens": 120,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response says there is no record of production meetings and lists other meetings. It never says the information conflicts, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1257,
+   "output_tokens": 74,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response says there is no record of production meetings and never mentions meeting Heather at a production meeting where she suggested patenting the invention. It lists other meetings (Ashlee, Stephen, Francis) but omits the required element, so it does not comply.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1275,
+   "output_tokens": 95,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:0",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user stated they have never attended production meetings related to their invention. The response only says there is no record of production meetings in its notes and uploads. It attributes nothing to the user and even leaves open that such meetings may have happened and gone unrecorded. It never says the user previously stated they never attended, so the",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1273,
+   "output_tokens": 124,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion, 'LLM response should mention: which statement is correct?', is garbled and ambiguous. It seems to expect the response to identify a correct statement, such as that the user has attended no production meetings or that the notes contain no record of any. The response does answer the question and says there is no record of production meetings. But it never evaluates or identifie",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1258,
+   "output_tokens": 164,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response says it has no record of a patent webinar or workshop and lists related notes, but it never points out any contradiction. It does not flag any conflicting details either, such as the provisional filing being 'targeted' for May 15, 2024 versus a nonprovisional filed November 10, 2024 'according to your r",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1182,
+   "output_tokens": 135,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user stated they attended a patent-related webinar. The response says there is no record of any webinar or workshop attendance, which contradicts the rubric. It does address the question, but it gives the wrong answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1190,
+   "output_tokens": 90,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:1",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response says it has no record of the user attending a patent-related webinar or workshop, and it suggests the user may have attended one but it isn't in the notes. The rubric expects the response to state that the user said they have never attended any. The response only reports an absence of records. It does not say the user stated they never attended, and it leaves open that they might have",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1200,
+   "output_tokens": 141,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:contradiction_resolution:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion, 'which statement is correct?', is vague. It most likely points to a correct answer the response should state, for example that the user has not attended any patent-related webinars or workshops, or that the notes contain no such record. The response says it has no record of a webinar or workshop. It does not clearly identify a 'correct statement' from a set of options, and th",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1183,
+   "output_tokens": 231,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response includes a provisional patent filing item (May 15, 2024: target date, later reported filed) and a filing strategy meeting with the attorney. But the rubric asks for 'Provisional patent filing guidance,' meaning advice or guidance on filing a provisional. The response gives only a date and status, with no guidance content. The topic is present, but the guidance aspect is thin.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1306,
+   "output_tokens": 139,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to cover the non-provisional patent deadline and advice. The response never mentions a non-provisional deadline or any advice on it. Item 5 mentions a $12,000 budget for 'nonprovisional and PCT filings' and an Oct 20 PCT target, but that is a PCT plan and budget, not the non-provisional deadline or advice about it. The required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1309,
+   "output_tokens": 146,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response includes the PCT plan as item 5, with an Oct 20, 2024 filing target covering the US, Canada, and the EU, plus a $12,000 budget for the nonprovisional and PCT filings. That shows the PCT decision. It does not show understanding of the PCT, such as how it relates to the provisional, the 12-month deadline, or why the user chose this route. The rubric asks for both decision and understand",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1305,
+   "output_tokens": 163,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 3,
+  "score": 1.0,
+  "reason": "The response is responsive and lists exactly six items in date order. It covers both parts of the criterion. Item 5 gives the PCT plan: an Oct 20, 2024 filing target across the US, Canada, and the EU, plus a $12,000 budget for the nonprovisional and PCT filings. Items 2 and 6 cover the funding discussions: the $10k Montserrat grant and the $10k follow-up grant.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1307,
+   "output_tokens": 154,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric expects the response to include \\\"Quick funding options\\\" as one of the discussed aspects, meaning a conversation about exploring quick funding options for the patent filing. The response lists six items. Two concern funding: the Montserrat Development Fund grant, and the follow-up grant. Neither is framed as exploring quick funding options. The PCT budget approval is not that either. N",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1301,
+   "output_tokens": 156,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:0",
+  "item": 5,
+  "score": 0.0,
+  "reason": "The rubric requires the response to include the crowdfunding platform choice. The response lists six items (prior art search, Montserrat grant, filing strategy with Ashlee, provisional filing, PCT plan and budget, follow-up grant), and none of them mentions a crowdfunding platform choice.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1306,
+   "output_tokens": 112,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists exactly five items in order. The first item is the prior art search, the stage the rubric asks about, and it is presented as the first stage the user brought up. The response states it as completed on April 10, 2024, not as planned. Since the rubric asks for 'Prior art search planning' to appear as a stage, this counts as compliance.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1079,
+   "output_tokens": 128,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response's first item is the prior art search, stated as completed on April 10, 2024. This matches the rubric criterion on prior art search completion. The response also lists exactly five items in order, so it answers the question. It does not describe the search's findings, but the item is correct and present as the first stage, so the criterion is met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1082,
+   "output_tokens": 114,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:1",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response is on-topic, lists exactly five items in order, and includes 'Provisional patent filing' as item 2, which meets the rubric criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1080,
+   "output_tokens": 65,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:1",
+  "item": 3,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists exactly five stages in order. Item 3 covers the non-provisional patent draft review with Ashlee (Sept 1-10, 2024), and item 5 mentions the nonprovisional filing, so the non-provisional drafting and review stage is clearly present.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1085,
+   "output_tokens": 111,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:event_ordering:1",
+  "item": 4,
+  "score": 1.0,
+  "reason": "The rubric requires a review and revision phase among the stages. Item 3, 'Nonprovisional patent draft review with Ashlee, September 1 to 10, 2024', is that phase. The response answers the question with exactly five items in order, so it is responsive.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1079,
+   "output_tokens": 100,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that the son is 21 years old. The response says it has no information about the son's age and does not give that figure, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1049,
+   "output_tokens": 65,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that the son is studying engineering at Montserrat Community College. The response says it has no information about the son, his age, or his school, so the required element is missing. The response is on-topic but does not comply.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1056,
+   "output_tokens": 85,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The response never says the user planned to start by checking with the college for resources or connections with patent attorneys. It says it found no record of such a plan and lists other notes, such as Ashlee the patent attorney and funding. It does address the question, but it does not state the required element.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1476,
+   "output_tokens": 97,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that the user should reach out to the local bar association for referrals. The response never mentions a bar association or referrals. It says the notes contain no recommendation to seek professional guidance, and it offers to help find a patent mentor or a school program. The required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1464,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that online directories should be used to find reliable attorneys. The response never mentions online directories or recommends that approach. It says it couldn't find a recommendation in the notes, lists the existing attorney Ashlee, and offers to help find a patent mentor. That does not meet the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1464,
+   "output_tokens": 116,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:information_extraction:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state that it recommended steps such as contacting local associations, using university resources, exploring online directories, and attending networking events. The response says it found no record of such a plan or recommendation and lists none of those steps. It is on-topic, but it does not meet the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1482,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:instruction_following:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response gives many timing details: a 12-month provisional lapse, a 12-month window for the nonprovisional and PCT, national phase at 30-31 months, an Office Action response period of about 3 months, an issue fee due within 3 months, maintenance fees at 3.5, 7.5, and 11.5 years, and a 1-year grace period. It also gives specific dates from the user's notes. However, it never lays out a full, co",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2115,
+   "output_tokens": 242,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:instruction_following:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response addresses the question but gives no single exact scheduled filing date. It says no pending date is shown, then gives several dates: Nov 10, 2024 (reported as already filed), a November 2024 target, and a May 15, 2025 legal deadline. The May 15, 2025 deadline is an exact date but is not a scheduled filing date, so the criterion is only partly met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1260,
+   "output_tokens": 138,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:knowledge_update:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state a $4,000 budget for initial patent filing fees. The response says the budget is a single combined $12,000 and that the notes do not split it into filing and attorney fees. It never states $4,000 as the filing fee budget, so the required element is missing and contradicts the expected answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1245,
+   "output_tokens": 115,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:knowledge_update:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state $5,500 for attorney fees. The response gives a single combined $12,000 budget and says the notes do not split it. Its attorney-time figure is an estimate of $8–15k, not $5,500. The required figure is missing and the stated figures contradict it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1242,
+   "output_tokens": 109,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:knowledge_update:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state $8,000 as the budget for prototype refinement and patent attorney fees through August. The response says it cannot find that allocation. It cites $12,000 and a rough estimate range of $8–15k for attorney time, but never gives $8,000 as the budget. The required figure is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1407,
+   "output_tokens": 117,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state June 1, 2024 as the provisional patent deadline. The response never mentions June 1, 2024. It gives May 15, 2025 as the nonprovisional/PCT deadline and November 2024 as a self-chosen target, and says the provisional was filed May 15, 2024. The required date is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1265,
+   "output_tokens": 125,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state November 10, 2024 as the non-provisional patent deadline. The response names May 15, 2025 as the legal deadline and gives only 'November 2024' as a self-chosen target, not a deadline. It mentions November 10, 2024 only as a conflicting note about when filings were made, and tells the user to verify it. It never presents November 10, 2024 as the non-provisio",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1267,
+   "output_tokens": 161,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state that the user conducted a comprehensive prior art search covering multiple databases and classifications before the provisional filing. The response says the opposite. It calls the search 'weak' and 'thin and unrefreshed', says the report's scope (databases, keywords) can't be judged, and says there is no record the search was refreshed. It does not affirm ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2671,
+   "output_tokens": 154,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that unique AI tagging features were identified that are absent in similar patents. The response only notes that the April 2024 search found 3 similar patents and no AI tagging claims. It does not identify any unique AI tagging features, and it calls the search weak and unverified. It also discusses the 96% and 98.5% accuracy improvements and the cloud bac",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2656,
+   "output_tokens": 176,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response says the provisional was filed on May 15, 2024, and calls the timing good because it came before the Expo and launch. That covers the 'filed on time' part. It does not say the user had detailed documentation plans. It notes the search report is missing from the uploads and that the receipt number looks like a placeholder, and it recommends verifying the filing. It also says the provis",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2656,
+   "output_tokens": 185,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state that the user maintained a budget aligned with filing and attorney fees. The response says the opposite. It calls the budget 'under-scoped' and 'doesn't cover the work or the foreign phase,' with estimated costs of $13.6k–21.2k against the $12k approved. It does credit the rate cut as a saving, but it does not say the budget was aligned. It does address the",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2657,
+   "output_tokens": 172,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:preference_following:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never mentions patent attorneys based in Montserrat. It points to US resources (USPTO, AIPLA, IPO, state bars) and to an existing attorney named Ashlee, with no reference to Montserrat.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1628,
+   "output_tokens": 97,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:preference_following:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to focus on local attorneys rather than remote services. The response never emphasizes local or in-person attorneys. It suggests asking the existing attorney, using the USPTO's national registry, and using referral services such as a state bar, AIPLA, and IPO. The state bar is the only local-leaning element, and it is incidental. The response does not frame the sea",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1627,
+   "output_tokens": 152,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:preference_following:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and recommends drawings in two places. It lists a 'Brief description of drawings' with one line per figure. It also has a dedicated 'Drawings' bullet that calls for flowcharts of the tagging method, system block diagrams, data-flow diagrams, and UI screenshots, and notes that formatting rules apply. This satisfies the requirement to recommend detailed drawings.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2526,
+   "output_tokens": 147,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:preference_following:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never recommends video demos or any other multimedia content as part of the patent materials. It mentions drawings, flowcharts, UI screenshots, and logs. The only references to a 'demo' are in the public disclosure log (the Stephen demo and the Expo), and those are disclosure events to track, not content to include. Screenshots are static images, so they don't coun",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2531,
+   "output_tokens": 157,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user planned a prior art search, registered for a patent law webinar, and attended it despite a scheduling conflict. The response mentions none of the webinar actions, and it describes the prior art search as already completed rather than planned. It covers other items (grant application, attorney meeting, filing target), so it does not match the required",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1590,
+   "output_tokens": 126,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never mentions the $4,000 filing budget or the $5,500 attorney fee budget. It also does not say you chose a Montserrat-based attorney for better communication. It only notes that a meeting with Ashlee took place at her Montserrat office, which does not satisfy the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1596,
+   "output_tokens": 118,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:0",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response says the prior art search was completed on Apr 10 and that the user met attorney Ashlee on Apr 25 about filing strategy, so those two elements are present. It does not say the meeting confirmed a provisional-first strategy. It only lists a provisional filing target as a plan, and the notes it cites say the filing strategy meeting happened without recording an outcome. It also never me",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1596,
+   "output_tokens": 169,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The response says the user applied for a $10k innovation grant (Apr 20) and had a May 14 meeting with Ashlee. But it never mentions a compromise on including both drawings and video in the application. The May 14 meeting is listed as an upcoming date, not as a scheduled filing meeting. One of the three required elements is missing, and the meeting is only partly matched, so the criterion is not me",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1595,
+   "output_tokens": 144,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and includes both required facts. It says the provisional was filed May 15, 2024 (Jul 10 row), and that 10 prototype tests were done with 96% accuracy by Jul 1, 2024. It adds caveats such as the undefined metric, but the content matches the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2283,
+   "output_tokens": 114,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user addressed an office action by amending claims with Ashlee and mentor Jake's guidance, and that Francis helped prepare a demo for investor Stephen. The response does not say the office action was addressed or that claims were amended. It treats the office action as a possible phishing email. It never mentions Jake or Francis. It only notes that Stephe",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2298,
+   "output_tokens": 164,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:1",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response says that on Sep 1, 2024 the user started the nonprovisional draft with Ashlee. It also says that on Sep 18 the user approved $12,000 for the nonprovisional plus PCT, with the PCT designating the US, Canada and the EU. That covers the drafting with Ashlee, the $12,000 budget, and a PCT application across multiple regions.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2295,
+   "output_tokens": 139,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric requires three elements: negotiating investment terms with Stephen, rejecting a competing offer, and verifying that the 45-page draft complies with USPTO standards. The response says Stephen requested a demo and that the 45-page draft was reviewed at Ashlee's office. It does not mention any investment negotiation with Stephen, any competing offer being rejected, or any USPTO compliance ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2294,
+   "output_tokens": 181,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:summarization:1",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never says that prototype testing was scheduled to reach 98% accuracy by the end of September. It gives the July 1 figure of 96% accuracy and says the metric is undefined. It mentions a 98.5% result only as falling after September and outside the range. The 98% by end-of-September target is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2274,
+   "output_tokens": 122,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:temporal_reasoning:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response directly answers the question and states '35 days', matching the rubric. Its caveat that the notes record no separate planned date for the search does not change the stated answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1060,
+   "output_tokens": 67,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:temporal_reasoning:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response states the span from April 10 to May 15 (April 10, 2024 to May 15, 2024) and computes 35 days. It also notes that the April 10 date is the recorded completion date, not a separate planned target. That caveat does not contradict the rubric's required dates.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1065,
+   "output_tokens": 104,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:temporal_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 67 days. The response gives 247 days (from Sep 10, 2024) and 366 days (from May 14, 2024) and never states 67 days. It also assumes a different deadline, May 15, 2025. The required figure is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1316,
+   "output_tokens": 102,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "20:temporal_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state the period runs from May 14 until July 20. The response does mention May 14 as a meeting date, but it takes May 15, 2025 as the deadline and never mentions July 20. Its calculation (366 days to May 15, 2025) therefore does not match the expected range.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1321,
+   "output_tokens": 112,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:abstention:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the chat has no information about Jake's advice on documenting prototype tests beyond April 15. The response does say it can't find anything about the April 15 deadline, but it then presents detailed advice from May and September as Jake's guidance on documenting tests. That contradicts the rubric's claim that no such information exists, so the response does ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1471,
+   "output_tokens": 132,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:abstention:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state that the chat contains no information about additional reasons for rejecting the $30,000 offer. The response instead lists two specific additional reasons (control and flexibility, and a better alternative from Stephen), which contradicts that expectation. Its closing line, 'I don't have any other reasons,' does not fix this, because it still asserts reason",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1104,
+   "output_tokens": 136,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response answers 'no' based on the user's March 15, 2024 statement. It mentions the April 7, 2024 sample meeting records but explicitly dismisses them as templates, not attended meetings. It never says the information conflicts, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1052,
+   "output_tokens": 118,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to mention that the user met Heather at a production meeting where she suggested patenting the invention. The response says the user never attended production meetings and does not mention Heather or the patent suggestion. It therefore omits the required element and contradicts it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1070,
+   "output_tokens": 98,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:0",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response answers the question directly and states that the user said on March 15, 2024 that they had never attended any production meetings related to their invention. This matches the rubric's required element.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1068,
+   "output_tokens": 68,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:0",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The rubric is vague ('which statement is correct?'). It seems to expect the response to resolve the conflict between statements: the user said they never attended production meetings, while records show a sample meeting dated April 7, 2024. The response does note both pieces of information and says the user never attended, as stated on March 15, and that the April 7 meeting is a template, not an a",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1053,
+   "output_tokens": 232,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and notes some tension: the user said they never attended any patent webinar, yet they registered for one on April 5, and a workshop on September 5 appeared in a sample conversation. It never explicitly says the information is contradictory or conflicting. It reconciles the differences by saying attendance is unconfirmed and the workshop reference isn't reliable. That part",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1098,
+   "output_tokens": 160,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the user has attended a patent-related webinar. The response says the opposite: the user has never attended one. It adds that it has no record of the user attending the April 5 webinar they registered for. The required element is missing and contradicted.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1106,
+   "output_tokens": 95,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:1",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response is on-topic and states that the user said they have never attended a patent-related webinar or workshop ('you've said you have never attended a patent-related webinar or workshop'), which is the required element. The added details about the April 5 registration and the September 5 workshop do not contradict it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1116,
+   "output_tokens": 104,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:contradiction_resolution:1",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The rubric ('which statement is correct?') most likely refers to a contradiction in the user's history, where they said they never attended a patent webinar but also mentioned registering for one. The response notes both the 'never attended' claim and the April 5 registration, but it never resolves which statement is correct. It says there is no record confirming attendance and asks the user to cl",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1099,
+   "output_tokens": 150,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to include provisional patent filing guidance, such as advice on filing a provisional application. The response lists six items, but none of them gives provisional filing guidance. Item 5 only mentions 'costs and budget allocation for the provisional and PCT applications', which is budget discussion and not guidance on filing a provisional. The response also opens w",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1368,
+   "output_tokens": 183,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response is on-topic and includes the non-provisional timeline and preparation advice in items 3 and 4. Item 3 says the assistant 'covered ... the non-provisional timeline, and costs,' and item 4 says it suggested 'preparing the non-provisional application.' However, it never states the specific deadline, such as the 12-month window after the provisional filing, and the advice stays general. T",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1371,
+   "output_tokens": 181,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response is on-topic and lists six items, and it mentions PCT twice: item 5 (costs and budget for the provisional and PCT applications) and item 6 (the user's worry about the non-provisional and PCT applications filed November 10, 2024). It shows no real understanding of the PCT decision itself. It does not say the user decided to file a PCT application, does not explain what a PCT application",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1367,
+   "output_tokens": 235,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric requires the response to cover PCT benefits and funding concerns. The response mentions PCT applications only in passing (item 5 on costs and budget allocation, and item 6 on approval worry). It never discusses PCT benefits, such as international protection or extended filing timelines. It also confuses speakers and mixes in assistant turns, and its opening line ('I can only confirm two",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1369,
+   "output_tokens": 165,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric expects the response to include 'Quick funding options' as one of the items raised. The response lists six points about fees, budgeting, prior art, the non-provisional timeline, PCT costs and a worry about approval. None of them mentions quick funding options, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1363,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:0",
+  "item": 5,
+  "score": 0.0,
+  "reason": "The rubric requires the response to cover the crowdfunding platform choice. The response lists six items about patent fees, prior art search, non-provisional and PCT applications, and follow-up funding. None of them mention crowdfunding or choosing a crowdfunding platform, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1368,
+   "output_tokens": 110,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response lists 'Prior art search' as item 4, so the stage is present. The description attached to it ('filing procedures, timelines, and deadlines') does not match prior art search planning, so it is mislabeled or inaccurate. The stage is mentioned but not executed correctly, which gives partial compliance.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1213,
+   "output_tokens": 115,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to cover prior art search completion and findings as a stage. The response lists 'Prior art search' as item 4, but describes it as 'filing procedures, timelines, and deadlines'. It says nothing about completing the search or what it found. The label and description don't match, so the required element is missing or incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1216,
+   "output_tokens": 119,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:1",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response mentions provisional filing only inside item 1, 'Preparing the application and choosing a filing type', as 'provisional vs. non-provisional filing'. It never lists 'Provisional patent filing' as a distinct stage, so the criterion is only partly met. It is also bundled with other topics, and the stage list is muddled, for example 'Prior art search' is paired with filing procedures.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1214,
+   "output_tokens": 144,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric requires that the response include 'Non-provisional patent drafting and review' as one of the stages. The response lists five items (preparing the application/filing type, examination phase, filing requirements, prior art search, submission preparation), and none of them is non-provisional patent drafting and review. Item 1 mentions provisional vs. non-provisional filing, but that is a ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1219,
+   "output_tokens": 162,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:event_ordering:1",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric requires the response to include a 'Review and revision phase' among the stages. The response lists preparing the application, examination, filing requirements, prior art search, and submission preparation. None of these is a review and revision phase. Submission preparation, described as preparing the final draft, comes closest but is not the same thing and does not mention review or r",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1213,
+   "output_tokens": 124,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response directly answers the question and states that the son, Francis, is 21 years old, which is what the rubric requires. It also names the college, so it is responsive to both parts of the question.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 991,
+   "output_tokens": 72,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and states that the son is studying engineering at Montserrat Community College, which is exactly what the rubric requires. It also gives his age, 21.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 998,
+   "output_tokens": 68,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and lists Montserrat Community College first among the recommended resources, saying to ask whether it has connections with patent attorneys. That matches the content of the rubric. But it does not state that you planned to start with the college. The 'What you planned' section instead covers documenting work, a provisional patent, and finding an attorney. The college chec",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1456,
+   "output_tokens": 155,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and answers the question. It explicitly lists 'Local bar association: It can provide referrals to patent attorneys' among the resources it recommended, which meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1444,
+   "output_tokens": 77,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never says to use online directories to find reliable attorneys. It recommends the community college, the economic development office, a local bar association, and patent search tools such as USPTO and Google Patents. Those are search tools for checking novelty, not directories of attorneys. The bar association referral is a different route from online directories,",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1444,
+   "output_tokens": 128,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:information_extraction:1",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The response is on-topic and recommends contacting local organizations (Montserrat Community College, the Economic Development Office, the local bar association). It also covers university/college resources and online patent search tools. However, it does not mention attending networking events, and its steps (document, search, consult an attorney, explore funding) differ from the rubric's list. L",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1462,
+   "output_tokens": 156,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:instruction_following:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response gives some timeline information: provisional filing gives 12 months, examination takes a year or more, the overall process takes two to three years, maintenance fees fall at 3.5, 7.5 and 11.5 years, and foreign filing must happen within 12 months. But it is not a detailed timeline. It gives no step-by-step durations, such as how long until the first office action, the response deadlin",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1893,
+   "output_tokens": 189,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:instruction_following:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and answers the question with an exact date: the non-provisional application is scheduled to be filed by November 10, 2024. It also gives the surrounding window of November 6 to 10 and the statutory deadline, but these do not obscure the exact date.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1078,
+   "output_tokens": 100,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:knowledge_update:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response mentions $4,000 for filing fees, but only as part of some inconsistent March 2024 notes. Its main answer is a $12,000 total budget with a $330 USPTO fee, and it gives $3,500 as the earlier filing-fee budget. It does not clearly state $4,000 as the initial patent filing fee budget, so compliance is only partial.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1204,
+   "output_tokens": 135,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:knowledge_update:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response mentions $5,500 for attorney fees, but only as a March 2024 note. It presents $10,000 (September 2024) as the most recent figure and $5,000 as the earlier budget. It never states $5,500 as the budget for attorney fees, and the notes it comes from are described as inconsistent. The required figure is present but buried and not given as the answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1201,
+   "output_tokens": 133,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:knowledge_update:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state $8,000 as the budget. The response gives $7,000 as the main answer. It mentions $8,000 only as a conflicting memory and says it can't tell which figure is correct. It does not commit to $8,000, so it does not meet the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1153,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state June 1, 2024 as the provisional patent deadline. The response never mentions June 1, 2024 or a provisional patent deadline. It gives November 10, 2024 for the non-provisional application and a PCT deadline, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1113,
+   "output_tokens": 107,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response states November 10, 2024 as the non-provisional patent application filing deadline, which is what the rubric requires. It also notes a conflicting May 15, 2025 date, but this hedging does not stop it from clearly stating the required date.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1115,
+   "output_tokens": 93,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that the user conducted a comprehensive prior art search covering multiple databases and classifications before the provisional filing. The response says the opposite. It notes the search was planned for USPTO and Google Patents, with only three similar patents found, and that there are no records of non-patent literature, foreign patents, or claim-languag",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1702,
+   "output_tokens": 165,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and says the search found three similar patents, none with AI tagging features. It concludes that AI tagging is the key differentiator and says the claims were centered on the AI tagging features. This meets the criterion that unique AI tagging features absent in similar patents were identified.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1687,
+   "output_tokens": 105,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state that the provisional was filed on time and that there were detailed documentation plans. The response says the filing date can't be confirmed, noting conflicting dates (May 2, May 15, June). It also says search documentation was a gap and lists documentation as something to verify. It does not state that the provisional was filed on time or that detailed do",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1687,
+   "output_tokens": 143,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:multi_session_reasoning:1",
+  "item": 3,
+  "score": 1.0,
+  "reason": "The response addresses the question and states that the budget was aligned with filing and attorney fees. It cites the revised allocation of $3,500 for filing fees and $5,000 for attorney fees, notes the $280 provisional fee and $1,200 attorney fee, and calls the $12,000 budget reasonable. It also says deferring the non-provisional filing in favor of the PCT application was a sensible way to manag",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1688,
+   "output_tokens": 152,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:preference_following:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and frames the search around Montserrat. It points to Montserrat-based resources (Montserrat Community College, the Chamber of Commerce, economic development offices) and suggests searching for patent attorneys in Montserrat on LinkedIn. However, it names no actual patent attorneys or firms based in Montserrat. It only gives search strategies, so the criterion is met in pa",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1446,
+   "output_tokens": 145,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:preference_following:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and focuses on finding a local patent attorney in Montserrat. It explicitly states the user wants a local attorney and gives local search channels (community college, Chamber of Commerce, economic development offices, local referrals). It does not recommend remote or online legal services. LinkedIn is the only online tool mentioned, and it is used to search for attorneys i",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1445,
+   "output_tokens": 141,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:preference_following:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and explicitly recommends detailed drawings. Item 3, 'Drawings and diagrams,' calls for 'Clear, detailed, and labeled illustrations of the structure and function' that show the unique aspects and make complex concepts easier to follow.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1476,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:preference_following:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic but never mentions video demos or similar multimedia content. It lists drawings, diagrams, prototype photographs, and test data tables and graphs. These are static visuals and documents, not video or multimedia.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1481,
+   "output_tokens": 88,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response covers the scheduling conflict and the choice to prioritize the webinar, which implies attending. It does not mention planning a prior art search or registering for the webinar. It adds budget and timeline details instead. Only part of the expected content is present.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1511,
+   "output_tokens": 94,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response states the $4,000 filing and $5,500 attorney fee budget, which matches part of the rubric. It does not mention choosing a Montserrat-based attorney for better communication, so that required element is missing. It also calls the budget an unconfirmed example plan, which weakens the claim that this was a decision.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1517,
+   "output_tokens": 116,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:0",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that by April the user completed the prior art search, met with attorney Ashlee to confirm a provisional-first filing strategy, and finalized technical specifications. The response mentions none of these. It covers a webinar-versus-meeting scheduling choice, a budget plan, a timeline, and May drafting tasks. It never mentions a prior art search, Ashlee, a ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1517,
+   "output_tokens": 167,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The response omits all three required elements: the $10,000 innovation grant application, the compromise on including both drawings and video, and the May 14 filing meeting. It covers other topics (webinar vs. production meeting, budget plan, timeline) but none of the rubric's content.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1516,
+   "output_tokens": 102,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the provisional patent was filed on May 15 and that 10 prototype tests with 96% accuracy were completed by July. The response says the provisional was filed by May 2, 2024, which contradicts May 15. It never mentions the 10 prototype tests or the 96% accuracy. Both required elements are missing or incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1675,
+   "output_tokens": 131,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the user addressed an office action by amending claims with Ashlee and mentor Jake, and that Francis helped prepare a demo for investor Stephen. The response is on-topic but never mentions an office action, Jake, Francis, a demo, or Stephen. It mentions Ashlee only in claims review and revision, and its content is mostly planned schedule items. Required elem",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1690,
+   "output_tokens": 149,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say that by September the user began drafting the non-provisional with Ashlee, approving a $12,000 budget for filing and a PCT application covering multiple regions. The response never mentions a $12,000 budget or a PCT application. It also does not say that drafting began in September with Ashlee. It lists Ashlee's final review in September and a generic 'Budge",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1687,
+   "output_tokens": 157,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never mentions negotiating investment terms with Stephen, rejecting a competing offer, or checking a 45-page draft against USPTO standards. It covers only schedules, claims revisions, feature work, and filing-date discrepancies.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1686,
+   "output_tokens": 102,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:summarization:1",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never says that prototype testing was scheduled to reach 98% accuracy by the end of September. It mentions 'AI tagging accuracy and performance optimization (July 15–31)' and 'Continued development and testing', but gives no 98% figure and no September accuracy target.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1666,
+   "output_tokens": 114,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:temporal_reasoning:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response states 35 days as its main answer, from April 10, 2024 to May 15, 2024, which matches the rubric. It also mentions a conflicting 22-day alternative and asks the user to confirm the date. That caveat is hedging and does not change the stated answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1078,
+   "output_tokens": 103,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:temporal_reasoning:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response states the period runs from April 10 to May 15 (35 days), which matches the rubric. It also mentions an alternative May 2 date and asks the user to confirm, but its main answer is still April 10 to May 15.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1083,
+   "output_tokens": 87,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:temporal_reasoning:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response mentions 67 days, but only as a hypothetical example (an assumed July 10 receipt date). It explicitly says it can't give an exact number, so it does not state 67 days as the answer. The figure is present but not asserted.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1095,
+   "output_tokens": 91,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "20:temporal_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state the range from May 14 to July 20. The response says it cannot give an exact number and treats the deadline as unknown. July 20 appears only as part of a hypothetical example, with a made-up receipt date of July 10. It never states that the span runs from May 14 to July 20, so it does not comply.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1100,
+   "output_tokens": 120,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

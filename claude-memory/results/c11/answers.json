@@ -1,0 +1,1058 @@
+[
+ {
+  "qid": "11:abstention:0",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I can't find any record of a bias audit initiated on April 30 in the memory store. I searched for \"bias audit,\" \"April 30,\" \"Apr 30,\" \"2024-04-30,\" \"2025-04-30,\" and \"audit,\" and none of the notes describe an audit starting on that date or list steps taken in one.\n\nThe closest related material is in `pymetrics-age-bias.md`, but it doesn't match your question:\n\n- **July 18, 2024:** Advice on checking a customized Pymetrics model for age bias. It included defining the \"15%\" metric against a baseline, running the old and new models side by side in shadow mode, checking error rates for qualified older candidates, and getting employment counsel involved.\n- **October 3, 2024:** Advice to pause live use of the age-adjusted model pending counsel review, keep the shadow-mode comparison, and disclose the status in an October 15 report.\n\nThose notes don't say an audit began on April 30, and they don't record what was done. Whether the customized model made live decisions, and what the \"15%\" target means, are still listed as unconfirmed.\n\nIf you can share the audit notes or tell me which year and project this concerns, I can look for the matching entry or add the steps to memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 8.96,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5855
+   },
+   "cache_read_input_tokens": 22311,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1001,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:abstention:1",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I can't answer this from the memory store or the uploads, so I don't have the April 28 feedback from the two managers.\n\n- **Memory:** No entry mentions April 28 or any manager feedback from that date. The closest notes are from `hirevue-hiring-policy.md`. A May 2, 2024 entry records two AI-assisted screenings run April 10–25 with a reported 45% time reduction, which the note flags as too small to judge accuracy or fairness. It does not record any managers' comments.\n- **Uploads:** `/mnt/session/uploads` is empty.\n\nIf you can share the meeting notes, an email, or the managers' names and roles, I can pull out their specific feedback and link it to the decision to continue the pilot. I can also add a dated entry to memory once the source is available.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.039,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8973
+   },
+   "cache_read_input_tokens": 37165,
+   "input_tokens": 12,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1238,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you and Michael working on editing timelines. My notes don't mention timelines at all.\n\nThe closest match is a March 15, 2024 conversation about an AI hiring pilot. It describes Michael as a 28-year-old junior editor who saw AI as supporting, not replacing, editing judgment. That's a comment about his views on AI, not a record of joint timeline work.\n\nThe rest of the notes about Michael are about HR tech: promotions to HR Tech Coordinator and then HR Tech Manager (the records conflict on this), a fairness-metrics talk, and an ethics training. None of it involves editing.\n\nIf you worked on timelines together, it probably happened outside these notes. If you tell me the project or the dates, I can check the notes against them.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.115,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7354
+   },
+   "cache_read_input_tokens": 17983,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 908,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have a record of you implementing two-factor authentication. The closest entry is from October 3, 2024: you added **biometric login** for the AI hiring platform on October 2 to improve access security. My notes don't say whether that biometric login works as a second factor alongside a password. They also don't record the vendor, the biometric method, where the data is stored, or what the fallback is.\n\nWhen we discussed it, I recommended MFA with a non-biometric fallback, least-privilege access, logging, and periodic access reviews. I also flagged that biometric data is sensitive in many jurisdictions, needs consent, notice, and retention rules, and can't be reset if compromised. The notes don't show whether any of that was followed up.\n\nIf you did set up two-factor authentication, it isn't in my notes, so you'd need to check the platform's settings or your own records.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 6.111,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4768
+   },
+   "cache_read_input_tokens": 15230,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 780,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "Here are six aspects of AI in your hiring process, in the order you first raised them, going by the dates in my notes:\n\n1. **March 15, 2024: Automating screening and keeping judgment human.** In the Darryl discussion you wanted to cut resume screening time by at least 50% and track candidate-pool diversity. Resume screening was the riskiest step to automate, and ranking and rejection were kept with people.\n\n2. **May 2, 2024: Transparency and data protection for HireVue.** You reported a 45% time reduction from two screenings and asked whether the new policy would cover \"all AI transparency requirements.\" The notes flag encryption as necessary but not sufficient, and bias testing and candidate disclosure as missing.\n\n3. **July 18, 2024 (conversation): Age bias in the Pymetrics model.** You had been customizing the model since July 1 to cut age bias by 15%. The notes flag the need for a defined baseline, a shadow-mode comparison, and employment-counsel review of age-based score adjustments.\n\n4. **July 18, 2024 (same conversation): Candidate feedback for the pilot.** You agreed to start with a pilot and asked how to collect candidate feedback. The advice was to gather it at notice, after assessment, and after the decision, and to keep it separate from scoring.\n\n5. **October 3, 2024: The September 25 breach attempt and data retention.** You asked about implications for AI hiring automation and a report due October 15. You also proposed a six-month retention limit, which the notes flag as needing to protect records for the incident review and bias monitoring.\n\n6. **October 3, 2024 (same conversation): The hybrid decision.** You chose AI for initial screening with human-led final interviews and asked about pausing AI for final interviews after Jeffrey's resignation. The notes flag that screening, not the final stage, is the higher-risk step.\n\nItems 4, 5, and 6 share a conversation date, so their relative order is my inference, not a confirmed sequence. These are my notes from earlier sessions, not verbatim transcripts, and several of the figures in them were never verified.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 13.939,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 29670
+   },
+   "cache_read_input_tokens": 27552,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "3",
+    "currency": "USD"
+   },
+   "output_tokens": 2592,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "1. **March 15, 2024 (Darryl pilot):** Your goal was to cut resume screening time by at least 50%. Carla and Jessica raised concerns, and Michael saw AI as supporting editing judgment, not replacing it.\n2. **July 18, 2024 (cost savings):** You reported $9,000 in recruitment savings over four months and asked whether to automate more to maximize them.\n3. **July 18, 2024 (Linda's involvement):** You asked whether Linda had to be involved at every stage of automation expansion. The same conversation also covered offering her a consulting role.\n4. **October 3, 2024 (Q4 budget):** You approved a $10,000 Q4 budget for AI system upgrades and staff wellness programs.\n5. **January 12, 2025 (savings claim):** You cited $22,000 in total 2024 savings from AI use as the reason for making the hybrid approach permanent.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 16.257,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 25465
+   },
+   "cache_read_input_tokens": 24164,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "3",
+    "currency": "USD"
+   },
+   "output_tokens": 3120,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I can't find anything in your saved notes about when or where you met your partner.\n\nThe closest entry is from a January 12, 2025 conversation, where you mentioned celebrating your 4th anniversary with your partner, Jessica. That implies you've been together about four years, but it doesn't say when you met or where. The notes also don't say anything about how you met.\n\nIf you told me this in a conversation that wasn't saved, I don't have it. If you tell me now, I can save it to memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 5.789,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6434
+   },
+   "cache_read_input_tokens": 22649,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 746,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "The approach I recommended was a **hybrid model with fairness gates**: take the speed gains from low-risk automation, keep the high-risk decisions human or gated behind fairness tests, and don't decide on speed alone.\n\n**The core structure**\n- **Automate low-risk admin first:** scheduling, candidate communications, and calendar coordination. Scheduling is lower risk than screening, but I asked for the time-slot allocation to be checked for fairness (time zones, accommodations, panel load) and for data-access scope and candidate notice.\n- **Keep ranking, rejection, and scoring human or gated:** resume screening, video/voice scoring, and rejection decisions carry the highest adverse-impact risk. I advised against letting them run automatically without a human check.\n- **Run a shadow-mode pilot first,** with metrics and go/no-go criteria defined in advance. A small pilot can't prove fairness.\n\n**Fairness safeguards**\n- Selection-rate comparisons by age (40+), sex, and race/ethnicity. I treated the four-fifths rule as a screening test, not a safe harbour.\n- Human re-review of a sample of AI rejections to catch false negatives, with error rates broken out by group and reported with sample sizes.\n- Overall accuracy is not a fairness measure, because it can hide large gaps between groups.\n- A documented candidate path for human review and accommodation requests.\n- Governance owned by someone independent of the tool operators.\n- Ethical-AI training for HR staff, measured by behaviour (overrides, documented reviews) rather than knowledge scores.\n\n**Speed and satisfaction**\n- Speed and candidate-satisfaction figures are reported, but they should not drive the decision. I asked for baselines, counts, survey methods, and response rates behind each claim.\n- Satisfaction surveys cover only interviewed candidates, so they say nothing about fairness.\n\n**A problem I flagged**\nThe hybrid as you chose it puts AI on the initial screening, which is the riskiest stage, and humans on the final interviews, which are the least automated. That inverts the risk order. I advised making screening conditional on passing the fairness gates, and confirming whether any rejections currently happen without human review.\n\n**Caveats**\n- My notes don't record the figures you have since cited (a 35% time reduction, a 92% accuracy, a $22,000 saving). I couldn't confirm their baselines or methods, so none of them should be treated as evidence of fairness.\n- The notes also don't confirm your jurisdiction, the candidate volume, or whether the older-candidate flagging issue has been resolved. Those affect which legal requirements apply.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 11.642,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 15561
+   },
+   "cache_read_input_tokens": 28614,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "2",
+    "currency": "USD"
+   },
+   "output_tokens": 1914,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "Here are the practices that protect you most, roughly in order of impact.\n\n**1. Use a unique, strong password for every account**\n- Reusing passwords is the most common way accounts get compromised. When one site is breached, attackers try the same email and password everywhere.\n- A password manager (Bitwarden, 1Password, the built-in ones in Chrome, Safari, or Edge) makes this practical. It generates and stores the passwords, so you only need to remember one master password.\n- Long passphrases of four or more random words are strong and easier to remember than complex strings.\n\n**2. Turn on two-factor authentication (2FA), especially for email**\n- Your email account is the master key to your other accounts, because password resets go there. Protect it first.\n- Prefer an authenticator app or a passkey over SMS codes. SMS can be intercepted through SIM-swapping.\n- Save backup codes somewhere safe offline, so you aren't locked out if you lose your phone.\n- Passkeys, where supported, resist phishing better than either passwords or codes.\n\n**3. Watch for phishing**\n- Be suspicious of unexpected messages that create urgency (\"your account will be closed,\" \"unusual sign-in,\" \"invoice overdue\").\n- Don't click links in those messages. Go to the site yourself, or open its app, and check there.\n- Check the sender's actual address, not just the display name. Look for misspelled domains.\n- Legitimate companies won't ask for your password or a 2FA code by email, phone, or text. Treat any request for one as a scam.\n\n**4. Keep software updated**\n- Install updates for your operating system, browser, phone apps, and router. Many breaches exploit known, already-patched bugs.\n- Turn on automatic updates where you can.\n\n**5. Limit what you share**\n- Only give services the information they need. Many forms ask for optional fields; leave them blank.\n- Review privacy settings on social media and cloud services. Default settings are often more permissive than you'd choose.\n- Check which third-party apps have access to your accounts (Google, Facebook, GitHub, etc.) and revoke ones you no longer use.\n- Be careful about posting photos of documents, boarding passes, or things that reveal your address or routine.\n\n**6. Be careful on public Wi-Fi and devices**\n- Avoid logging into sensitive accounts on open networks, or use a reputable VPN.\n- Don't enter passwords on devices you don't control.\n- Lock your phone and computer with a passcode or biometrics, and set auto-lock.\n\n**7. Check the connection and the site**\n- Look for HTTPS and the correct domain before entering credentials. Bookmark important sites so you don't mistype them.\n- Be wary of download sites and browser extensions you don't need. Only install software from official sources.\n\n**8. Monitor your accounts**\n- Check bank and credit card statements regularly, and turn on transaction alerts.\n- Use a service like Have I Been Pwned (haveibeenpwned.com) to see if your email appeared in known breaches. If it did, change the password on that account and anywhere it was reused.\n- Review your account's \"recent activity\" or \"active sessions\" page occasionally, and sign out of devices you don't recognize.\n\n**9. Consider a credit freeze (US and some other countries)**\n- A free credit freeze at the three major bureaus stops anyone from opening new credit in your name. It's a strong defense against identity theft and doesn't affect your existing accounts.\n\n**10. Back up your important data**\n- Keep copies of important files in at least two places, one of them offline or in a separate cloud account. Ransomware and account lockouts are much less damaging when you have backups.\n\n**If something goes wrong:**\n- Change the password on the affected account and on any account that used the same password.\n- Sign out all sessions and revoke suspicious app access.\n- Contact the company's support, your bank if money is involved, and report identity theft to your national authority (in the US, IdentityTheft.gov).\n\nIf you tell me which services you use or what worries you most (a particular scam, a shared family account, work accounts, privacy from companies versus hackers), I can tailor these steps to your situation.",
+  "memory_tools": [
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 11.331,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 1416
+   },
+   "cache_read_input_tokens": 11193,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1718,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "When you're signing up for a new account, these are the things to check, roughly in order of importance.\n\n**Before you sign up**\n- **Does the service need your data?** Give only required fields. Skip optional ones like phone number or date of birth unless they're needed for recovery or a real purpose.\n- **Read the privacy policy, at least the data sections.** Look for whether they sell or share data with third parties or advertisers, how long they keep it, whether you can delete your account and data, and whether they use your data to train AI models.\n- **Check the company's track record.** Search for past breaches and how they responded. Reputable companies publish security pages and have security contact information.\n\n**Login security**\n- **HTTPS.** The address should start with `https://` and show a lock icon. This protects data in transit but doesn't prove the site is trustworthy.\n- **Two-factor authentication (2FA/MFA).** This is the most important feature to look for. Authenticator apps and hardware security keys (passkeys, FIDO2/WebAuthn) are stronger than SMS codes, which can be intercepted through SIM-swapping.\n- **Passkey support.** Passkeys resist phishing better than passwords.\n- **Account activity and session controls.** Good services show recent logins and let you sign out other devices.\n- **Login alerts** for new devices or locations.\n- **Password rules.** Long passwords are better than complex ones. Check for a minimum length of at least 12 characters and whether the site blocks common or breached passwords. Don't reuse passwords: use a password manager to generate a unique one for each account.\n\n**Data protection**\n- **Encryption at rest and in transit.** Companies often state this in their security documentation. End-to-end encryption is the strongest option for messaging and file storage, though it limits what the company can do for you, like password resets.\n- **Data minimization and retention.** Find out how long they keep your data after you leave.\n- **Privacy controls.** Look for settings to limit data sharing, turn off tracking or personalized ads, and control who can see your profile.\n- **Compliance certifications.** SOC 2, ISO 27001, GDPR compliance, or similar show that an outside auditor has checked their practices. These are not guarantees, but they help.\n- **Data location and jurisdiction,** if that matters to you.\n\n**Red flags**\n- No 2FA option, especially for accounts holding sensitive information\n- Vague or missing privacy policy, or one that claims broad rights to your content\n- Requests for unnecessary information, such as your full SSN for a simple newsletter\n- A password requirement that's weak (e.g., 6 characters with no other checks)\n- No way to delete your account or data\n- A history of unreported or poorly handled breaches\n- Sign-up emails with suspicious links or urgent wording (a phishing signal)\n\n**After you sign up**\n- Turn on 2FA right away.\n- Review the privacy and sharing settings, since defaults often favor the company.\n- Use a unique email alias, such as one from SimpleLogin, Apple's Hide My Email, or Firefox Relay, for less important accounts. This limits exposure if one service is breached.\n- Check haveibeenpwned.com periodically, and change passwords if an account shows up in a breach.\n\nIf you tell me what kind of service you're signing up for (banking, email, a shopping site, a health app, etc.), I can point out which of these matter most for it.",
+  "memory_tools": [
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 9.517,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 1451
+   },
+   "cache_read_input_tokens": 11207,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1405,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "I can't find a date for a webinar on AI ethics in hiring. I checked the memory store (`/mnt/memory/beam-c11/`) and found no mention of a webinar in any of its notes. The notes do mention related events:\n\n- **Feb 20 ethical AI hiring workshop** (70+ registrants, co-led with Carla), which is a workshop rather than a webinar.\n- **London AI ethics conference on Jan 15**, which you were considering attending on company funds.\n- **Montserrat Tech Summit on Aug 22**, where Michael was reportedly presenting AI fairness findings (secondhand, unverified).\n- **AI ethics panel at the Montserrat Business Council on Oct 1**, co-hosted with Carla.\n\nIf the webinar is one of these, or is a separate event, the date would need to come from you or from the invitation. The session uploads folder is also empty. If you can share the invitation or event listing, I can pull the date and time from it.",
+  "memory_tools": [
+   "grep",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 8.172,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7479
+   },
+   "cache_read_input_tokens": 23907,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 888,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "The AI screening tool is reported at **92% accuracy**, but I can't verify that figure.\n\nMy notes record the user saying, on January 12, 2025, that the tool was evaluated on 300 profiles and reached 92% accuracy, up from 87% in July. The notes don't say how accuracy was defined, what the ground truth was, or whether the July and current samples overlap. There is also no breakdown by candidate group, and no holdout test. An earlier analysis of 150 profiles (April to July) claimed 12% fewer false positives, but it had no validated ground truth and was also small.\n\nOverall accuracy doesn't show whether the tool treats groups fairly. The tool's false-negative and false-positive rates by group, with sample sizes, would be needed to judge that. The uploads folder was empty, so I couldn't check the original evaluation report.",
+  "memory_tools": [
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 9.466,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4470
+   },
+   "cache_read_input_tokens": 20153,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 892,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "**Two named vendors:** HireVue and Pymetrics.\n\n- **HireVue:** your AI-assisted screening platform. A 2-year contract was signed July 10, 2024, at $11,500/year.\n- **Pymetrics:** you began customizing its model on July 1, 2024, to reduce age bias. Whether that customized model ever made live hiring decisions is unconfirmed.\n\n**Unnamed tools that could push the count higher:**\n\n- An AI calendar integrated with Outlook for scheduling (Sept 20, 2024). The vendor isn't stated.\n- An \"AI hiring platform\" with biometric login (Oct 2, 2024). The vendor isn't stated. It may be HireVue, but your notes don't say so.\n- AI-generated onboarding plans (mentioned Jan 2025). The tool isn't named.\n\nIf you count only named products, the answer is 2. If you count the unnamed tools as separate, it's up to 5, though the biometric platform may duplicate HireVue. Linda, the AI ethics consultant, is a person rather than a vendor, so I left her out.\n\nThe notes also aren't clearly from one person. The Pymetrics note is flagged as possibly a different user from the HireVue notes. If you tell me which notes are yours, I can narrow the count.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 10.391,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 14622
+   },
+   "cache_read_input_tokens": 26301,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1384,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "**Short answer:** Protect the data that proves your gains first, then test the screening stage, then formalize Wyatt's oversight role, and develop Natalie inside that oversight rather than as the tool's operator. Your diversity hire figures are not yet strong enough to sustain anything on their own.\n\nMost of this comes from your saved notes, and several key figures there are unverified or inconsistent.\n\n## 1. Stop losing the evidence (first)\n\n- **Suspend automatic deletion for in-scope data.** Your notes say 6-month auto-deletion began Jan 8, 2025. That would remove data from before about July 8, 2024, which includes your July baseline, the Apr–Jul profile analysis, and possibly the Sept 25 incident records. The notes also give an Oct 1, 2024 start date, so the timeline itself needs checking.\n- **Confirm what has already been deleted.** Check this before any further deletion.\n- **Check the legal floor with counsel.** The EEOC applicant-record rule (about one year, to verify) and any Montserrat rules set the minimum retention period. Any open dispute or the Sept 25 incident needs a legal hold.\n\nWithout the pre-AI baseline and historical outcome data, you cannot show that gains are real or sustained.\n\n## 2. Make the diversity numbers defensible\n\n- **Report counts and denominators by stage.** Cover applicants, screened-out, interviewed, and hired, each by age band, sex, and race/ethnicity where collected.\n- **Pair hire shares with retention, promotion, pay, and survey data.** Hire shares alone don't show inclusion.\n- **Use the pre-AI period as the baseline.** The 45% and 20% figures from five hires cannot show a trend, and the 50% and 25% for 2024 have no stated denominator.\n- **Define the \"30% bias reduction\" before reusing it.** Your notes do not give its metric, baseline, or sample.\n- **Use group-level monitoring only.** Demographic targets must not be used to select individuals (Title VII).\n\n## 3. Test the riskiest stage: AI screening\n\nScreening is where most adverse impact arises, and it is also where your notes show the least human oversight:\n\n- **Confirm whether any rejection happens without human review.** Your notes suggest humans mainly enter at the final stage, so most rejections may be automated.\n- **Pause the Pymetrics age-adjusted model** pending counsel review (ADEA risk), and confirm whether it made any live decisions.\n- **Resolve the older-candidate flagging claim** using selection rates by age band (40+ vs. under-40), stage, and model version.\n- **Run selection-rate and error-rate tests** by age, sex, and race/ethnicity. Use the four-fifths rule as a screen, not a safe harbor. Human re-review a sample of rejections to find false negatives.\n- **Make screening conditional on passing these gates.** Your notes say the hybrid model was made permanent on Jan 10, 2025, which conflicts with the rule that gates come first. Reconsider that decision until the gates pass.\n- **Don't cite the 92% accuracy, the 15-day ramp-up, or the $22,000 savings as evidence.** Accuracy is not fairness, and these figures have no baseline or breakdown.\n\n## 4. Formalize Wyatt's role\n\nWyatt's concern about lost personal touch is a useful signal, and the quarterly review is the right place to use it.\n\n- **Set the review criteria in advance:** fairness metrics, thresholds, and the data sources for each.\n- **Give Wyatt, or another reviewer who does not run the tools, authority to pause** a rule or group. Confirm the reviewer is independent of the implementer (Michael).\n- **Track human contact as a measured item,** for example candidate satisfaction by stage (noting that the 85% response rate covers interviewed candidates only), and complaints about lack of contact.\n- **Write down the Sept 28 compromise** and define exactly which stages keep human contact.\n- **Verify the Jan 7 compliance confirmation** against the actual Montserrat legal text before relying on it.\n\n## 5. Develop Natalie within the oversight structure\n\nNatalie's interest is an asset for building future talent, but her interest should not drive tool decisions.\n\n- **Train her on screening specifically,** covering notice, accommodation, adverse-impact testing, and override procedures. Measure her training by behavior (documented reviews, overrides), not knowledge scores.\n- **Give her a role in the gate reviews as an observer or analyst,** not as the person who operates or approves the tool.\n- **Disclose any stake she has in tool adoption,** and keep her away from decisions on the vendor contract.\n- **Use the training to build a pipeline.** The gains that last usually come from upstream sourcing (structured job posts, diverse referral sources, rubric-based interviews), not from screening alone. Those practices also improve results without AI.\n\n## Suggested order\n\n1. Suspend deletion, confirm what was lost, and set the legal floor with counsel.\n2. Build the baseline and stage-level counts from verified data.\n3. Run the screening gates, and pause the age-adjusted model and any screening step that fails.\n4. Set Wyatt's review criteria and pause authority in writing.\n5. Start Natalie's training and her observer role in the gate reviews.\n\nMontserrat law is unverified throughout your notes, so have employment counsel review each step. The memory store is read-only for me, so I have not recorded this analysis there.",
+  "memory_tools": [
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 22.174,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 22554
+   },
+   "cache_read_input_tokens": 22056,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "3",
+    "currency": "USD"
+   },
+   "output_tokens": 3947,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:preference_following:0",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Here's how I'd set it up. The main principle is that technology should handle the high-volume, low-stakes logistics, and people should make every decision that affects whether someone gets hired.\n\n**1. Define the process before choosing tools**\n- Write down the stages (sourcing, application, screening, interview, assessment, offer) and, for each one, who decides and what evidence they use.\n- Set job-related criteria for each role in advance, in writing. Structured criteria make everything else easier to audit and explain.\n\n**2. Use technology where the risk is low**\n- **Scheduling:** calendar tools with self-booking, time zone handling, and accommodation requests. This is usually the safest place to automate.\n- **Candidate communication:** templated acknowledgments, status updates, and reminders. Keep the wording human and make sure someone can reach a real person.\n- **Applicant tracking:** a basic ATS to centralize records, stages, and notes. This also gives you the data you need to measure the process.\n- **Document handling:** storing resumes and work samples in one place with access controls and a retention schedule.\n\n**3. Be cautious with automated screening**\n- Resume ranking and automated rejection carry the most fairness and legal risk. If you use them, start in \"shadow mode,\" where the tool scores candidates but humans make the actual decisions, and compare the two.\n- Keep a human review of anyone the tool rejects, especially at the first cut. Non-linear careers, freelancers, career changers, and people with gaps are often misranked.\n- Ask vendors for documentation of validation and bias testing, and for their data retention and training-data practices.\n\n**4. Keep interviews and final decisions human**\n- Use structured interviews with the same questions and a scoring rubric for every candidate.\n- Use AI-based video or game-based assessments only if you can validate them for the job and provide candidates with notice, an explanation, and an alternative or accommodation path.\n- Final decisions should be made by trained people, with reasons recorded.\n\n**5. Monitor and document**\n- Track pass-through rates at each stage, broken down by group where you lawfully collect the data. Use the four-fifths rule as a first check for adverse impact.\n- Use group-level figures to monitor the process. Don't use them to pick individual candidates.\n- Set a pre-AI baseline so you can tell whether a change actually helped. Small hiring numbers rarely show a meaningful trend.\n- Log overrides, candidate complaints, and vendor changes. Re-check the tool whenever the vendor updates the model.\n\n**6. Get the legal and governance basics right**\n- Confirm which jurisdictions apply to you and your candidates. Requirements such as NYC Local Law 144 and the Illinois AI Video Interview Act are examples; I'd verify current rules with counsel rather than rely on my summary.\n- Put a vendor agreement in place covering data processing, breach notification, deletion, and audit rights.\n- Name an owner for the process and a review group with some independence from the people who bought the tool.\n\n**What I'd need from you to be more specific:**\n- Your jurisdiction(s) and where candidates are located\n- Roughly how many applicants per role and how many hires per year\n- Which stages you're considering automating\n- Whether you already use a tool (and which one)\n\nFrom our earlier conversations, I have notes on a HireVue pilot, a hybrid model (AI screening with human interviews), and several open items: bias testing, notice to candidates, human review at screening, and handling of older applicants. I haven't been able to verify several of the details, such as the outcome figures and the status of certain features, so please treat those as things to confirm rather than established facts. If you share the current setup, I can help you check it against the list above.",
+  "memory_tools": [
+   "grep",
+   "glob"
+  ],
+  "usage": {
+   "active_seconds": 11.583,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5889
+   },
+   "cache_read_input_tokens": 11210,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1755,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:preference_following:1",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Structure the final stage so it adds new information, is predictable for candidates, and has a clear decision process. A workable design:\n\n**1. Define what each final-stage interview is for**\n- Give each interview one competency area, such as technical depth, collaboration, or role-specific judgment. Don't repeat screening questions.\n- Cap the loop at about three to four interviews, each with a written scorecard and a fixed question bank.\n- Assign interviewers to competencies in advance so the panel doesn't overlap.\n\n**2. Tell candidates the full process up front**\n- Send the agenda with the interviewers' names and roles, the format of each session, and who to contact with questions.\n- Give a decision window as a range, and commit to updating candidates if it slips.\n- If AI tools are used anywhere in screening, disclose it and say how a candidate can ask for human review.\n\n**3. Schedule for a short, contained experience**\n- Book the final loop into one day or a tight window where possible. Candidates drop out when the process drags across weeks.\n- Use a scheduling process that is consistent for everyone: fair time-slot allocation across time zones, accommodation requests handled the same way for all, and no single interviewer carrying an outsized load.\n- Block calendars for interviewers, including prep and debrief time, so the loop doesn't get squeezed.\n\n**4. Keep the panel clean**\n- Exclude anyone with a personal stake in the candidate or the outcome, such as a relationship, a reporting line, or a financial interest in the hire.\n- Brief interviewers on the question bank, scoring anchors, and the rules against asking about protected characteristics.\n\n**5. Make the decision process explicit**\n- Hold a debrief within a set window after the last interview. Each interviewer submits scores before discussion, to limit anchoring and the loudest voice dominating.\n- Decide against the rubric, and record the rationale for each decision.\n- Assign one owner for the final decision and the candidate communication.\n\n**6. Close the loop with every candidate**\n- Send an outcome message to everyone, including rejections, with the decision date you committed to.\n- Offer a brief feedback option for candidates who reached the final stage.\n\n**7. Build in human review where automation decides**\nYour notes show a hybrid setup: AI screening, with human final-round interviews for soft skills and rapport. The open gap is that the rejection stage is still automated with limited confirmed human review. Human oversight has to exist at that stage too, not only in the final interviews. Make sure someone reviews a sample of rejections, and that a candidate can request a human re-review.\n\n**8. Measure and adjust**\n- Track drop-off by stage, time from final interview to decision, interviewer hours per hire, and candidate satisfaction. Use your own baseline for these, because figures like the 16-day cycle time and the 85% survey response rate in your notes haven't been verified against a baseline or a definition.\n- Review the fairness metrics by group at each stage, not only overall satisfaction. Staff or candidate satisfaction alone doesn't show whether the process is fair.\n\n**9. Keep the records you'll need**\n- Keep interview notes, scorecards, and screening decisions for the period your policy and any legal obligations require. Check that automatic deletion rules don't remove records that are under a legal hold or needed for an audit of the process.\n\nIf you tell me your team size, typical number of finalists per role, and whether the final round is in person or remote, I can draft a concrete loop template with interviewer assignments, a scorecard, and candidate-facing messages.",
+  "memory_tools": [
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 14.391,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5684
+   },
+   "cache_read_input_tokens": 11209,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2222,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:summarization:0",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "Here's a summary of what's recorded in our notes, from the first discussions in spring 2024 through January 12, 2025. Most figures below are user-reported and unverified, and I've flagged where they conflict.\n\n## 1. Timeline of the approach\n\n**Spring 2024: starting point**\n- You were running AI-assisted screening with HireVue. Two screenings in April were reported as a 45% time reduction, which is too small a sample to judge accuracy or fairness.\n- A new hiring policy was due for HR review on May 10, 2024. I asked for the document, which I haven't seen. I recommended a pilot with a human decision-maker, four-fifths-rule bias testing, candidate disclosure, a vendor audit/DPA, and go/no-go criteria.\n- A \"Montserrat 2022 privacy law\" and a \"June 2024 Employment Act amendment\" were cited. I couldn't verify either, so I haven't stated any requirements from them.\n\n**July 2024: commitments and first pilot decision**\n- A 2-year HireVue contract was signed July 10 at $11,500/year, including \"bias mitigation updates\" that have not been seen in writing.\n- You agreed to a pilot with outcome monitoring. The main advice was to treat the signed contract as non-final and use shadow mode with pre-set go/no-go criteria.\n- Other threads that came up: a Pymetrics age-bias customization (goal: cut age bias by \"15%\"), AI-generated onboarding plans (goal: cut ramp-up by 10 days), a $9,000 savings claim, a 150-profile AI-vs-manual comparison (12% fewer false positives), and an ethics consultant engaged at $75/hour for 20 hours a month.\n- Standing advice: HR training before tool access, candidate feedback channels with a human-review and accommodation path, and no adoption of AI to reduce stress without evidence.\n\n**September–October 2024: incident, pause, and hybrid decision**\n- A \"data privacy breach attempt\" on Sept 25 led to a report due to the Montserrat Data Protection Authority on Oct 15. I haven't verified the incident details, the authority, or the deadline.\n- Concerns came up about AI flagging older candidates disproportionately, and a \"compromise\" with Wyatt on Sept 28. The flagging data is not in our notes.\n- A 6-month candidate-data retention limit was set from Oct 1. I advised that it must not delete in-scope records (incident review, bias monitoring data, open disputes).\n- Other changes: biometric login added to the AI platform, a $10,000 Q4 budget for upgrades and wellness, and a staff member (Jeffrey) who resigned on Sept 30 citing discomfort with AI reliance.\n- **Decision (Oct 3):** a hybrid model, with AI for initial screening and human-led final interviews, plus ethical-AI training for the HR team. I flagged that this inverts the risk order, because the automated stage is the one that ranks and rejects candidates. I recommended that screening be conditional on passing fairness gates.\n- A quarterly vendor review was started, and I advised that it be run by an independent reviewer.\n\n**January 2025: consolidation**\n- **Jan 7–9:** A Montserrat compliance confirmation was reported, and a quarterly impact review was agreed with Wyatt. The basis for the confirmation is unknown, so it is a precondition, not evidence of fairness.\n- **Jan 8:** A 6-month automatic deletion started. This conflicts with the Oct 1 start date, and it would delete data from before about July 8, 2024, including the July baseline and possibly Sept 25 incident records. I recommended suspending automatic deletion for in-scope data pending counsel review.\n- **Jan 10:** The hybrid model was made permanent, citing $22,000 in 2024 savings. That figure is not in earlier notes (earlier: $9,000 over 4 months), and I advised against making it permanent until screening passes gates.\n- **Jan 11:** An AI hiring transparency policy was finalized and published. It is one day old, so there is no compliance data yet.\n- **Jan 12:** Several follow-up questions: how to make screening \"as unbiased as possible,\" what metrics to track, and how to handle unfair flags on candidates.\n\n## 2. Key decisions and where they stand\n\n| Decision | Status | Open issue |\n|---|---|---|\n| HireVue contract (2 years, $11,500/yr) | Signed July 2024 | Contract terms, exit clauses, and bias-mitigation evidence not seen |\n| Hybrid model (AI screening + human final interviews) | Chosen Oct 3, 2024; made permanent Jan 10, 2025 | Screening is the highest-risk stage; gates not confirmed |\n| Pause AI for final interviews | Considered Oct 2024 | Whether it was actually paused and how candidates were told is not recorded |\n| Pymetrics age-adjusted model | Pause live use advised Oct 2024 | Whether it ever made live decisions is unknown |\n| 6-month data retention | Set Oct 2024; automatic deletion from Jan 8, 2025 | Conflicts with legal holds and bias monitoring; suspension advised |\n| Quarterly impact review | Agreed with Wyatt Jan 9, 2025 | Needs pre-set metrics, thresholds, and an independent reviewer |\n\n## 3. Main challenges\n\n1. **Screening is the riskiest stage, but it is the one that is automated.** Human involvement comes at the final interview. Whether any rejection happens without human review is still unconfirmed.\n2. **Unverified or inconsistent metrics.** The savings figure went from $9,000 (4 months) to $22,000 (2024). Hiring time was 45% in April, 35% in October, and 16 days in January. The pilot was described as not started in July, but as a success at the same time. The 92% accuracy figure (300 profiles) has no stated ground truth. The 30% bias reduction has no defined baseline. None of these should go into external materials yet.\n3. **Legal uncertainty.** Jurisdiction is not confirmed. The Montserrat laws could not be verified. US references (EEOC, ADEA, Title VII, Illinois AI Video Interview Act, NYC LL144) are general guidance only and need counsel to map them to the jurisdiction.\n4. **Conflicts of interest and governance.** Several people appear in several roles. Carla is named in a personal relationship and a possible decision role, and a joint Feb 20 workshop is planned. Jessica may have a governance role while her pay and freelance work are also under discussion. Michael implements the tools and also presented the fairness findings. His promotion history conflicts across notes (Aug 2024 at $48,000, Jan 2025 at $55,000, and a user statement that he was never promoted), so HR records need to settle it. Recusal, written role scopes, and separating implementers from auditors were recommended throughout.\n5. **Demographic and satisfaction data.** Reported outcomes include 45%/20% of 5 hires (too few to interpret), 50%/25% of 2024 hires, an 85% post-interview survey response rate, and an 18% satisfaction increase with no baseline. Satisfaction and staff survey results are not fairness measures, and I advised against attributing them to AI without a pre-AI baseline.\n\n## 4. Recurring advice\n\n- Set baselines and definitions before measuring. Write metrics and thresholds down before looking at results.\n- Use four-fifths and error-rate tests by age, sex, and race/ethnicity. The four-fifths rule is a screening heuristic, not a safe harbor. Remove proxies such as names, photos, addresses, and graduation years. No video, facial, or voice scoring in screening.\n- Keep human review of rejections, with sampled re-review to catch false negatives.\n- Keep governance independent of the tool operators, the vendor, and anyone with a personal stake. Give the independent owner pause authority.\n- Don't use demographic targets to select individuals (Title VII).\n- Measure behaviour (overrides, documented reviews) rather than training scores.\n- Don't reuse attendee or candidate contact data without consent.\n\n## 5. Items to resolve first\n\n1. The incident log for Sept 25, and whether candidate data was touched.\n2. Whether any candidate data has been deleted since Oct 1, and whether the Oct 15 report was filed.\n3. Jurisdiction, candidate volume, and the basis for the Jan 7 compliance confirmation. Get the actual statute text and a counsel opinion.\n4. The 2024 screening data by group, and the four-fifths and error-rate results for the screening stage.\n5. What the $22,000 savings figure includes, and whether it is net of the HireVue contract and consultant costs.\n6. The contract's bias-mitigation terms in writing, and the vendor's audit evidence.\n7. HR records for Michael's position and pay, and written recusal and disclosure for the Carla and Jessica relationships.\n\nI can turn this into a one-page governance checklist, or draft the screening-stage fairness gate and go/no-go criteria, if that would help.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 21.457,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 29521
+   },
+   "cache_read_input_tokens": 27513,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "3",
+    "currency": "USD"
+   },
+   "output_tokens": 4095,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:summarization:1",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "I'll check memory for our earlier discussion first.\nMemory has a lot of prior context. I'll read the main files in full.\nShort answer: I can give you a full control framework, but not a verified legal checklist. Our earlier notes repeatedly flag that the governing law is unverified, and the jurisdiction is still unconfirmed. The summary below is organized so that counsel can check each item.\n\n## 1. Gaps to close first\n\n- **Jurisdiction.** Company location, candidate locations, and the location of each role are not confirmed. Every legal requirement below depends on this.\n- **Montserrat law.** I could not verify the June 2024 Employment Act amendments, the 2022 privacy law, or the Data Protection Act text that the Jan 7, 2025 compliance confirmation relies on. I have not stated any Montserrat requirement. Treat the Jan 7 confirmation as unverified until the statute texts and a counsel opinion are on file.\n- **Policy text.** The transparency policy (finalized Jan 11, 2025) has not been reviewed against any requirement. Obtain it and map each obligation to a control.\n- **Vendor terms.** The HireVue contract (signed July 10, 2024), including its data-deletion, breach-notification, and \"bias mitigation\" clauses, has not been seen.\n\n## 2. Legal frameworks to map (US and EU reference, verify with counsel)\n\nThese are general references. Confirm which apply once jurisdiction is known.\n\n| Framework | What it means for this process |\n|---|---|\n| Title VII (race, sex, etc.) | Disparate impact applies. Selection-rate comparisons use the four-fifths rule as a screening heuristic, not a safe harbor. No demographic targets for individual selection. |\n| ADEA (40+) | Age-based disparate impact and disparate treatment risk. Age-adjusting scores (the Pymetrics customization) needs employment counsel review. |\n| ADA | Accommodation for assessments and interviews; human alternative on request. |\n| EEOC recordkeeping (29 CFR 1602.14) | Applicant records generally kept at least one year. This is the floor for the 6-month deletion limit. |\n| NYC Local Law 144 (if NYC roles) | Independent bias audit before use, published summary, candidate notice before use, alternative process. |\n| Illinois AI Video Interview Act | Notice, explanation of how the AI works, consent, limits on sharing, deletion on request. Illinois biometric law (BIPA) may apply to video or voice analysis and to the biometric login added Oct 2, 2024. |\n| FCRA | Applies if a vendor's scores or reports are used to make hiring decisions. |\n| Colorado AI Act, EU AI Act, GDPR Art. 22 / DPIA (if relevant) | Employment AI is treated as high-risk or subject to automated-decision rules. Check the current effective dates and obligations. |\n\n## 3. Controls mapped to each requirement\n\n**A. Notice and consent**\n- Tell candidates before the AI is used that it is used, what it assesses, and how to request a human review or an accommodation.\n- Obtain consent where a law requires it (e.g., Illinois video analysis).\n- Give candidates a post-decision explanation channel.\n\n**B. Feature and vendor design**\n- Remove proxies from screening: names, photos, addresses, graduation years, employment gaps.\n- No video, facial, or voice scoring for screening.\n- Soft-skill and rapport judgments stay with trained humans.\n- Contract for model access, audit rights, change notification, and re-validation before any vendor update goes live.\n\n**C. Testing before go-live and after every update**\n- Define fairness metrics, thresholds, and baselines in writing before seeing results.\n- Selection-rate ratios by age (40+), sex, and race/ethnicity.\n- False-negative and false-positive rates by group, with n and confidence intervals.\n- Validation of job-relatedness. Use a validated ground truth, not manual review alone.\n- A holdout test set.\n- Run the new or customized model in shadow mode against the current one.\n\n**D. Human oversight (the main gap)**\n- The current design automates the rejection stage, where adverse impact arises. Human review enters only at final interviews. Confirm whether any rejection happens without human review.\n- Require human re-review of a sample of AI rejections to catch false negatives.\n- Track override rates and rejection-review load.\n- Put a pause mechanism in place. Screening should not continue until it passes the gates.\n\n**E. Retention and deletion**\n- Suspend the automatic 6-month deletion for in-scope data until counsel reviews it. It began Jan 8, 2025 by one account and Oct 1, 2024 by another. Either way, it may already have removed the July 2024 baseline, the Apr–Jul profile analysis, and possibly Sept 25 incident records.\n- Place a legal hold on the Sept 25 incident, the Oct 15 report inputs, and any open candidate disputes.\n- Set retention by data type: shorten raw AI content (video, biometric, assessment outputs) after the decision. Keep decision records and group outcome statistics for at least the legal floor.\n- Document purposes and test deletion.\n\n**F. Conflicts of interest and governance**\n- Disclose the Carla relationship and any decision role in governance records, workshop materials, and outreach.\n- Disclose the Jessica relationship. Recuse from decisions on her pay and governance role, and document her contract on merit. Check whether her freelance clients include the vendor or competitors.\n- Keep the implementer (Michael) out of the audit role. This includes his fairness findings, his talk claims, and any compliance checks.\n- Use an independent governance owner with pause authority, separate from tool operators and the vendor.\n- Confirm consultant independence and qualifications (e.g., Linda) before engaging.\n\n**G. Training and reporting**\n- Train HR and hiring managers before tool access and track completion.\n- Measure training by behavior (overrides, documented reviews, bias checks done), not knowledge scores.\n- Provide a reporting channel with non-retaliation, including for concerns raised by staff such as Jeffrey.\n\n**H. Ongoing review**\n- Quarterly review with Wyatt (agreed Jan 9) using pre-set fairness metrics and an independent reviewer.\n- Track: group selection rates, error rates, override and review rates, notice compliance, candidate complaints, retention compliance, time-to-hire and cost net of tool and consultant costs.\n- Written criteria for continuing, pausing, or expanding automation.\n\n## 4. Data on record and why it is not yet evidence\n\n- **Diversity figures:** 50% female / 25% minority hires in 2024 (no counts or denominators); 45% / 20% of the last 5 hires (n=5, and 45% is not possible with n=5). These cannot support a fairness claim.\n- **Bias reduction:** \"30%\" and \"15%\" age-bias figures have no stated metric, baseline, or data.\n- **Accuracy:** 92% vs 87% on 300 profiles. Overall accuracy hides group error gaps.\n- **Efficiency and satisfaction:** 35%, 45%, 16-day cycle, 15-day ramp-up, $9,000 / $22,000 savings, 85% response rate, 18% candidate satisfaction increase. Inconsistent across conversations, with no baseline or method.\n- **Staff survey:** 30% job-satisfaction gain. Not evidence about hiring fairness.\n\nDo not use these in compliance reports, public materials, or the Feb 20 workshop until they are verified.\n\n## 5. Immediate actions, in order\n\n1. Confirm jurisdiction(s) for the company and each role.\n2. Obtain the actual statute texts (including the Montserrat ones) and the transparency policy; get a counsel opinion mapping each obligation to a control.\n3. Suspend automatic deletion for in-scope data and confirm what has already been deleted.\n4. Confirm whether any AI rejection occurs without human review; add human review of rejections.\n5. Pause the age-adjusted Pymetrics model from live use, and confirm whether it ever made live decisions.\n6. Compute group selection rates and error rates for 2024 screening data, using the pre-set definitions.\n7. Obtain the HireVue contract and vendor audit evidence for the \"bias mitigation\" claims.\n8. Name an independent governance owner and document the recusals and conflict disclosures.\n9. Verify the record conflicts before any compliance report: Michael's promotion history (Aug 2024 at $48,000 vs. \"never promoted\"; Jan 2025 at $55,000), the savings figures, and the retention start date.\n\nI cannot tell you that the process is compliant. The notes show that it is not yet verifiable, and the screening stage has the largest open gap. The earlier advice still holds: compliance confirmations and talk ratings are not evidence of fairness, and the decision to keep automating screening should depend on the gate results and the independent audit.",
+  "memory_tools": [
+   "glob",
+   "grep",
+   "read",
+   "read",
+   "read",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 28.61,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 29413
+   },
+   "cache_read_input_tokens": 27302,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "3",
+    "currency": "USD"
+   },
+   "output_tokens": 5563,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "I can't work this out from what I have. My memory notes don't contain either date: nothing mentions a lunch where Carla suggested using AI for hiring, and nothing mentions a webinar on AI ethics in hiring. I also don't see any uploaded files that would have them.\n\nIf you give me the two dates, I'll count the days between them. If you tell me where the lunch was noted (a calendar entry, email, or notes file), I can check that too.\n\nCarla does come up in my notes in other contexts, such as a July 14, 2024 dinner, an October 1, 2024 panel, and a February 20, 2025 workshop. None of those is the lunch or the webinar, so I haven't used them.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "grep",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 9.286,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 10675
+   },
+   "cache_read_input_tokens": 39938,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1059,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "I can't answer this from my notes. The records I have include two meetings with Wyatt, but neither is paired with manager feedback, so I have no second date to subtract.\n\n- **Wyatt's skepticism:** My notes record Wyatt's concern that AI reduces the personal touch in hiring, and a \"compromise\" reached on Sept 28, 2024 (pymetrics-age-bias.md). That is the closest match to skepticism. The notes don't say whether the Sept 28 meeting is the one you mean.\n- **Wyatt, Jan 9, 2025:** You agreed with Wyatt to review AI hiring impact quarterly (retention-breach-jan2025.md). This is a review agreement, not an expression of skepticism.\n- **Manager feedback:** Nothing in my notes records positive feedback from managers. The only feedback recorded is Jeffrey's resignation feedback (Oct 3, 2024) and candidate feedback advice, which are not positive manager feedback.\n\nIf you tell me the date of the manager feedback, I can count the days from the Sept 28, 2024 meeting, or from whichever Wyatt date you intend. Alternatively, you could check your calendar or email for the feedback date.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "bash",
+   "bash"
+  ],
+  "usage": {
+   "active_seconds": 11.182,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5208
+   },
+   "cache_read_input_tokens": 37796,
+   "input_tokens": 12,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1317,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "11:abstention:0",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "I don't have a record of the specific steps actually carried out in the April 30 bias audit. My memory contains the plan that was recommended and the commitments you made, not a log of what was completed.\n\nThe recommended steps were:\n\n1. **Pause automated decisions:** halt the AI tool and switch to manual review of all candidate evaluations.\n2. **Communicate with stakeholders:** inform the HR team, hiring managers, and affected candidates.\n3. **Form a task force:** assemble an internal team and consider external experts.\n4. **Data review:** examine the training data for bias and review historical decisions for patterns of disproportionate flagging.\n5. **Algorithm review:** analyze the decision-making processes and evaluate the model with fairness metrics across demographic groups.\n6. **Testing and validation:** run bias testing and set a schedule for regular testing.\n7. **Long-term measures:** continuous monitoring, regular audits, feedback mechanisms, staff training on AI ethics, and human oversight of final decisions.\n\nYou also said you would conduct the initial bias audits, keep detailed reports, and schedule a meeting to review the results. A message drafted for candidates states that a bias audit \"has been initiated,\" but that doesn't confirm which steps were completed.\n\nFor the actual status, check the audit documentation, the task force meeting notes, or whoever ran the audit.",
+  "recall_chars": 11456,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4642,
+   "output_tokens": 870,
+   "output_tokens_details": {
+    "thinking_tokens": 426
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:abstention:1",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "I don't have the specific feedback. My memory only records that the two managers gave positive feedback on April 28, which is why continuing the pilot for 3 more hires seemed reasonable. The exact comments aren't in what I can access.\n\nSome assistant responses mention \"manager approval,\" \"improved candidate fit,\" and \"reduced time-to-hire\" as indicators of success. Those were general points I made about the pilot, not verified statements from the managers, so I shouldn't present them as their feedback.\n\nIf you can share the managers' comments or notes from April 28, I can help you weigh them and turn them into concrete criteria for the next phase.",
+  "recall_chars": 11246,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4561,
+   "output_tokens": 416,
+   "output_tokens_details": {
+    "thinking_tokens": 216
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "My memory contains conflicting accounts, so I can't say for sure.\n\n- **March 15, 2024:** You said you'd been working with Michael, a junior editor at Montserrat Media Hub, since you met on January 10, 2023, and that you had weekly collaborations on editing timelines.\n- **May 2, 2024:** You asked how to balance efficiency with algorithmic bias, noting that you had \"never met Michael or collaborated with him on editing timelines.\" The advice I gave then was based on that statement.\n\nI don't know which account is accurate, and I don't want to guess. Can you tell me whether you've worked with Michael on editing timelines? If the May statement was correct, the earlier weekly-collaboration account may have been a mistake, or the reverse. Knowing this would also help me give better advice about involving Michael in the AI implementation.",
+  "recall_chars": 10717,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4396,
+   "output_tokens": 632,
+   "output_tokens_details": {
+    "thinking_tokens": 359
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Yes. Your records show two-factor authentication (2FA) was implemented on April 20, 2024, and it was required for accessing your AI platform. In our May 2, 2024 conversation, you asked whether it was enough to prevent data breaches, and you said you'd make sure 2FA was enabled for all platforms and user accounts.\n\nI can't confirm from these records whether that extended to every platform and account. If you want to check, you could verify that all hiring tools, including the AI screening tool, have 2FA turned on.",
+  "recall_chars": 10196,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4192,
+   "output_tokens": 426,
+   "output_tokens_details": {
+    "thinking_tokens": 259
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "Based on the timestamps in my notes, here are six aspects of AI in your hiring process, in the order they came up:\n\n1. **Team training and pilot launch** (March 15, 2024): training HR staff and hiring managers, then starting a pilot for selected positions.\n2. **Overview and evaluation of the AI hiring tool** (March 15, 2024): an overview of the tool, its benefits and risks, and gathering input from the team.\n3. **Human decision-making and explaining AI use** (May 2, 2024): ensuring hiring managers make final decisions and developing materials that explain how AI is used.\n4. **Screening, interviews, and decision-making** (July 18, 2024): how AI screens resumes and cover letters, how it's used in video interviews, and how it contributes to decisions, including bias mitigation.\n5. **Specific tools and ethical considerations** (July 18, 2024): using HireVue and Pymetrics, how they fit into each stage, and ethical concerns about their use.\n6. **Candidate communication and human oversight** (October 3, 2024): informing candidates about AI use, protecting their data, and the role of human oversight.\n\nThese notes mostly contain my own responses, so the order reflects when each topic appeared in our discussions, not necessarily the exact order you raised them.",
+  "recall_chars": 12352,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4926,
+   "output_tokens": 1237,
+   "output_tokens_details": {
+    "thinking_tokens": 814
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "I can only partially reconstruct this. Most of what I recovered is my own replies, not your messages. The one clear message from you is the July 18, 2024 note about saving $9,000 and exceeding projections by 18%. The other items below are topics from my replies, with dates, and some of them mention things you said.\n\n1. **March 15, 2024:** Upfront costs of automation (software, hardware, specialist staff). This was my reply.\n2. **March 15, 2024:** Return on investment for automating hiring. This was also my reply, and I don't know whether it came before or after item 1 that day.\n3. **May 2, 2024:** Your current manual hiring cost of about $15,000 per hire, which I referenced.\n4. **May 2, 2024:** Cost-benefit analysis, including recruiter hours saved and reduced hiring time. This was my reply.\n5. **July 18, 2024:** Your report of $9,000 in recruitment savings over four months, 18% above projections, and your question about whether to keep automating.\n\nI don't have a reliable record of the full sequence of your messages, so I can't confirm this is every topic you raised or its exact order.",
+  "recall_chars": 12053,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4843,
+   "output_tokens": 1106,
+   "output_tokens_details": {
+    "thinking_tokens": 735
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "You said you met your partner Jessica at **ArtSpace Gallery on June 12, 2020**. You described that place as significant to you.",
+  "recall_chars": 7644,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3362,
+   "output_tokens": 292,
+   "output_tokens_details": {
+    "thinking_tokens": 247
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "I recommended a **hybrid approach** that combines AI and human interviews:\n\n1. **AI for initial screening:** Use AI to filter out unqualified candidates quickly and shortlist people against predefined criteria. This speeds up the early stages and keeps the pool diverse and qualified.\n2. **Human interviews for final evaluation:** Keep humans in the final rounds to assess nuanced qualifications, build rapport, and provide oversight that keeps the process fair.\n3. **Balanced decision-making:** Combine AI's objectivity with human judgment, and regularly review both the AI and human parts of the process.\n4. **Supporting practices:**\n   - Define clear fairness and efficiency goals up front.\n   - Run parallel interview rounds and gather feedback from interviewers simultaneously to shorten the timeline.\n   - Start with a pilot program.\n   - Collect candidate feedback and keep candidates informed about timelines.\n\nI suggested this as a way to reduce hiring time by 30% without compromising fairness or candidate experience. I also flagged risks of relying on AI for screening, including potential bias, opaque decisions that erode candidate trust, and technical reliability problems, which is why human oversight matters.",
+  "recall_chars": 11601,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4638,
+   "output_tokens": 620,
+   "output_tokens_details": {
+    "thinking_tokens": 219
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "Here are the main habits that protect your information when you use online services:\n\n**Accounts and passwords**\n- Use a unique password for each service. A password manager makes this practical.\n- Turn on two-factor authentication (2FA), preferably with an authenticator app or security key rather than SMS.\n- Watch for breach notifications and change any password that appears in a leak.\n\n**Recognizing threats**\n- Be suspicious of unexpected emails, texts, or calls asking you to log in, pay, or \"verify\" something. Go to the service directly instead of using the link.\n- Check the sender address and URL carefully. Phishing sites often look almost identical to real ones.\n- Don't share one-time codes or recovery codes with anyone, even someone claiming to be support.\n\n**Connections and devices**\n- Look for HTTPS (the padlock) on sites where you enter information, and avoid entering sensitive data on public Wi-Fi unless you use a VPN.\n- Keep your operating system, browser, and apps updated.\n- Use a screen lock and encryption on your devices (most modern phones and laptops offer full-disk encryption).\n\n**Limiting exposure**\n- Share only the information a service actually needs. Be cautious with optional fields.\n- Review privacy settings and app permissions periodically, and remove apps and accounts you no longer use.\n- Check which third parties have access to your accounts (the \"connected apps\" section in many services) and revoke any you don't recognize.\n- Request copies of your data or ask for deletion when you stop using a service, where your local privacy law allows it.\n\n**Monitoring**\n- Review bank and credit statements regularly.\n- Consider a credit freeze if you're at higher risk of identity theft.\n\nIf you tell me which services you use most, or whether you're concerned about something specific, I can give more targeted advice.",
+  "recall_chars": 9504,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3862,
+   "output_tokens": 757,
+   "output_tokens_details": {
+    "thinking_tokens": 171
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "Look for these when you sign up for a new account:\n\n**Connection and login security**\n- **HTTPS** in the address bar. Never enter information on a site that only uses HTTP.\n- **Strong, unique password.** Use a password manager to generate and store a different password for each account.\n- **Two-factor authentication (2FA).** An authenticator app or passkey is more secure than SMS codes. If the service offers 2FA, turn it on right away.\n- **Passkey or \"Sign in with\" options.** Passkeys are phishing-resistant. Sign-in through Google or Apple can reduce password sprawl, but it ties the account to that provider, so weigh that tradeoff.\n\n**Data handling**\n- **Privacy policy.** Check what data is collected, whether it's sold or shared with third parties, how long it's kept, and how to request deletion.\n- **Encryption.** Look for statements that data is encrypted in transit and at rest.\n- **Data minimization.** A good signup asks only for what it needs. Skip optional fields.\n- **Privacy settings.** Review defaults for profile visibility, data sharing, and personalized ads, and turn off anything you don't want.\n- **Marketing opt-outs.** Decline email or data-sharing consent you don't need.\n\n**Trust signals**\n- **Independent certifications** such as SOC 2 or ISO 27001.\n- **Breach history.** Search for past incidents and how the company responded.\n- **Regulatory compliance.** GDPR or a comparable law gives you rights to access, correct, and delete your data.\n\n**Good habits**\n- Use an email alias or a secondary address for low-trust services.\n- Don't reuse passwords, and watch for phishing emails asking you to log in.\n- Check your account's active sessions and connected apps periodically.\n- Delete accounts you no longer use, since unused accounts are common breach targets.",
+  "recall_chars": 9517,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3886,
+   "output_tokens": 951,
+   "output_tokens_details": {
+    "thinking_tokens": 341
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The webinar on AI ethics in hiring, hosted by the Montserrat Business Council, was originally scheduled for **March 20 (2024)**. I don't have any record of a rescheduled date, so check your calendar or the organizers' latest email to confirm whether it has changed.",
+  "recall_chars": 8864,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3694,
+   "output_tokens": 265,
+   "output_tokens_details": {
+    "thinking_tokens": 173
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The most recent figure I have is **92% accuracy**, which you reported in January 2025 after analyzing 300 candidate profiles. That was up from **87%**, which HR rated in May 2024. For comparison, the manual match rate the previous year was 75%.\n\nI also have a separate metric: in July 2024, your analysis of 150 profiles found the AI flagged 12% fewer false positives than manual review. That measures false positives, not overall accuracy.",
+  "recall_chars": 10764,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4451,
+   "output_tokens": 494,
+   "output_tokens_details": {
+    "thinking_tokens": 346
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "Based on what I can recall, **two** AI tools are tied to your hiring process: **HireVue** (video interviews and automated scoring) and **Pymetrics** (soft-skills assessment and bias mitigation).\n\nOther vendors come up in my earlier suggestions, such as Unitive, Blendoor, Taleo by Oracle, and Applied. Those were recommendations I made, not tools you said you use, so I haven't counted them. Calendly and ScheduleOnce were suggested for interview scheduling, but they aren't AI tools.",
+  "recall_chars": 11306,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4637,
+   "output_tokens": 668,
+   "output_tokens_details": {
+    "thinking_tokens": 488
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "Here's how I'd prioritize, based on what I have on record. Some of it is incomplete, so I've flagged the gaps.\n\n**Your diversity baseline**\n- March 2024: 40% female, 15% minority ethnic.\n- July 2024: 45% female, 20% minority ethnic in recent hiring rounds.\n- January 2025 notes reference 50% female and 25% minority hires in 2024, plus a 30% reduction in algorithmic bias since July 2024.\n\nI'd verify the January figures against your actual HR records before using them in reporting or targets, since I can't confirm them from the notes alone.\n\n**Priority 1: Protect the gains with measurement (immediate)**\n- Track demographics at each stage: applicant pool, shortlist, and hires. Compare them so you can see where drop-off happens.\n- Set specific female and minority ethnic hiring targets and review them regularly.\n- Run regular bias audits of the AI tool, since audits are what catch regressions before they erode your numbers.\n\n**Priority 2: Keep humans in the loop (immediate)**\n- Have human reviewers check AI recommendations against your diversity goals.\n- Feed reviewer findings back into the model so fairness improves over time.\n\n**Priority 3: Compliance and candidate trust (near term)**\n- Confirm the process meets the Montserrat Data Protection Act and GDPR-style standards.\n- Tell candidates clearly that AI is used and how it works.\n- Give candidates feedback channels, including for concerns about fairness.\n\n**Priority 4: Build capability through Natalie (ongoing)**\n- Natalie's interest in AI hiring is a good fit for an ethical AI training program for the HR team. Her earlier interest was noted, but I don't have details on what she's been assigned.\n- She could take ownership of the audit and monitoring work, paired with an HR lead. That builds her skills and keeps the process accountable.\n\n**Priority 5: Future talent and Wyatt (to be clarified)**\n- I don't have any record of Wyatt's involvement plans, so I can't say how they fit in. Could you tell me what you had in mind?\n- Once I know more, I can help sequence his role alongside Natalie's so that development and diversity goals reinforce each other.\n\nIf you tell me which of these matters most right now, or confirm the current figures and Wyatt's plans, I can turn this into a concrete timeline.",
+  "recall_chars": 11756,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4755,
+   "output_tokens": 1421,
+   "output_tokens_details": {
+    "thinking_tokens": 633
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:preference_following:0",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "A hybrid setup works well here: technology handles the high-volume, repetitive steps, and people make the decisions that matter.\n\n**1. Start with a small pilot.** Pick two or three representative roles, such as junior editors or assistant producers. Begin with one stage, usually resume screening, so you can measure results and fix problems before expanding.\n\n**2. Choose the tools.**\n- **Screening:** Unitive, Applied, or HireVue can automate initial candidate filtering. Look for a trial period.\n- **Scheduling:** Calendly or ScheduleOnce can handle follow-up interview logistics.\n- **Fairness features:** Prefer tools that anonymize resumes, explain why candidates were screened in or out, and allow bias audits.\n\n**3. Integrate the workflow.**\n- AI screens applications against clearly defined, job-related criteria.\n- Automated scheduling arranges follow-up interviews.\n- Human interviewers run structured interviews with consistent questions and scoring rubrics.\n- Humans make the final hiring decisions.\n\n**4. Build in fairness safeguards.**\n- Audit outcomes by demographic group before and after rollout. Some jurisdictions require this. New York City's Local Law 144, for example, requires independent bias audits of automated employment decision tools, and Illinois regulates AI-analyzed video interviews.\n- Make sure reviewers can see the reasoning behind screening decisions and that candidates can request human review.\n- Be especially cautious with automated video scoring, since it draws the most regulatory and ethical scrutiny.\n\n**5. Train the team.** Cover bias and data privacy, provide hands-on practice with the tools, and hold regular workshops. Document the process so future hires can follow it.\n\n**6. Measure and iterate.** Track time-to-hire, quality of hire, candidate satisfaction, and pass-through rates by group. Hold regular check-ins with the team and adjust based on their feedback.\n\nHow many hires do you typically make per quarter, and which roles would you pilot first? That would help me suggest a specific tool setup and timeline.",
+  "recall_chars": 11834,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4807,
+   "output_tokens": 1668,
+   "output_tokens_details": {
+    "thinking_tokens": 980
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:preference_following:1",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Keeping the final stage human-led, with clear communication and a structured process, should give both candidates and your team a smoother experience. Here's how I'd organize it:\n\n**1. Keep the final round human-led**\nUse AI for initial screening to filter on basic qualifications, but have people make the final decisions. Final interviews are where candidates connect with the team and where soft skills and cultural fit are best judged.\n\n**2. Prepare candidates in advance**\n- Send a clear itinerary: who they'll meet, the format, the length, and what each session covers.\n- Explain how AI was used earlier in the process and how their data is handled.\n- Share any materials they should prepare and note accommodation options.\n\n**3. Use a structured format**\n- Give each panelist defined focus areas so the interviews don't overlap or miss key topics.\n- Ask the same core questions of every candidate and score against a shared rubric. This improves fairness and makes debriefs easier.\n- Define \"cultural fit\" as alignment with your team's values and working style, not similarity to current employees, to avoid reinforcing bias.\n\n**4. Prepare your team**\n- Train interviewers on structured questioning, bias awareness, and how to note evidence.\n- Hold a calibration session before the final round so interviewers share a common understanding of the criteria.\n- Set a debrief schedule with a clear decision deadline, so candidates don't wait too long.\n\n**5. Close the loop with candidates**\n- Communicate decisions promptly, whatever the outcome.\n- Offer constructive feedback where appropriate.\n- Consider a short survey asking candidates about their experience, which gives you data to improve the process.\n\n**6. Review regularly**\n- Hold periodic check-ins with the team to surface concerns, including any reservations about the AI tools. This helps people feel heard and keeps adoption healthy.\n- Run bias audits on the AI screening stage and review outcomes, such as whether older candidates are being flagged disproportionately.\n\nIf you tell me your team size, typical number of finalists, and how long your current process takes, I can help you draft a timeline or a scoring rubric.",
+  "recall_chars": 10493,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4281,
+   "output_tokens": 1221,
+   "output_tokens_details": {
+    "thinking_tokens": 537
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:summarization:0",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Here's what I can reconstruct from our past conversations. Some of the notes are fragments, so I've flagged the gaps.\n\n**Phase 1: Early concerns and framing (March 2024)**\n- You raised concerns about bringing AI into hiring, and Jessica had concerns too. We discussed addressing them through a transparent, fair process.\n- I recommended starting with a **pilot program** rather than committing fully, then monitoring outcomes and gathering feedback before scaling up.\n- We drafted a timeline. The early weeks covered benchmarking current hiring times, identifying bottlenecks, and gathering data on hiring costs and timeframes.\n- Next, we set objectives, such as reducing hiring time by about 30% while maintaining fairness. Candidate AI tools were named as options (HireVue, Pymetrics, Unitive), with a requirement that any tool meet legal and ethical standards.\n- I suggested engaging stakeholders, including Francis and Wyatt, before proceeding.\n\n**Phase 2: Implementation plan (May 2024)**\n- **Human oversight:** Humans keep final decisions. Human-led follow-up interviews assess soft skills and cultural fit, and human recruiters handle initial outreach and feedback sessions.\n- **AI for screening:** AI handles initial screenings to filter candidates, using clearly defined criteria to keep the process fair and relevant.\n- **Scheduling:** An automated tool arranges follow-up interviews with human interviewers, who need training on conducting them effectively.\n- **Candidate communication:** Candidates are told they're part of an AI-assisted process and their consent is obtained. Personalized thank-you messages and updates go out after each stage.\n- **Rollout:** Internal stakeholders are informed about the pilot, the AI tool is integrated into the existing process, and HR and hiring managers receive training.\n- **Monitoring:** We tracked time-to-hire, candidate quality, and manager satisfaction.\n- **Feedback loop:** Surveys go out after each stage, contact forms are provided, feedback is reviewed regularly, and action plans are developed from it.\n\n**Phase 3: Reassessment (July 2024)**\n- You felt stressed about the hiring process, so we discussed whether to keep using AI. I suggested evaluating its current impact before deciding.\n\n**Key challenges discussed**\n- Fairness and transparency, especially Jessica's concerns\n- Candidate trust and consent\n- Legal and ethical compliance of AI tools\n- Avoiding over-automation, which is why human touchpoints were built in\n- Limitations of AI in judging soft skills and culture fit\n\n**Decisions made**\n- Start with a pilot before full adoption\n- Keep humans in final decision-making and in interviews\n- Use AI for screening and scheduling only\n- Collect candidate and manager feedback to refine the process\n\n**What I can't confirm**\n- Which AI tool was ultimately selected\n- Results of the pilot, or whether the July reassessment led to a decision to continue, pause, or expand\n- The specifics of Jessica's concerns and how they were resolved\n\nIf you tell me where things stand now, I can help you fill in those gaps or update the plan.",
+  "recall_chars": 12094,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4838,
+   "output_tokens": 1858,
+   "output_tokens_details": {
+    "thinking_tokens": 795
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:summarization:1",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Here's a summary of the compliance steps we've discussed for your AI hiring process.\n\n**1. Legal and regulatory compliance**\n- Ensure the process complies with all relevant laws, including Montserrat's Data Protection Act and GDPR-like standards.\n- Check compliance regularly, and confirm that any amendments to Montserrat's employment law are reflected in your practices.\n- Consult legal experts regularly to make sure your practices are sound and to address emerging legal challenges.\n- Publish transparency reports describing how AI is used in hiring and what you're doing to mitigate bias.\n\n**2. Ethical guidelines**\n- Develop and follow ethical guidelines for AI in hiring to keep the process fair, unbiased, and trustworthy.\n- Run workshops and training so the HR team understands ethical AI practices and the importance of diversity and fairness.\n\n**3. Diversity metrics and targets**\n- Set specific targets, such as maintaining or increasing the share of female and minority ethnic hires. Your recent rounds reached 45% female and 20% minority ethnic hires.\n- Track and report these metrics regularly.\n\n**4. AI model fairness**\n- Conduct regular bias audits to check that the model isn't introducing or perpetuating bias.\n- Require human review of AI recommendations to confirm they align with your diversity goals.\n- Feed reviewer feedback and audit results back into the model to improve its fairness.\n\n**5. Candidate communication**\n- Tell candidates clearly that AI is used in the process and how it works.\n- Provide several channels for candidates to give feedback, including concerns about fairness and diversity.\n\n**6. Governance and continuous improvement**\n- Review the process on a regular schedule, such as quarterly.\n- Update the model based on feedback and audit results.\n- Summarize action items after each review and assign clear responsibilities.\n\n**Caveat:** I can only see fragments of our earlier discussions, not the full conversations, so some details may be incomplete. I also can't verify the specific requirements of Montserrat's Data Protection Act or employment law. Before you finalize anything, have a local employment or data protection lawyer confirm the exact obligations that apply to you.",
+  "recall_chars": 12139,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4875,
+   "output_tokens": 1023,
+   "output_tokens_details": {
+    "thinking_tokens": 302
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "There are **19 days** between Carla's lunch suggestion on March 1 and your webinar on March 20, 2024.\n\nThe memory also notes that the webinar was \"originally scheduled\" for March 20, but I don't have a record of a date change, so you may want to confirm it's still on the 20th.",
+  "recall_chars": 8463,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3622,
+   "output_tokens": 451,
+   "output_tokens_details": {
+    "thinking_tokens": 356
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "11:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "About **48 days**, if the meeting was on March 15, 2024, and the positive manager feedback was on May 2, 2024.\n\nMy records don't state the meeting date directly. I'm using March 15, 2024, the date of the conversation where you raised Wyatt's skepticism and we discussed how to address it. The positive feedback is dated May 2, 2024. If the meeting took place on a different day, the count would change.",
+  "recall_chars": 10414,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4278,
+   "output_tokens": 528,
+   "output_tokens_details": {
+    "thinking_tokens": 394
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

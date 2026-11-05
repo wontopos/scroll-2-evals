@@ -1,0 +1,1053 @@
+[
+ {
+  "qid": "20:abstention:0",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I can't find any advice from Jake about documenting prototype tests beyond an April 15 deadline. My memory notes don't mention April 15 at all, and Jake appears in only one entry.\n\nThe closest match is a note that Jake flagged a **Fri May 10, 2024 invention logbook deadline**. The note says the source and firmness of that deadline were never confirmed. It doesn't say what Jake advised about documenting tests.\n\nThe notes do record prototype test results from later in 2024, but not the advice behind them:\n- Jul 1, 2024: 10 prototype tests completed, with AI tagging accuracy reported at 96%. The test set size and metric definition were not recorded.\n- Nov 25, 2024: 20 prototype tests by Nov 15, 2024, with 98.5% accuracy. The metric, test set, and baseline were still undefined, and the note says to ask Ashlee (the patent attorney).\n\nIf Jake's advice was given in a conversation that wasn't saved, I can't recover it from here. If you can tell me what he said or where it came up, I can add it to the memory file so it isn't lost.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.521,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 9227
+   },
+   "cache_read_input_tokens": 17561,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1111,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:abstention:1",
+  "type": "abstention",
+  "arm": "claude",
+  "answer": "I can't answer this from the records I have. Nothing in the memory store mentions a $30,000 investment offer, a September 14, 2024 rejection, or any equity terms. The uploads folder is also empty.\n\nThe closest entries are:\n\n- **Sep 18, 2024 update:** a $12,000 budget approved for the nonprovisional and PCT filings, with a target of Oct 15, 2024. This is a filing budget, not an investment.\n- **Jul 10, 2024:** a Montserrat Development Fund $10k innovation grant applied for on Apr 20, 2024.\n- **Nov 20, 2024:** $10k follow-up funding received. The grant terms are not recorded.\n\nNone of these match a $30,000 offer rejected on September 14. The notes also don't record the reasons for any rejection.\n\nIf you can share the source, such as an email, term sheet, or meeting notes, I can pull out the reasons beyond the equity terms. I can also save the details to memory so future sessions can find them.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.423,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7091
+   },
+   "cache_read_input_tokens": 15242,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1123,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you attending production meetings about your invention. My memory notes and your uploads folder (which is empty) don't mention production meetings at all.\n\nThe notes do log other meetings related to the invention:\n\n- **Apr 25, 2024:** met patent attorney Ashlee about filing strategy.\n- **May 14, 2024, 3 PM:** scheduled meeting with Ashlee at her Montserrat office.\n- **May 20, 2024:** met Stephen at the Montserrat Innovation Expo, after which he asked for a demo by Jul 15, 2024.\n- **Jun 10, 2024:** studio pitch with Francis.\n- **Sep 10, 2024:** reviewed the 45-page nonprovisional draft with Ashlee.\n- **Late 2024:** a planned presentation to Stephen and Montserrat, which I don't have a date for.\n\nIf production meetings happened, they weren't saved in these notes. If you tell me when they were and who attended, I can add them to memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.57,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6898
+   },
+   "cache_read_input_tokens": 15091,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 956,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "claude",
+  "answer": "I don't have any record of you attending a patent-related webinar or workshop. My notes cover your patent work in other ways, though:\n\n- **Prior art search** completed April 10, 2024, which found three similar patents.\n- **Meeting with patent attorney Ashlee** on April 25, 2024, about filing strategy.\n- **Provisional patent filing** targeted for May 15, 2024, with a PCT application and a nonprovisional filed November 10, 2024, according to your report.\n- **A discussion with Ashlee** on July 10, 2024, about a possible infringement lawsuit, where she recommended quarterly monitoring of competitor patents.\n\nIf you attended a webinar or workshop, it isn't in these notes. If you tell me the details, I can add it to your memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 6.313,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4512
+   },
+   "cache_read_input_tokens": 16455,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 804,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "Here are six items from your patent and funding discussions, in date order. These come from my saved notes, so the dates are when each item was recorded, not verified against the original chats.\n\n1. **Apr 10, 2024: Prior art search.** You completed it, and it found three similar patents with no AI tagging features.\n2. **Apr 20, 2024: Montserrat Development Fund grant.** You applied for a $10k innovation grant.\n3. **Apr 25, 2024: Filing strategy with Ashlee.** You met the patent attorney about how to file.\n4. **May 15, 2024: Provisional patent filing.** This was the target date, and you later reported that the provisional was filed that day.\n5. **Sep 18, 2024: PCT plan and budget.** You set an Oct 20, 2024 PCT filing target covering the US, Canada, and the EU, and approved a $12,000 budget for the nonprovisional and PCT filings.\n6. **Nov 20, 2024: Follow-up funding.** You received a $10k follow-up grant.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 9.453,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7356
+   },
+   "cache_read_input_tokens": 20142,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1525,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "claude",
+  "answer": "1. Prior art search, completed April 10, 2024\n2. Provisional patent filing, targeted for May 15, 2024\n3. Nonprovisional patent draft review with Ashlee, September 1 to 10, 2024\n4. PCT filing, targeted for October 20, 2024\n5. Nonprovisional and PCT filings, reported as submitted November 10, 2024",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.765,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5604
+   },
+   "cache_read_input_tokens": 18746,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1188,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I don't have that information. Your memory notes cover patent filings, deadlines, grants, and a few scheduling items, but nothing about a son, his age, or where he studies engineering. This conversation also doesn't contain any earlier mention of him.\n\nIf you tell me his age and school, I can keep it for later sessions, though I'd need to be careful about saving personal details like that.",
+  "memory_tools": [
+   "grep",
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.022,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4795
+   },
+   "cache_read_input_tokens": 23703,
+   "input_tokens": 10,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 807,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "claude",
+  "answer": "I couldn't find anything about a plan to support your son's studies. My saved notes don't mention his schooling, tutoring, or any local or external educational resources. They may have been saved in a different session, or the conversation may not have been recorded.\n\nThe notes do cover the invention side, but they don't show me recommending a search for professional guidance. What they record is:\n\n- **Patent attorney:** You met Ashlee on Apr 25, 2024 about filing strategy, and she has been your attorney since then. Her rate was negotiated from $250/hr to $220/hr in July 2024.\n- **Funding:** You applied for a $10k Montserrat Development Fund innovation grant on Apr 20, 2024, and received $10k follow-up funding on Nov 20, 2024.\n- **Other contacts:** You met Stephen at the Montserrat Innovation Expo on May 20, 2024, and he asked for a demo. Francis is linked to a studio pitch on Jun 10, 2024.\n- **Advice on record:** Describe the status as \"patent pending,\" not \"approved\" or \"granted,\" and confirm the filing and disclosure timing with Ashlee before any public launch or demo.\n\nIt's also unclear whether \"Jake,\" who appears in the notes, is your son. If he is, the notes don't say so. If you tell me the relevant details, such as his subjects, school, or the kind of invention, I can help you work out local and external resources now. I can also help you plan how to find a patent or technology mentor, or a school or university program, and I'll save that to memory.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 8.025,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4652
+   },
+   "cache_read_input_tokens": 17525,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1120,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "Getting a patent \"approved\" in the US means the USPTO issues it as a granted patent. The process has a few stages, and the examination stage is usually the longest.\n\n**1. Check that the invention is patentable**\n- It must be **novel** and **non-obvious** over existing public information (prior art), and it must be a **patent-eligible** subject. Software and AI inventions face extra scrutiny under the *Alice*/§101 abstract-idea doctrine, so the claims should recite a specific technical improvement.\n- Run a prior art search, ideally with a patent attorney.\n\n**2. Protect against your own disclosures**\n- Public demos, launches, pitches, papers, and sales can destroy novelty. The US gives a one-year grace period for the inventor's own disclosures. Most other countries, including the EU, give no grace period, so file before any public disclosure if foreign protection matters.\n\n**3. Choose a filing route**\n- **Provisional application** (optional): cheap and quick, establishes a priority date, and is never examined. It lapses after 12 months and cannot itself be granted.\n- **Nonprovisional application**: the one that gets examined. It must include claims, a specification, drawings, and an inventor declaration. It must be filed within 12 months of the provisional to claim its date. Improvements made after the provisional need a new provisional or a CIP filing.\n- **PCT application** (optional): one international filing that preserves rights in many countries. It must be filed within 12 months of the priority date, and you then choose countries in the national phase, usually around 30–31 months from priority. There is no \"PCT patent\"; each country grants its own.\n\n**4. Examination**\n- The USPTO assigns an examiner, who reviews the application for compliance and patentability.\n- Submit an Information Disclosure Statement listing known prior art. Withholding relevant art can invalidate the patent.\n- Expect an **Office Action** rejecting some or all claims under §101 (eligibility), §102 (novelty), §103 (obviousness), or §112 (clarity/support). Rejections are normal, and most applications get at least one.\n\n**5. Respond**\n- Amend claims, argue, or both, usually within a set period (commonly 3 months, extendable for a fee). Examiner interviews can help.\n- If rejections stand, you can file a continuation to keep pending, appeal to the Patent Trial and Appeal Board, or pursue other options.\n\n**6. Allowance and grant**\n- A **Notice of Allowance** means the claims are approved. You then pay the issue fee, usually within 3 months, and the patent is granted.\n- Maintenance fees are due at about 3.5, 7.5, and 11.5 years after grant.\n\n**Where your case stands (from your notes, which conflict in places)**\n- Per your notes, a provisional was filed May 15, 2024, and a nonprovisional and PCT were filed later in 2024. The PCT date appears as both Oct 20 and Nov 10, 2024, so confirm the actual filing dates and receipts in Patent Center and WIPO Patentscope.\n- Nothing is approved yet. Nonprovisional examination commonly takes well over a year, and a PCT has no grant stage in itself.\n- Your later AI accuracy results (98.5%) came after the earlier filings, so they probably need a new provisional or CIP to be claimed.\n- Confirm the deadlines and docket with Ashlee, and treat any unsolicited \"USPTO\" emails with caution.\n- I'm not a patent attorney, so have her confirm the specifics, including fees, foreign-filing timing, and the status of the launch-related disclosures.",
+  "memory_tools": [
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 16.829,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5733
+   },
+   "cache_read_input_tokens": 18548,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2662,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "claude",
+  "answer": "The notes don't show a pending filing date. The latest entry (Nov 25, 2024) says you reported the non-provisional was filed on **Nov 10, 2024**, but I couldn't confirm that from a receipt.\n\n- **Filing target:** November 2024, which you chose to match the launch. It is not a statutory deadline.\n- **Legal deadline:** **May 15, 2025**, which is 12 months after the provisional filed May 15, 2024. Filing on or before that date keeps the priority claim.\n- **Conflict in the notes:** On Nov 25 you said both the non-provisional and the PCT were filed Nov 10, but later the same chat said the PCT was filed Oct 20, 2024. Nothing in the notes confirms either date.\n\nBefore relying on any of this, check the filing receipts in USPTO Patent Center and WIPO Patentscope, and confirm the docketed dates with Ashlee. The provisional receipt number in the notes (12345678) looks like a placeholder, so verify it too.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.164,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6997
+   },
+   "cache_read_input_tokens": 20151,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 912,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "You approved a **$12,000** budget for the nonprovisional and PCT filings, with a target date of Oct 15, 2024. Your notes don't split that between filing fees and attorney fees, so it's one combined figure.\n\nThe notes also include rough estimates, which are my earlier figures and not quotes:\n- USPTO fees for the nonprovisional: about $1.8k at large-entity rates, less if you qualify as small or micro entity\n- PCT international fees: about $3–4k\n- Attorney time: about $8–15k at 40–70 hours, with Ashlee billing $220/hr\n\nOn those estimates, the $12k is likely to be exceeded. The notes recommend asking Ashlee for a written estimate and comparing her itemized invoice against the $12k.\n\nThe notes also say the PCT filing date is inconsistent (Oct 20 vs. Nov 10, 2024), so check the actual receipt before relying on either date.",
+  "memory_tools": [
+   "grep"
+  ],
+  "usage": {
+   "active_seconds": 5.991,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2340
+   },
+   "cache_read_input_tokens": 11199,
+   "input_tokens": 6,
+   "list_cost": {
+    "amount": "0",
+    "currency": "USD"
+   },
+   "output_tokens": 776,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "claude",
+  "answer": "I can't find a budget allocation for prototype refinement or patent attorney fees through August. My memory notes don't have that line item, and the uploads folder (`/mnt/session/uploads`) is empty.\n\nWhat the notes do contain:\n\n- **$12,000 approved (Oct 15, 2024)** for the nonprovisional patent application and the PCT international filing. This is the only patent-fee budget figure recorded. It is not split by month, and it doesn't mention prototype refinement or August.\n- **Attorney rate:** Ashlee's rate was negotiated from $250/hr to $220/hr (Jul 10, 2024).\n- **Rough estimate from my Sep 18, 2024 notes (my assumption, not a quote):** about $1.8k USPTO fees for a large-entity nonprovisional, about $3–4k PCT international fees, and about $8–15k in attorney time (40–70 hours). That would likely exceed $12,000. The notes say to request a written estimate from Ashlee.\n- **Other funding:** a $10,000 follow-up grant received Nov 20, 2024. The notes don't say whether it covers patent or prototype costs.\n- **Cloud backup feature:** integration was planned by August 2024, but its cost was never recorded.\n\nThe August figure probably comes from a budget document that isn't in memory or the uploads. If you upload it, or tell me the amount, I can check it against the $12,000 and the estimate above.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 7.861,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6989
+   },
+   "cache_read_input_tokens": 19770,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1075,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "Based on your notes, the two deadlines are:\n\n1. **May 15, 2025: the legal deadline for the nonprovisional (US) and PCT (international) applications.** These must be filed within 12 months of the provisional application, which was filed May 15, 2024. This date is statutory, and the provisional cannot be extended.\n\n2. **November 2024: your self-chosen filing target, tied to the product launch.** It is not a legal deadline. The launch was moved from September to November 2024, and you planned to file the nonprovisional that month. Your notes also flag that a public launch before the PCT filing could affect your foreign patent rights, so the PCT filing should come first.\n\nThe notes conflict on the actual filing dates. The September 2024 plan was a PCT filing on October 20, 2024, but a later entry says both the nonprovisional and PCT were filed November 10, 2024. Check the receipts in USPTO Patent Center and WIPO Patentscope, and confirm the docketed dates with Ashlee.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 9.214,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7359
+   },
+   "cache_read_input_tokens": 20462,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1320,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "claude",
+  "answer": "I'll check memory first, then the uploaded files.\n**Short answer:** You were well aligned on the first step, the provisional filing, and less aligned on the three steps after it. The main gaps are a thin and unrefreshed search, features that moved past what the provisional covers, and a budget that doesn't cover the work or the foreign phase.\n\nI'm working from your saved notes, which were last updated November 25, 2024. The uploads folder is empty, and I can't check Patent Center, WIPO, or Ashlee's docket from here.\n\n**1. Search thoroughness: weak**\n- The April 10, 2024 search found 3 similar patents and no AI tagging claims. But the report isn't in the uploads, so I can't judge its scope (databases, keywords, non-patent literature, foreign patents).\n- The notes say the search \"needs refresh before filing.\" There is no record that it was refreshed before the May 15 provisional, or before the October 20 PCT filing.\n- The PCT designates the US, Canada and the EU, so the search needed to cover those jurisdictions, including EP and CA publications. Nothing in the notes shows that.\n- Recommended: a refreshed search covering US, EP, CA and WO, with the report on file before any national-phase decision.\n\n**2. Patent features: aligned at first, then drifted**\n- Filing the provisional on May 15, 2024 was well timed. It came before the May 20 Expo and before the launch, which are the disclosures that matter most.\n- The 96% accuracy figure (July 1) and the 98.5% figure (November 15) came after the provisional. Under the no-new-matter rule, the nonprovisional and PCT can't add them. Those improvements need a new provisional or a CIP, or they have no May 2024 priority date.\n- The cloud backup feature was planned for August 2024. The notes don't say whether it is in the provisional. If it isn't, it has the same problem.\n- The notes say the 45-page draft was reviewed on September 10, but there's no record of checking its claims against the May provisional. That check is the most important one for the nonprovisional to hold its priority date.\n- The metric behind the 96% and 98.5% figures (test set, baseline) is undefined. An examiner or a licensee will ask for it.\n\n**3. Budget: under-scoped**\nRough illustrative figures, to be checked against current USPTO and WIPO fee schedules:\n\n| Item | Rough estimate |\n|---|---|\n| US nonprovisional fees (large entity) | ~$1.8k (lower if small or micro entity) |\n| PCT international fees | ~$3k–4k |\n| Ashlee's time: 40–70 hrs × $220/hr | ~$8.8k–15.4k |\n| **Total for nonprovisional + PCT** | **~$13.6k–21.2k vs. $12k approved** |\n\n- The $600 saving from the rate cut (from $250 to $220/hr) implies about 20 hours of her time. That is too few for a 45-page draft with 12 drawings, plus a PCT filing.\n- The $12k covers only the nonprovisional and PCT. National-phase costs for the US, Canada and EP come later, and EP validation and translations are often the largest. None of that is budgeted.\n- Ask Ashlee for a written, itemized estimate. Check small or micro entity status, which can cut USPTO fees substantially. The November 22 distributor partnership matters here: a license or assignment to a large entity can disqualify small-entity status.\n\n**4. Timing and sequencing: mixed**\n- The PCT date is inconsistent in your notes. The plan was October 20, but a later note says both the nonprovisional and PCT were filed November 10. Confirm the actual date from the receipt.\n- Foreign rights depend on the PCT being filed before any public disclosure that isn't covered by the provisional. The product launch was planned for November 2024, and the July demo to Stephen may also count as a disclosure. The US one-year grace period (to May 20, 2025) doesn't protect EU or Canadian novelty.\n- Filing the nonprovisional in November is legally fine, since the hard deadline is May 15, 2025. But the nonprovisional doesn't protect foreign rights. Only the PCT does.\n\n**Verify first**\n1. The provisional filing itself. The receipt number 12345678 looks like a placeholder. USPTO application numbers are in the 63/xxx,xxx format. Confirm in Patent Center that the May 15, 2024 filing exists.\n2. The actual PCT filing date, October 20 or November 10, and whether it preceded the launch and the July demo.\n3. Whether the cloud backup feature and the 98.5% method appear in the May 2024 provisional.\n4. Whether the claimed \"office action\" on claim 3 (July 5) is real. A provisional is never examined, so an office action on it is impossible. Treat it as possible phishing until checked.\n5. Whether Ashlee has docketed May 15, 2025 and the national-phase dates (US and CA 30 months, EP 31 months, from May 15, 2024).",
+  "memory_tools": [
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 27.077,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 4444
+   },
+   "cache_read_input_tokens": 17332,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "2",
+    "currency": "USD"
+   },
+   "output_tokens": 4891,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:preference_following:0",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Before searching, you should know that your notes already show a patent attorney on this project. Ashlee has handled your AI video-tagging patent work since April 2024: the provisional, the nonprovisional draft, and the PCT filing. Her rate was negotiated to $220/hr. I also can't check live attorney directories from here, so I can't give you names or verified contact details.\n\n**Options:**\n\n1. **Ask Ashlee first.** If the new invention is a separate idea, she may know a colleague with the right technical background, or her firm may take it on. Staying with one firm also avoids a second learning curve and conflict checks.\n2. **Search for a registered practitioner.** Use the USPTO's \"Find a Registered Practitioner\" search on uspto.gov. Anyone who prepares and prosecutes patent applications must be registered with the USPTO, whether they are an attorney or a patent agent. Filter for your technology area.\n3. **Use referral services.** Your state bar's IP or patent section, the American Intellectual Property Law Association (AIPLA), and the Intellectual Property Owners Association (IPO) all run referral directories. Many universities with a technology transfer office or law school IP clinic can also refer you.\n\n**When you interview candidates, ask:**\n- Have they filed in your technology area (software, AI, video)?\n- Do they quote a fixed fee for a provisional, or do they bill hourly? What is the estimate for the full scope?\n- Will they run a prior art search before drafting?\n- Do they handle foreign filings (PCT, EPO), and how do they handle deadlines?\n- Will they sign an engagement letter and an NDA before you share technical details?\n\n**Timing risk:** Public disclosures can cut off patent rights, especially outside the US. Your notes flag this for the existing invention. For the new one, don't demo, publish, pitch to outside parties, or sell it until a provisional application is on file, and talk to the attorney before any disclosure.\n\nIf you tell me what the new invention does and whether it's related to VidTag, I can help you draft a short invention summary to send to candidates or to Ashlee.",
+  "memory_tools": [
+   "grep",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 12.247,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6266
+   },
+   "cache_read_input_tokens": 19062,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1693,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:preference_following:1",
+  "type": "preference_following",
+  "arm": "claude",
+  "answer": "Here's what a strong patent application package usually contains. Your notes show you're working on an AI video-tagging invention with a provisional, a nonprovisional, and a PCT filing, so I've tied the checklist to that. Your patent attorney, Ashlee, should confirm what applies in each jurisdiction.\n\n## 1. Content for the application itself\n\n- **Title and abstract.** The abstract is a short summary, usually about 150 words.\n- **Field and background.** Say what technical area the invention is in and what problem existing approaches have. Mention the closest prior art you know of, since the duty of candor requires disclosing it.\n- **Summary.** Describe the invention at several levels of detail: the broad concept, the main embodiment, and the key advantages.\n- **Brief description of drawings.** Give one line per figure.\n- **Detailed description.** This is the most important section. Describe enough that someone skilled in the field could build and use the invention without undue experimentation. Include:\n  - Step-by-step methods, system architecture, and data flow for the tagging pipeline\n  - Specific embodiments, plus alternatives and fallbacks (different models, thresholds, hardware, or deployment modes), so the claims have room to be broad\n  - Concrete parameters, thresholds, and example outputs\n  - Definitions for any terms you use in a specialized way\n  - The best mode you know of (required for US filings)\n- **Examples and test results.** Accuracy claims carry much more weight when they include the test set, the metric, the baseline, the number of trials, and the conditions. Right now your notes list 96% and 98.5% accuracy without a defined metric, test set, or baseline. Fix that before relying on those numbers.\n- **Claims.** Include independent claims in several categories (method, system, and computer-readable medium), with dependent claims that narrow each one step at a time. Each claim element must be supported by the written description.\n- **Drawings.** Flowcharts of the tagging method, system block diagrams, data-flow diagrams, and UI screenshots where they show the invention's function. Patent drawings have formatting rules, so have the attorney check them.\n\n## 2. Supporting materials to keep (usually not filed)\n\n- **Invention disclosure record and dated engineering notes.** These show who contributed to each idea, which supports correct inventorship and helps with ownership questions.\n- **Prototype and test logs.** Keep raw data, test configurations, and the date of each result.\n- **Improvements log.** Record each improvement with its date and the filing that covers it. Anything new after a filing generally needs its own provisional, and it cannot be added to an existing application (no new matter).\n- **Prior art search report and list of references.** Your notes say the April 2024 search report isn't in the uploads and needs refreshing before the PCT. Keep it with the references, since they must be disclosed to the USPTO through an Information Disclosure Statement.\n- **Public disclosure log.** Record every demo, talk, pitch, website post, trade show, and sales conversation, with the date, audience, and whether an NDA was in place. This determines which rights may already be affected. Your notes include the May 20, 2024 Expo, the Stephen demo, and the November 2024 launch and partnership.\n- **Ownership and assignment documents.** Include employee and contractor IP agreements and any inventor assignments.\n- **Filing receipts and deadline records.** Keep the official USPTO and WIPO receipts, and a single docket showing each deadline and its legal basis.\n\n## 3. Gaps your notes flag that need resolving\n\n- **Filing dates conflict.** The notes say the PCT was planned for October 20, 2024, but another entry says both the nonprovisional and PCT were filed November 10, 2024. Confirm both dates in Patent Center and WIPO Patentscope.\n- **Receipt number.** The number 12345678 in your notes looks like a placeholder. Verify the real application number.\n- **Post-filing improvements.** The 98.5% accuracy results and the cloud backup feature may not be covered by the May 2024 provisional. Ask Ashlee whether a new provisional is needed, and whether any public disclosure has already happened.\n- **An \"office action\" email.** A July 2024 entry mentions an office action on claim 3. A provisional is never examined, so this doesn't fit. Check Patent Center directly, and treat unsolicited USPTO-looking emails as possible phishing.\n- **Foreign rights and launch timing.** Foreign rights, especially in the EU, can be lost by public disclosure before filing. Ask Ashlee whether anything was disclosed before each filing date.\n\nIf you share the draft or the provisional text, I can help you check whether the claims are supported by the description, find gaps in the embodiments, or organize the disclosure log. Ashlee should review any final application.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 18.106,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6764
+   },
+   "cache_read_input_tokens": 19558,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 3134,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:summarization:0",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "Memory has nothing dated in March 2024, so the summary below covers April and early May only. My notes also don't record your own decisions in this period as decisions. They record a plan, which I've listed under \"Decisions and targets.\"\n\n**Actions (April 2024)**\n- **Apr 10:** Prior art search completed. It found 3 similar patents, none with AI tagging features. The report is not in the uploads folder, and the notes say it needs a refresh before filing.\n- **Apr 20:** Applied for the $10k Montserrat Development Fund innovation grant. The notes don't record the criteria or a decision date.\n- **Apr 25:** Met patent attorney Ashlee about filing strategy. The next meeting date was not yet known.\n\n**Decisions and targets (as of early May)**\n- **Provisional filing by May 15, 2024.** You wanted it filed before the product launch, because a launch is a public disclosure that can hurt patent rights.\n- The notes say the May 15 deadline is a target, and the cause is unconfirmed. They suggest checking whether it ties to a grace period from a public disclosure.\n\n**Upcoming dates in the notes (as of Thu May 2, 2024)**\n- **Fri May 10:** Invention logbook deadline. This came from Jake, and its firmness is unconfirmed.\n- **Tue May 14, 3 PM:** Meeting with Ashlee at her Montserrat office.\n- **Wed May 15:** Provisional filing target and fee due.\n\n**Open questions at the time**\n- Whether a provisional had been drafted.\n- Which countries mattered.\n- What the other aspects of the invention were.\n\n**Later notes on the May 15 filing**\nEntries from July onward say you filed the provisional on May 15, 2024, but the receipt number (12345678) looks like a placeholder. The notes recommend confirming the filing in Patent Center.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 10.506,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 6068
+   },
+   "cache_read_input_tokens": 18917,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1725,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:summarization:1",
+  "type": "summarization",
+  "arm": "claude",
+  "answer": "## July to September 2024: milestones and strategic choices\n\nThese come from your saved notes, not from the USPTO or your attorney's docket, so verify the dates before relying on them.\n\n### Milestones\n\n| Date | Milestone |\n|---|---|\n| Jul 1, 2024 | 10 prototype tests done; AI tagging accuracy reported at 96%. The test set size and metric definition were not recorded. |\n| Jul 5, 2024 | You reported an \"office action\" rejecting claim 3 for novelty. This doesn't fit a provisional, which is never examined, so it may be a phishing email. Check Patent Center. |\n| Jul 10, 2024 | Provisional confirmed as filed May 15, 2024. Receipt no. 12345678 looks like a placeholder; verify the real application number in Patent Center. |\n| Jul 10, 2024 | Ashlee's rate negotiated from $250/hr to $220/hr. You estimated this saves $600 over 3 months, which implies about 20 hours. |\n| Jul 10, 2024 | You raised a \"potential infringement lawsuit\" with Ashlee. She recommended quarterly monitoring of competitor patents. The notes don't say who is involved or which patent, and that question needs litigation counsel. |\n| Jul 15, 2024 | Stephen's requested demo date. The notes don't say whether it happened or whether the prototype was ready. |\n| Aug 2024 | Target for integrating the cloud backup feature. Its cost was unknown, and it may not be covered by the May provisional. |\n| Sep 1, 2024 | Started the nonprovisional draft with Ashlee. |\n| Sep 10, 2024 | Reviewed the 45-page draft with 12 drawings at Ashlee's office. |\n| Sep 18, 2024 | Set the budget and filing plan (see below). |\n\n### Strategic choices\n\n1. **Nonprovisional timing (Jul 10):** You chose to file the nonprovisional in November 2024, the same month as the planned launch, rather than earlier. This is legally allowed because the statutory deadline is May 15, 2025, 12 months after the provisional. A November filing alone does not protect foreign rights.\n2. **Filing sequence (Sep 18):** You planned a PCT international filing for Oct 20, 2024, designating the US, Canada and the EU, ahead of the November launch. Foreign rights can be lost by public disclosure in absolute-novelty jurisdictions such as the EU, so this sequencing matters.\n3. **Budget (Sep 18):** $12,000 approved for the nonprovisional plus PCT, with a target of Oct 15, 2024. My rough estimate, which is not a quote, was that fees, international fees and 40–70 attorney hours at $220/hr could exceed that. Ask Ashlee for a written estimate.\n4. **Scope control (Sep 18):** Check the nonprovisional against the May provisional, because new matter cannot be added. The cloud backup feature and post-May improvements may need a new provisional before any disclosure.\n5. **Refreshed prior art search (Sep 18):** A new search is needed before the PCT filing. The April 10 search predates the current claims.\n\n### Open issues from this period\n\n- **Conflicting deadline framing:** In September you described November as the \"deadline,\" but the statutory date is May 15, 2025. November is your own target.\n- **PCT and foreign rights before launch:** Whether the PCT filing must precede launch was never confirmed with Ashlee.\n- **Metric undefined:** The 96% accuracy figure has no recorded test set or definition.\n- **Demo and disclosure history:** The notes don't confirm whether the Stephen demo or other showings happened before the provisional or the planned filings.\n\nItems after September (the Nov 10 vs. Oct 20 PCT date conflict, the 98.5% result and the $10k grant) are in the notes but outside this range.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 14.447,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8469
+   },
+   "cache_read_input_tokens": 21246,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 2572,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "**35 days.** From April 10, 2024 (when the prior art search was completed) to May 15, 2024 (the provisional filing target) is 20 days remaining in April plus 15 days in May.\n\nMy notes don't record a separate planned date for the search itself. April 10 is the date it was recorded as completed, so if you had an earlier target for the search, the gap would be different.",
+  "memory_tools": [
+   "grep",
+   "glob",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 5.981,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 7937
+   },
+   "cache_read_input_tokens": 21066,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 694,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "claude",
+  "answer": "The memory notes don't record a \"patent response deadline\" as such, so I'm assuming you mean the nonprovisional deadline of **Thu May 15, 2025**, which is 12 months after the May 15, 2024 provisional filing.\n\nThe notes record three meetings with Ashlee, so the answer depends on which one you mean:\n\n- **Sep 10, 2024** (review of the 45-page nonprovisional draft, the most recent meeting in the notes): **247 days** until May 15, 2025.\n- **May 14, 2024** (3 PM, pre-provisional meeting): **366 days** until May 15, 2025. The provisional deadline was May 15, 2024, one day later.\n- **Apr 25, 2024** (filing strategy): not calculated, since it's the oldest.\n\nThe notes also say you filed both the nonprovisional and PCT on Nov 10, 2024, though a later entry says the PCT was filed Oct 20, 2024. If the nonprovisional is already on file, no response is due before May 15, 2025. The Jul 5, 2024 \"office action\" email was never verified and may be phishing, so check Patent Center before counting it as a live deadline.",
+  "memory_tools": [
+   "grep",
+   "bash",
+   "read"
+  ],
+  "usage": {
+   "active_seconds": 12.217,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 8065
+   },
+   "cache_read_input_tokens": 21202,
+   "input_tokens": 8,
+   "list_cost": {
+    "amount": "1",
+    "currency": "USD"
+   },
+   "output_tokens": 1812,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  }
+ },
+ {
+  "qid": "20:abstention:0",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "The memories show Jake's advice in two periods, but I can't find anything he specifically said about the April 15 deadline itself.\n\n**Around May 2, 2024:** Jake's advice was to keep documenting every prototype test, since that record would be valuable for a non-provisional patent application and any examination process. I also have notes that you should continue documenting every test and improvement.\n\n**Around September 18, 2024:** The conversation with Jake covered how to document testing cycles:\n\n- **Keep a detailed logbook** of all testing cycles, observations, and results, including dates, test conditions, input and output data, and any anomalies.\n- **Use a structured template** for each cycle, with fields such as test date, test number, input and output data, accuracy metrics, observations, issues encountered, resolution steps, test setup, and visual aids.\n- **Include detailed descriptions and visual aids** like screenshots, diagrams, or videos.\n- **Record consistently** using the same format and level of detail, and update the logbook regularly.\n- **Store the logbook securely**, such as in a password-protected digital format or secure cloud storage, and back it up regularly.\n- **Review periodically** to spot trends and areas for improvement, and summarize findings from each cycle.\n- **Record changes to the prototype**, including the reasons and outcomes, and maintain version control to document how the design evolved.\n\nThe September items are recorded as the assistant speaking as Jake, so they may be a model-generated example rather than things Jake actually told you. If you want to confirm what he said, check your own notes or ask him directly.",
+  "recall_chars": 11158,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4494,
+   "output_tokens": 1098,
+   "output_tokens_details": {
+    "thinking_tokens": 592
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:abstention:1",
+  "type": "abstention",
+  "arm": "wos",
+  "answer": "Based on your notes from September 18, 2024, two reasons went beyond the equity demand and restrictive terms:\n\n1. **Control and flexibility:** You wanted to keep more control of your company and keep your options open with future investors.\n2. **A better alternative:** Stephen's offer of $25,000 for 20% equity seemed much more reasonable to you.\n\nI don't have any other reasons from that time.",
+  "recall_chars": 9103,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3858,
+   "output_tokens": 447,
+   "output_tokens_details": {
+    "thinking_tokens": 317
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:contradiction_resolution:0",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "Based on what you've told me, no. On March 15, 2024, you said you had never attended any production meetings related to your invention.\n\nThe records I have also include example production meeting agendas and minutes, with a sample meeting dated April 7, 2024. Those are templates I wrote for you, not records of meetings you attended.\n\nIf you have attended meetings since then, tell me and I can help you keep track of them.",
+  "recall_chars": 8641,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3598,
+   "output_tokens": 310,
+   "output_tokens_details": {
+    "thinking_tokens": 185
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:contradiction_resolution:1",
+  "type": "contradiction_resolution",
+  "arm": "wos",
+  "answer": "From what I remember, you've said you have never attended a patent-related webinar or workshop. You did mention registering for a patent law webinar on April 5, 2024, but I don't have a record confirming you attended it.\n\nI also saw a reference to a patent enforcement workshop on September 5, but it appeared inside a sample conversation rather than as a confirmed event from you, so I can't treat it as something you attended.\n\nIf you tell me whether you attended the April 5 webinar, I can help you make the most of it or prepare for the next one.",
+  "recall_chars": 8221,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3451,
+   "output_tokens": 597,
+   "output_tokens_details": {
+    "thinking_tokens": 429
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:event_ordering:0",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "I can only confirm two things you raised. Here is the full sequence of relevant points from my notes, with the speaker marked:\n\n1. **March 15, 2024 (you):** You asked how to manage the $3,500 in initial patent filing fees and $5,000 in attorney fees due by July 2024.\n2. **March 15, 2024 (me):** I outlined a plan covering fee breakdowns and budgeting tips.\n3. **May 2, 2024 (me):** I covered prior art search implications, the non-provisional timeline, and costs.\n4. **July 10, 2024 (me):** I advised checking whether the $3,500 and $5,000 budget was still sufficient, and suggested preparing the non-provisional application.\n5. **September 18, 2024 (me):** I discussed costs and budget allocation for the provisional and PCT applications.\n6. **November 25, 2024 (you):** You expressed worry about whether the non-provisional and PCT applications, filed November 10, 2024, would be approved before you presented to Stephen and Montserrat Media Hub again, especially after receiving $10,000 in follow-up funding on November 20.\n\nMy notes don't show six separate points that you raised, so the list above mixes your questions with my responses.",
+  "recall_chars": 11169,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4446,
+   "output_tokens": 1286,
+   "output_tokens_details": {
+    "thinking_tokens": 882
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:event_ordering:1",
+  "type": "event_ordering",
+  "arm": "wos",
+  "answer": "Based on the saved notes, these are the first five patent-process stages in chronological order:\n\n1. **Preparing the application and choosing a filing type** (March 15, 2024): provisional vs. non-provisional filing, and the examination process.\n2. **Examination phase** (March 15, 2024): the examiner's review, Office Actions, and responses to them.\n3. **Filing requirements** (March 15, 2024): required documentation, fees, and the types of patents.\n4. **Prior art search** (May 2, 2024): filing procedures, timelines, and deadlines.\n5. **Submission preparation** (September 18, 2024): preparing the final draft for the USPTO.\n\nThese notes are mostly my own earlier responses, so they show when each stage came up in our conversations, not necessarily when you raised it.",
+  "recall_chars": 11662,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4646,
+   "output_tokens": 1076,
+   "output_tokens_details": {
+    "thinking_tokens": 816
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:information_extraction:0",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "You said your son Francis is **21** and studying engineering at **Montserrat Community College**. You mentioned this in March 2024, when you asked about patent applications that might be relevant to him.",
+  "recall_chars": 8080,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3399,
+   "output_tokens": 152,
+   "output_tokens_details": {
+    "thinking_tokens": 91
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:information_extraction:1",
+  "type": "information_extraction",
+  "arm": "wos",
+  "answer": "I don't have a record of a plan to support your son's studies in general. What I can find is the patent-related support we discussed in March 2024, when you asked about Francis's engineering studies.\n\n**What you planned:** You said you would encourage Francis to document his work thoroughly and possibly look into a provisional patent if his ideas were still early-stage. You also asked for help finding a reliable patent attorney in Montserrat or nearby.\n\n**Resources I recommended:**\n- **Montserrat Community College:** Ask whether it has connections with patent attorneys, or offers workshops or student invention support.\n- **Montserrat Economic Development Office:** It may have partnerships with legal professionals who work with inventors.\n- **Local bar association:** It can provide referrals to patent attorneys.\n- **Patent search tools:** USPTO, Google Patents, and Espacenet, to check whether an invention is novel and non-obvious before meeting an attorney.\n\n**Steps I recommended for finding professional guidance:**\n1. Document the invention thoroughly.\n2. Run a patent search.\n3. Consult a patent attorney about the invention's strength and the best filing approach.\n4. Explore funding options such as grants and student invention programs.\n\nThe July 2024 notes also mention seeking feedback from Francis or your mentor Jake and preparing a clear presentation with a demo, drawings, and a written summary. I'm not certain whether that refers to Francis's work or a separate project of yours.",
+  "recall_chars": 11502,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4343,
+   "output_tokens": 1153,
+   "output_tokens_details": {
+    "thinking_tokens": 676
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:instruction_following:0",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "The process is generally the same in most countries. This outline uses the US system (USPTO), and I can adjust it if you're filing elsewhere, such as in the UK.\n\n1. **Document your invention.** Record how it works, its components, and how it differs from existing solutions, with dated notes, drawings, and prototypes if you have them. This record supports your application and any later dispute over who invented what first.\n\n2. **Search prior art.** Search patent databases such as USPTO, Google Patents, and Espacenet for similar existing patents and publications. If the invention already exists in the public domain, it can't be patented. A professional search is worth considering for anything commercially significant.\n\n3. **Consult a patent attorney or agent.** They can assess patentability, advise on strategy, and draft the application. Drafting matters a lot, since the claims define the legal scope of your protection.\n\n4. **Draft the application.** It typically includes:\n   - A **specification** describing the invention in enough detail that someone skilled in the field could build and use it.\n   - **Drawings** where they help explain the invention.\n   - **Claims**, which define what you're protecting. Broad independent claims give wider protection but face more scrutiny for novelty and non-obviousness, so they're usually balanced with narrower dependent claims that add specific features as fallback positions.\n\n5. **Choose a filing type.** A **provisional application** is cheaper and gives you 12 months of \"patent pending\" status while you refine the invention. A **non-provisional application** starts formal examination. You can file a provisional first and convert it later.\n\n6. **File and pay the fees.** Submit through the USPTO's electronic system and pay the filing, search, and examination fees. Fee amounts depend on entity size, so check the current schedule.\n\n7. **Examination.** An examiner reviews the application for novelty, non-obviousness, utility, and clarity. This usually takes a year or more and often involves an **office action**, which is a formal rejection or objection that you must respond to, typically within a set deadline. Most applications go through at least one round of this, and the response often involves amending claims or arguing the distinctions over prior art.\n\n8. **Allowance and issue.** If the examiner is satisfied, you receive a Notice of Allowance. You then pay the issue fee, and the patent is granted and published.\n\n9. **Maintain the patent.** Maintenance fees are due at intervals (in the US, around 3.5, 7.5, and 11.5 years after grant), or the patent lapses.\n\nOverall, expect the process to take roughly two to three years or more from filing to grant, and costs can vary widely. Foreign protection usually requires filing within 12 months of your first application if you want to claim that priority date.\n\nEarlier, we discussed balancing broad primary claims with specific secondary claims, and preparing for examiner objections. If you tell me your jurisdiction and where you are in the process, I can go into more detail on any step. For a binding decision on your specific invention, a registered patent professional should review your filings.",
+  "recall_chars": 10896,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4273,
+   "output_tokens": 1430,
+   "output_tokens_details": {
+    "thinking_tokens": 465
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:instruction_following:1",
+  "type": "instruction_following",
+  "arm": "wos",
+  "answer": "The non-provisional patent application is scheduled to be filed by **November 10, 2024**. The September 18, 2024 plan sets that date, with final checks and submission from November 6 to 10.\n\nThe statutory deadline is later. The July 2024 notes say you have until **May 15, 2025**, which is 12 months from the provisional filing. Waiting until November was also described as a prudent choice. The earlier target of filing by the end of August 2024 no longer appears to apply.",
+  "recall_chars": 10794,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4269,
+   "output_tokens": 432,
+   "output_tokens_details": {
+    "thinking_tokens": 279
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:knowledge_update:0",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The most recent budget you set was in September 2024, when you had a **$12,000 total budget**. Within that, the estimate was:\n\n- **USPTO filing fee:** $330 (small entity rate)\n- **Attorney fees:** $10,000\n- **Total:** $10,330, leaving about $1,670\n\nEarlier, from March to July 2024, the budget was **$3,500 for initial patent filing fees** and **$5,000 for attorney fees**. Some March 2024 notes also list $4,000 for filing fees and $5,500 for attorney fees, later adjusted to $4,000 in total after allocating $1,500 for consultation hours, so the records are not fully consistent.\n\nYour most recent figures are the September 2024 ones, but you may want to confirm them with your patent attorney, Ashlee.",
+  "recall_chars": 10472,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4391,
+   "output_tokens": 742,
+   "output_tokens_details": {
+    "thinking_tokens": 478
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:knowledge_update:1",
+  "type": "knowledge_update",
+  "arm": "wos",
+  "answer": "The budget for prototype refinement and patent attorney fees through August 2024 is **$7,000**, according to your own description in July 2024.\n\nThe assistant's estimates exceeded that amount. The first breakdown totaled **$7,200** ($3,500 for prototype refinement and $3,700 for patent attorney fees). A later revised plan brought it to **$6,600** ($3,000 for prototype refinement and $3,600 for attorney fees), which fits within $7,000.\n\nOne memory mentions an \"$8,000\" allocation for prototype enhancements through August 2024, but it doesn't match the $7,000 figure you gave, and I can't tell from the record which is correct.",
+  "recall_chars": 11436,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4717,
+   "output_tokens": 582,
+   "output_tokens_details": {
+    "thinking_tokens": 362
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:multi_session_reasoning:0",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "Based on what I have, the two deadlines are:\n\n1. **November 10, 2024:** Non-provisional patent application filing deadline, which you mentioned in July 2024.\n2. **PCT application:** Due within 12 months of your initial filing date. My notes don't record the exact date.\n\nI also have a July 2024 note saying you have until May 15, 2025, to file the non-provisional application. That conflicts with the November 10, 2024 date you gave me, so please check it against your provisional filing date and your attorney's docketing before relying on either one.",
+  "recall_chars": 11049,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4403,
+   "output_tokens": 672,
+   "output_tokens_details": {
+    "thinking_tokens": 496
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:multi_session_reasoning:1",
+  "type": "multi_session_reasoning",
+  "arm": "wos",
+  "answer": "Based on what I can recall, your alignment was **partial**. The strongest parts were identifying a distinguishing feature and keeping your later filings within the priority window. The main gaps were in search documentation and timeline consistency. My records are fragmentary, so some of this is inference.\n\n**Prior art search**\n- You planned to search the USPTO database and Google Patents by April 10, 2024, and were worried it might not be thorough enough.\n- It found three similar patents, none with AI tagging features. That suggests AI tagging is your key differentiator, which is useful for drafting claims.\n- I don't have records showing whether you searched non-patent literature, foreign patents, or claim-language variations. Those matter more now that you've moved toward a PCT application.\n\n**Patent features and claims**\n- The plan was to make your claims distinct from the prior art, centered on the AI tagging features.\n- I don't have a record of the final claim language or whether it was revised after the search results came in.\n\n**Budget**\n- The early plan allocated $500 for the search, $500 for preparation, and $3,000 for filing. This was later revised to $3,500 for filing fees and $5,000 for attorney fees.\n- The provisional filing fee was $280, and the attorney fee was $1,200.\n- By September 2024 the budget was $12,000, and I described that allocation as reasonable. Deferring the non-provisional filing in favor of the PCT application on October 20, 2024, was a sensible way to manage it.\n\n**Timeline**\n- The provisional deadline appears as May 2, May 15, and June in different records, so I can't confirm the actual filing date.\n- If the provisional was filed in May 2024, the 12-month deadline for the non-provisional or PCT application would be about May 2025. The October 2024 PCT filing would fall within that window.\n\n**To verify**\n1. The provisional filing receipt and its date.\n2. Documentation of the prior art search, including databases, search terms, and any non-patent literature.\n3. Whether the claims were revised after the search, and whether they clearly distinguish your AI tagging features.\n4. The PCT filing receipt, and the exact priority deadline it was claiming.",
+  "recall_chars": 11989,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4737,
+   "output_tokens": 1799,
+   "output_tokens_details": {
+    "thinking_tokens": 1098
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:preference_following:0",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Yes. From our earlier conversations, you want a **local patent attorney in Montserrat** who is experienced and reasonably priced. You mentioned considering a $250/hour attorney but choosing someone for better communication, so responsiveness and clear communication matter to you as well as cost.\n\nHere's how I'd search:\n\n1. **Montserrat Community College:** Ask whether they have connections with patent attorneys or run workshops on intellectual property.\n2. **Montserrat Chamber of Commerce:** They can recommend local legal professionals.\n3. **Economic development offices:** Government-backed business support programs sometimes refer inventors to IP counsel or offer subsidized legal help.\n4. **LinkedIn:** Search for patent attorneys in Montserrat and check their experience and client reviews.\n5. **Referrals:** Ask other local inventors or startup founders who have filed patents.\n\nWhen you contact candidates, ask about:\n- **Technical fit:** Have they handled inventions in your field? If your invention involves AI or video processing, look for experience with software or electronics patents.\n- **Fee structure:** Hourly, flat fee for a provisional application, or a staged payment plan. Ask for an estimate before engaging them.\n- **Communication:** How often they update clients and who your day-to-day contact will be.\n- **Non-disclosure:** Make sure they will sign an NDA before you share details of the invention.\n\nIf you tell me your invention's field and your rough budget, I can help you draft outreach messages or a list of questions for the initial consultation.",
+  "recall_chars": 8041,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3388,
+   "output_tokens": 894,
+   "output_tokens_details": {
+    "thinking_tokens": 389
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:preference_following:1",
+  "type": "preference_following",
+  "arm": "wos",
+  "answer": "Your application should be detailed enough that someone skilled in your field could understand and reproduce the invention, and that a patent attorney can draft accurate claims from it. Based on our earlier discussions, these are the main categories to include:\n\n1. **Summary of the invention:** A concise overview of the invention and the problems it solves.\n\n2. **Detailed description:**\n   - **Background:** The context and existing technology.\n   - **How it differs:** What is new compared with existing solutions.\n   - **Technical specifications:** Dimensions, materials, components, and unique features.\n   - **How it works:** A step-by-step explanation of its function and components.\n\n3. **Drawings and diagrams:** Clear, detailed, and labeled illustrations of the structure and function. They should show the unique aspects and make complex concepts easier to follow.\n\n4. **Prototype materials:** If you have a prototype or model, include photographs or detailed descriptions.\n\n5. **Test data and results:** Describe your testing methodology and the outcomes. Tables, graphs, and explanations can make performance claims more convincing.\n\n6. **Application Data Sheet (ADS):** Inventor and applicant information and related administrative details.\n\n7. **Prior art research:** Existing patents and publications that relate to your invention, which helps you show how yours is novel and non-obvious. Google Patents, Espacenet, and the USPTO database are good places to search.\n\nSince this should be more comprehensive than your provisional application, you can use the provisional as a starting point and expand each section. Before filing, have a patent attorney review the materials, since they can check the completeness of the disclosure and the wording of the claims.",
+  "recall_chars": 10995,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4339,
+   "output_tokens": 880,
+   "output_tokens_details": {
+    "thinking_tokens": 351
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:summarization:0",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Here's what I can recover from the memories about March through early May 2024. Some of it is planning rather than confirmed action, and the records conflict on one point.\n\n**March 2024**\n- **Scheduling decision:** You had a conflict on April 5 between a webinar and a production meeting. You chose to prioritize the webinar so you could still reach your goal of filing a provisional patent by June 1.\n- **Budget plan:** I drafted a plan with you that allocated $4,000 for initial filing fees and $5,500 for attorney fees. It proposed moving $1,500 of the attorney budget to about 10 consultation hours at an assumed $150/hour, leaving $4,000 for other attorney work. This was an example plan with assumed numbers, not a confirmed decision.\n- **Timeline:** The plan scheduled the webinar and initial consultation for April, drafting for May, filing in June, and final follow-up in July.\n- **USPTO follow-up:** A reminder to follow up on any initial USPTO communications in March.\n\n**Early May 2024**\n- **May 1:** You shared insights about the patent process with Heather at a production meeting and asked for her advice on moving forward.\n- **Week of May 2–8:** Refine drawings and begin drafting claims.\n- **Week of May 9–15:** Review and refine claims, prepare the cover sheet, and finalize claims for filing.\n\n**A conflict in the records:** One planning note lists \"May 2, 2024: File the provisional patent application,\" but the budget timeline and your June 1 goal both point to a June filing. I can't tell from these records which date you actually settled on, so you may want to check your own notes.",
+  "recall_chars": 10817,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4545,
+   "output_tokens": 1226,
+   "output_tokens_details": {
+    "thinking_tokens": 687
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:summarization:1",
+  "type": "summarization",
+  "arm": "wos",
+  "answer": "Here's what I can recall from July through September 2024. The plans shifted over time, and the records conflict on the filing date.\n\n**July 2024**\n- **Continued development and testing:** Refine the prototype and gather more data.\n- **Claims revision:** Meet with Ashlee on July 15 to discuss feedback, draft the first revision of the claims July 16–20, and hold a peer review of the revised claims on July 20.\n- **Iterative refinement:** Revise the claims based on feedback from July 21 to August 10.\n- **Budget allocation:** July 1 to August 31.\n- **Feature work:** AI tagging accuracy and performance optimization (July 15–31).\n\n**August 2024**\n- **Feature work:** Bug fixes and testing (August 1–15), then data encryption and secure authentication (August 16–31).\n- **Claims and specification:** Finalize the claims (August 11–20), then draft the specification.\n- **Original target:** File the non-provisional application by the end of August.\n\n**September 2024**\n- **Written description and claims:** Finalize September 15–18.\n- **Reviews:** Linda reviews September 19–20, then Ashlee does a final review September 21–23.\n- **Submission prep:** Make final adjustments September 24–30.\n- **Product schedule:** Cross-platform compatibility (September 1–15) and documentation and customer support (September 16–30).\n\n**Strategic choices**\n- **Pushing the launch to November 2024** to allow more product refinement, IP protection, and marketing preparation.\n- **Securing the priority date** by filing the provisional application by May 2, 2024, which set a 12-month window for the non-provisional filing.\n- **Using the extra time** for beta feedback, competitor analysis, and partnership and distribution setup.\n\n**Discrepancy:** The September plan puts the non-provisional filing on November 10, 2024, and the original plan targeted the end of August. A later record says the non-provisional application was filed on September 1, 2024, which would still fall within the one-year window. I can't tell from my records which date actually happened, so check your filing receipt or USPTO records to confirm.",
+  "recall_chars": 11739,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4765,
+   "output_tokens": 1623,
+   "output_tokens_details": {
+    "thinking_tokens": 925
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:temporal_reasoning:0",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "Based on your most recent statement, it's **35 days** from April 10, 2024 (when you planned to finish the prior art search) to May 15, 2024 (when you aimed to file the provisional patent).\n\nYour records conflict on the filing date, though. Some notes say May 2, 2024, which would make it 22 days. Your May 2 message mentioned May 15, so I used that. Please confirm which date you're actually working toward.",
+  "recall_chars": 8590,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 3623,
+   "output_tokens": 460,
+   "output_tokens_details": {
+    "thinking_tokens": 322
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "qid": "20:temporal_reasoning:1",
+  "type": "temporal_reasoning",
+  "arm": "wos",
+  "answer": "I can't give you an exact number. I have your meeting with Ashlee on May 14, 2024 at 3 PM, but I don't have the date you received the office action, and the response deadline is 10 days from that date.\n\nIf you tell me when you received the office action, I can count the days from May 14 to the deadline. For example, if it arrived on July 10, 2024, the deadline would be July 20, which is 67 days after your meeting. Please check the actual date on the office action and your calendar, since that's the date that controls.",
+  "recall_chars": 11331,
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4782,
+   "output_tokens": 768,
+   "output_tokens_details": {
+    "thinking_tokens": 606
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

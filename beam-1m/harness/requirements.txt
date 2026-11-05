@@ -1,0 +1,4 @@
+wontopos>=2.2.49
+pandas      # build_tasks.py and beam_ingest.py read the benchmark's parquet file
+pyarrow
+tiktoken    # token counts in run.py; without it they are left empty

@@ -1,0 +1,2256 @@
+[
+ {
+  "arm": "claude",
+  "qid": "14:abstention:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response addresses the question and states that there is no information on what was discussed at the meeting. It notes that the only record is a single line mentioning the meeting, with no agenda, outcomes, attendees, or 10 AM time, which matches the rubric's requirement that no specific details exist. It does not invent any meeting details.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1219,
+   "output_tokens": 116,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:abstention:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response says it found no recipe or ingredients for Emily's popcorn seasoning mix. It notes that the only popcorn mention is a snack item with no recipe, which matches the rubric's requirement that no detailed information exists. It stays on topic. The generic blend it offers is clearly labeled as a suggestion and is not presented as Emily's recipe.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1249,
+   "output_tokens": 132,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response answers 'Yes' and lists several watchlists without saying any of the information conflicts. It notes that final picks weren't recorded and that platform availability wasn't verified, but those are gaps in the notes, not contradictions. The response never flags conflicting details.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1299,
+   "output_tokens": 120,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user has never made a watchlist for family movie marathons. The response says the opposite, answering 'Yes' and listing several past watchlists, so it does not meet the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1311,
+   "output_tokens": 82,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:0",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response answers the question and says the April 6-7 marathon had a 'watchlist due March 25'. That implies a deadline for a watchlist, but it never states that the user has a goal to finalize a watchlist. The idea is only partly present, so this is partial compliance.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1308,
+   "output_tokens": 102,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion, 'which statement is correct?', is vague and appears to expect the response to identify a specific correct statement. The response answers the question with 'Yes' and lists several watchlists, but it does not frame or identify any statement as correct. It is on-topic, but the required element is missing, so it does not comply.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1300,
+   "output_tokens": 117,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response answers the question and hedges that the notes don't say who sent the invitations. It also mentions Michael's work deadline as a possible conflict. It never says the information is contradictory or conflicting. Michael's deadline is an uncertainty, not an explicit contradiction, so the criterion is not ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1140,
+   "output_tokens": 132,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the user has never invited Mason or Michael to any family movie events. The response instead begins with 'Yes, in one case' and says they were added to the April 6-7 family movie marathon. This contradicts the expected answer, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1154,
+   "output_tokens": 103,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say that Mason confirmed and Michael declined. The response says Mason confirmed, but it describes Michael as 'Listed as joining' with a work deadline that may affect attendance. That is not a decline, so it contradicts the required detail. The response does address the question, but it gets Michael's status wrong.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1167,
+   "output_tokens": 122,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:contradiction_resolution:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion, 'which statement is correct?', is vague and appears to be a fragment of a multiple-choice style check. The response does not present or select among statements. It gives a direct answer about the April 6-7 movie marathon, saying Mason and Michael were added but that it can't confirm who invited them. Nothing in it addresses which statement is correct, so the required element ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1141,
+   "output_tokens": 139,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the first planning item to be the initial scheduling with breaks (a timed schedule that includes breaks). The response opens with movie picks and start times, with no mention of breaks. A snack break appears only in item 4, which is not the initial scheduling item, so the criterion is not met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1311,
+   "output_tokens": 110,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects a 'schedule adjustment for arrival' item, such as shifting the schedule to accommodate someone's arrival time. None of the five listed items covers this. They concern movie picks and start times, snack budget, extra guests and dinner, Moana and Zootopia with a timed plan, and the May marathon. No item mentions adjusting the schedule for an arrival.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1312,
+   "output_tokens": 140,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:0",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response answers the question with exactly five items in chronological order. Each item concerns marathon planning with guests and timing: start times, guests such as Mason, Michael, Michelle, Francis, Amy and Kyle, a dinner time, a snack break, and a timed plan. This satisfies the rubric criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1312,
+   "output_tokens": 117,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:0",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric expects streaming quality and budget details to be one of the planning items. The response lists five items covering movie picks and start times, snack budget and cupcakes, extra guests and dinner, Moana and Zootopia, and the May marathon. None mention streaming quality. The snack budget is a budget detail, but it is not paired with streaming quality, so the criterion is not met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1310,
+   "output_tokens": 137,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:0",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric expects an item on 'Final plan review and attendee logistics'. None of the five items covers a final plan review. Item 3 mentions added guests and dinner, and item 5 mentions Amy and Kyle joining, but neither is a final plan review or attendee logistics step. The response is on-topic and lists five items, but it does not include the required element.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1312,
+   "output_tokens": 130,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric criterion is 'Inviting friends and preferences'. The response lists five items: family weekend picks, renting Paddington 2, Moana and Zootopia, Encanto, and a monthly tradition. None of them involves inviting friends. Preferences appear only loosely, as a mention of avoiding rental fees and favorites of Thomas and Michelle. No item is about inviting friends and their preferences, so the",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1367,
+   "output_tokens": 159,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists five items in chronological order. Several of them are movie choice suggestions: the first four picks (Soul, Paddington 2, etc.), Moana and Zootopia, Encanto, and the new-to-list picks such as Ferdinand and Klaus. This satisfies the 'Movie choice suggestion' criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1366,
+   "output_tokens": 130,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric expects an item about an animated movie and a snack, which would be a movie-night contribution that combines an animated film with a snack. The response lists five items, and none of them pairs a specific animated movie with a snack. Item 3 does mention Moana and Zootopia with a snack break, but it is framed as a timed schedule, and the snack is only incidental to the plan. The response",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1365,
+   "output_tokens": 164,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion is 'Music and entertainment activities'. The response lists movie-night picks, scheduling, and a monthly movie weekend tradition, but it contains no music-related activities or other entertainment beyond the films themselves. The criterion is not demonstrated.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1366,
+   "output_tokens": 105,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric criterion is 'Playlist and friendship dynamics.' The response lists five movie-night items (film picks, rental decision, schedules, a monthly tradition), but none concerns playlists or friendship dynamics. It mentions family members (Thomas, Michelle, Francis) only as people the films were chosen for, not as friendship dynamics, and there is no playlist content. The required element is ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1369,
+   "output_tokens": 148,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:event_ordering:1",
+  "item": 5,
+  "score": 0.0,
+  "reason": "The rubric expects the response to mention board games and a gift card among the movie-night ideas and contributions. The response lists only movie picks, scheduling, rentals, and a monthly tradition. It never mentions board games or a gift card, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1364,
+   "output_tokens": 98,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:information_extraction:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state '15 miles away in West Janethaven'. The response says it doesn't have that information and gives neither the distance nor the town, so the required content is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1063,
+   "output_tokens": 74,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:information_extraction:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say that the user and partner share a love for classic movies, which led to suggestions of timeless classics evoking memories of meeting at a Miami film festival. The response says it has no record of shared interests and mentions neither classic movies nor the film festival. It addresses the question but does not contain the required content.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1427,
+   "output_tokens": 117,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:instruction_following:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and gives movie recommendations. It also mentions streaming services directly: it tells the user to confirm which streaming service carries each title, and it names Netflix and Disney+ as services listed in the user's notes. This meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1464,
+   "output_tokens": 97,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:instruction_following:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response is on-topic and recommends movies. It names streaming platforms (Netflix and Disney+), but only in a general note saying the user's notes list them. It does not tie any platform to specific movies and explicitly declines to say where each title streams. Platform names are present but not given for the recommendations, so compliance is partial.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1462,
+   "output_tokens": 118,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:instruction_following:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to ask about allergies. The response does not ask. It already states that Michelle has a peanut and tree nut allergy, using information from earlier context, and gives advice based on that. Its only questions are whether the user wants a shopping list and whether the May 12 date is still correct. It never asks the user about allergies or dietary restrictions.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1684,
+   "output_tokens": 129,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:instruction_following:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and recommends snacks. It addresses allergy concerns before the recommendations, opening with a nut-free plan for Michelle's peanut and tree nut reaction. It also advises checking labels for 'may contain' warnings, flags sesame as a separate allergen, and asks for a written nut-free guarantee from the bakery to avoid cross-contamination. This fully meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1694,
+   "output_tokens": 149,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:knowledge_update:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state a budget of $75. The response states $85 and mentions earlier figures of $70 and $65. It never gives $75 as the budget, so it is incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1165,
+   "output_tokens": 77,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:knowledge_update:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The response is on-topic but says it has no cupcake count and never states 30 cupcakes, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1117,
+   "output_tokens": 54,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:multi_session_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 13 unique movies. The response states 6 unique movies, which is incorrect, and it does not give 13 anywhere.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1198,
+   "output_tokens": 66,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that Netflix and Disney+ subscriptions should be maintained for simultaneous streaming and family-friendly content. The response mentions Netflix + Disney+ only as a budget line (~$30/mo). It never recommends keeping them for simultaneous streaming or family-friendly content. It also says one screen needs only one stream, so extra simultaneous access isn't",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1987,
+   "output_tokens": 206,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response never mentions HBO Max or says to keep it only if its exclusive shows justify the extra cost. It lists only Netflix and Disney+ and says nothing about weighing a subscription's exclusive content against its price. The required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1976,
+   "output_tokens": 95,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response mentions renting Paddington 2 in option 3 ('Pay the rental fees only when no subscription covers the title'), which relates to using individual rentals. However, it frames the rental as a fallback to use only if current subscriptions don't carry the title. It never states that individual rentals save money compared with subscribing to additional monthly plans, so the criterion is only",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1987,
+   "output_tokens": 137,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric expects the response to say the snack budget should stay within $65 for themed treats, without raising overall costs. The response treats the snack budget as $85, calls it tight, and never mentions a $65 allocation or themed treats. It suggests cheaper snacks, but it does not set the $65 limit.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1979,
+   "output_tokens": 114,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:preference_following:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and recommends family-friendly movies (Moana, Zootopia, Encanto, Paddington 2 and others). It notes G/PG ratings and a gentle, low-scare selection suited to mixed ages, which meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1658,
+   "output_tokens": 100,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:preference_following:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never references audience or family reviews. It describes the films with its own comments, such as \\\"Very funny\\\" and \\\"crowd-pleaser for all ages\\\" for Paddington 2. It cites no ratings, reviews, or reception from audiences or families. \\\"Crowd-pleaser\\\" is the closest it gets, and that is a weak, indirect nod to audience reception rather than a reference to revie",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1658,
+   "output_tokens": 169,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:preference_following:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and does mention language options in places. Kiki's Delivery Service is noted as being in Japanese with English subtitles available. Shaun the Sheep Movie is described as easy to follow in any language. The closing note also tells the user to check for Spanish audio or subtitles. However, it does not state language options for most of the listed movies. The language mentio",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1787,
+   "output_tokens": 153,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:preference_following:1",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response is on-topic and mentions subtitles in two places. For Kiki's Delivery Service it says English subtitles are an option because the film is in Japanese. At the end it tells the user to confirm whether each title has Spanish audio or subtitles. However, it does not state subtitle availability for the individual movies. It says it can't check catalogs, so it only partly meets the criterio",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1788,
+   "output_tokens": 139,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and summarizes the movie planning. It covers kids aged 2 and 6, G/PG picks, and picks like Moana, Zootopia, Coco, and Paddington 2. It never says the user sought recommendations for young children of differing ages, and it does not mention adventure, comedy, or educational themes as a focus. The differing ages and kid-suitable picks are present only implicitly, so the crit",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2385,
+   "output_tokens": 159,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response covers a family weekend on April 6–7 with movie picks, guests (Mason, Michael) and scheduled times, so the early April weekend is present. It never says the movie choices were adjusted for guests who preferred quieter films in the evening. The closest detail is that Amy had an evening church service, but that belongs to May and is not about quieter films. The core event is present but",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2376,
+   "output_tokens": 151,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:0",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response is on-topic, but it never says the user compared rental costs against subscription fees to save money on movie rentals. It notes a no-rental-fee preference, a conflict over renting Paddington 2, and the projector rental cost adding up. None of these is a comparison of rental costs versus subscription fees.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2365,
+   "output_tokens": 114,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:0",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The response describes a May 11–12 movie marathon with family-friendly films and some scheduling details (Amy's evening church service, Lily's pickup time) and notes nut-free snack requirements. It never states plainly that the user organized a family-friendly marathon in May while factoring in guests' schedules and dietary preferences. The pieces are scattered, and the allergy is tied to Michelle",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2369,
+   "output_tokens": 177,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and has a 'Setup and standing rules' section (subscriptions, budget, kids, standing requests) plus a timeline starting March 28 with planning of the first weekend and picks. That covers initial planning and some resource gathering, such as subscriptions and budget. It never says outright that the project began with initial planning and resource gathering, so the match is o",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2120,
+   "output_tokens": 141,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:1",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response answers the question with a chronological summary. It has a setup section covering subscriptions, budget, and standing rules, which fits 'initial planning and resource gathering'. It then lists timeline events with the main tasks: the first weekend planned, movie picks, the May 3 Encanto night, the marathon, and the May 15 outdoor screening with projector rental. The development phase",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2132,
+   "output_tokens": 208,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:summarization:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response is on-topic and summarizes the project, but it never says the project moved into a testing and review phase to confirm requirements were met. It describes movie-night planning, budgets, and open issues. It mentions items needing confirmation, but that is not a testing and review phase.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2126,
+   "output_tokens": 101,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:temporal_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 17 days. The response declines to answer, says it lacks the finish date, and gives no number of days, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1200,
+   "output_tokens": 66,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:temporal_reasoning:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state the span as March 20 till April 6. The response gives the March 20 meeting date but says it cannot find the finish date and does not name April 6 as the end date. It mentions April 6–7 only as a weekend in the notes. It gives no answer to the question, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1205,
+   "output_tokens": 115,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:temporal_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 6 days. The response says it can't answer, gives no day count, and only asks for the date of Mason's game night suggestion. It is on-topic but does not provide the required answer.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1159,
+   "output_tokens": 82,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "claude",
+  "qid": "14:temporal_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state the span from May 5 to May 11. The response says it cannot answer, gives a March 25 movie deadline, and never mentions May 5 or the May 11 game night suggestion date. It mentions a May 11–12 weekend only as a possible alternative, which is not the required statement.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1164,
+   "output_tokens": 116,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:abstention:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response addresses the question and states it has no record of what was discussed at the meeting. It does not invent any details. It says only that a 10 AM meeting was mentioned and added to a movie-watching schedule, which matches the criterion that the chat has no specific details about the meeting.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1111,
+   "output_tokens": 103,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:abstention:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and states that it has no recipe or ingredient details for Emily's popcorn seasoning mix. It gives only peripheral facts (bringing it April 6, budget, allergen check). The alternative seasoning ideas are clearly labeled as its own suggestions, not Emily's recipe. This matches the criterion that the chat holds no detailed recipe information.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1180,
+   "output_tokens": 139,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:0",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and notes that the user said in March 2024 they had never made a watchlist, but later messages show they made several. It never calls this contradictory information. It reconciles the two ('the early comment was accurate when you made it') instead of saying the information conflicts. The inconsistency is implicitly acknowledged, but the response does not clearly state that",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1197,
+   "output_tokens": 136,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:0",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response mentions that in March 2024 the user said they had never made a watchlist before, which touches the rubric's required element. However, it concludes 'Yes, you have' and says the earlier statement is outdated. The rubric expects the answer to be that the user said they have never made one, so the response only partly matches.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1209,
+   "output_tokens": 112,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:0",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response is on-topic and answers the question by listing past watchlists. It never mentions that the user also has a goal to finalize a watchlist, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1206,
+   "output_tokens": 69,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:0",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The rubric is ambiguous ('which statement is correct?'), but it appears to expect the response to resolve the contradiction between the March 2024 claim of never having made a watchlist and the later evidence of several. The response does address this: it says the early comment was accurate when made, but the user has since made at least one full watchlist and planned others. That is a reasonable ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1198,
+   "output_tokens": 212,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state that there is contradictory information. The response answers confidently with 'Yes' and gives details without flagging any contradiction or inconsistency in the available information. It therefore does not meet the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1018,
+   "output_tokens": 87,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the user has never invited Mason or Michael to any family movie events. The response says the opposite: that the user did invite them and gives details about their attendance and gifts. It is on-topic but contradicts the required content.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1032,
+   "output_tokens": 91,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:1",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response answers the question directly, saying the user invited Mason and Michael to a family movie session. It states that Michael declined and that Mason attended, which matches the criterion that Mason confirmed and Michael declined. The extra details (gift card, board games) do not conflict with it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1045,
+   "output_tokens": 104,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:contradiction_resolution:1",
+  "item": 3,
+  "score": 0.0,
+  "reason": "The rubric criterion ('which statement is correct?') is ambiguous and lacks a clear reference answer. The response does directly answer the question by saying yes, with details about Mason and Michael. However, nothing in the inputs shows these details are the correct statement. The response also contains internally suspicious claims, such as Michael declining yet sending a gift card, and no refer",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1019,
+   "output_tokens": 170,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is responsive and lists five items in order. The first item is the initial scheduling detail: a movie marathon starting at 3 PM each day, with breaks for snacks and activities, on April 6-7. This matches the rubric criterion 'Initial scheduling with breaks'.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1282,
+   "output_tokens": 106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists five items in order. Item 2 covers the schedule adjustment for arrival: 'the start times you coordinated with Thomas for Amy and Kyle's arrival.' That matches the rubric criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1283,
+   "output_tokens": 93,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:0",
+  "item": 2,
+  "score": 0.5,
+  "reason": "The response addresses the question and lists five items in chronological order. It covers guests (Amy and Kyle arriving, coordinated with Thomas; Mason and Emily on May 11) and timing (3 PM start, 8:30 PM anchor, 2 PM start on May 11). However, it is not organized around guests and timing. It mixes in budget, streaming quality, and the movie list, and items 2 and 3 are both dated March 28 without",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1283,
+   "output_tokens": 210,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:0",
+  "item": 3,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists exactly five items in order. It includes streaming quality and budget details: the $100 entertainment budget in item 3, and the streaming quality settings and $70 snack budget in item 4. This meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1281,
+   "output_tokens": 93,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:0",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric criterion is 'Final plan review and attendee logistics', which implies the last item in the ordered list should cover a final plan review and attendee logistics. The response's fifth item covers finalizing the movie list by May 5 and Mason's game night suggestion with Emily organizing board games. That is partly about attendee roles, but it is not a final plan review. The response also ",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1283,
+   "output_tokens": 218,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to include the user's idea about inviting friends and their preferences. The response lists five items: a viewing area, a trivia quiz, involving guests in planning (the closest to inviting friends, but it is framed as the assistant's suggestion), finalizing the movie list with a family game night, and a monthly tradition. None of them covers the user inviting frien",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1194,
+   "output_tokens": 182,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The rubric requires a movie choice suggestion among the items. The response is on-topic and lists exactly five items. Item 5 says the user asked for new movie suggestions, and item 4 mentions finalizing the movie list, so movie choice is covered. Item 5 states the movie-suggestion request explicitly, which satisfies the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1193,
+   "output_tokens": 127,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The rubric expects the response to mention an animated movie and a snack. None of the five listed items refers to an animated movie or a snack. They cover a viewing area, a trivia quiz, involving guests, a family game night, and a monthly tradition.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1192,
+   "output_tokens": 94,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The rubric expects music and entertainment activities among the items. The response includes a movie-themed trivia quiz (March 28) and a family game night (May 11), which are entertainment activities. It mentions no music-related activities, and it also lists non-entertainment items such as the viewing area and guest involvement. The criterion is only partly met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1193,
+   "output_tokens": 122,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 4,
+  "score": 0.0,
+  "reason": "The rubric requires content about playlist and friendship dynamics. The response lists five items (viewing area, trivia quiz, involving guests in planning, family game night, monthly tradition). None of them mentions a playlist or friendship dynamics. Involving guests in planning is only a loose social link, not friendship dynamics, so the criterion is not met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1196,
+   "output_tokens": 128,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:event_ordering:1",
+  "item": 5,
+  "score": 0.0,
+  "reason": "The rubric requires the response to include board games and a gift card. The response lists a viewing area, a trivia quiz, involving guests, a movie list with a family game night, and a monthly tradition. It never mentions board games or a gift card. A 'family game night' is not the same as board games, and there is no gift card at all.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1191,
+   "output_tokens": 115,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:information_extraction:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response directly answers the question, stating the parents live 15 miles away in West Janethaven, which matches the rubric criterion exactly. The extra detail about the parents' names does not conflict with it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 969,
+   "output_tokens": 79,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:information_extraction:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response says the shared love of classic films was the main factor, that the suggestions were timeless classics, and that they could prompt nostalgic conversation about the couple's time at the Miami film festival. This covers every element of the rubric. The hedging about specific titles and the Paddington 2 mention don't contradict it.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1215,
+   "output_tokens": 115,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:instruction_following:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response answers the question with movie recommendations and names streaming services for each one (Disney+, Amazon Prime Video, Netflix, HBO Max). It also notes that streaming availability changes often. This meets the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1393,
+   "output_tokens": 88,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:instruction_following:0",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response answers the question with movie recommendations and names a streaming platform for every title (Disney+, Amazon Prime Video, Netflix, HBO Max), so the platform-names criterion is fully met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1391,
+   "output_tokens": 82,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:instruction_following:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The response lists snack suggestions and offers help choosing among them or planning quantities. It never asks about allergies or dietary restrictions, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1292,
+   "output_tokens": 68,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:instruction_following:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response lists snack recommendations, including ones with nuts, peanuts, cheese, and chocolate, but never asks about or mentions allergies or dietary restrictions before recommending. It only offers help choosing snacks or planning quantities, so the required allergy check is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1302,
+   "output_tokens": 105,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:knowledge_update:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the response to state $75 as the snack budget. The response mentions $75 only as one of several conflicting figures (March 28) and names $85 as the most recent. It does not commit to $75 as the answer, so the required element is effectively incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1208,
+   "output_tokens": 99,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:knowledge_update:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The response is on-topic but states 24 cupcakes (and mentions 20), not the required 30. The required number is missing and the stated number is incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1052,
+   "output_tokens": 65,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:multi_session_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 13 unique movies. The response instead says it cannot give an exact number and lists 7 distinct titles, so the required figure of 13 is missing and the count it does give is incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1238,
+   "output_tokens": 85,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 0,
+  "score": 0.5,
+  "reason": "The response is on-topic and says Netflix and Disney+ cover most of the weekend's movies, advising 'If you already pay for both, use them first and avoid renting.' It also mentions simultaneous streaming. But the advice is conditional. It never plainly says to maintain Netflix and Disney+ for simultaneous streaming and family-friendly content, and it does not describe them as the core subscription",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1801,
+   "output_tokens": 162,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 1,
+  "score": 1.0,
+  "reason": "The response is on-topic and states that HBO Max is only needed for The LEGO Movie 2. It says that if the user doesn't otherwise use it, a single month or a bundle may cost less than keeping it year-round. This is the requested idea of keeping HBO Max only if its exclusive content justifies the cost.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1790,
+   "output_tokens": 117,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 2,
+  "score": 1.0,
+  "reason": "The response is on-topic and states that individual rentals, such as the $2.99 'Paddington 2' rental instead of an $8.99 monthly subscription, save money ($6 saved). It also says renting one-off titles is cheaper than subscribing for a single movie, and it advises renting only the gaps rather than adding subscriptions.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1801,
+   "output_tokens": 124,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:multi_session_reasoning:1",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The response is on-topic and mentions the snack budget, but it does not clearly say to keep themed treats within $65. It cites both $65 (March) and $70 (May) budgets, and its recommendation is to stay around $45 or 'up to $70'. The $70 ceiling conflicts with the $65 cap. It does describe themed treats such as cupcakes within budget, so the criterion is only partly met.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1793,
+   "output_tokens": 147,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:preference_following:0",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response is on-topic and lists several family-friendly movies (Encanto, The Incredibles, Coco, Finding Nemo, Paddington, Mary Poppins) with ratings and descriptions. This satisfies the criterion. It does say 'You mentioned it earlier,' which refers to a prior mention that never happened, but this doesn't affect the criterion.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1343,
+   "output_tokens": 136,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:preference_following:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic and suggests family-friendly movies, but it never references audience or family reviews. Its descriptions are the assistant's own characterizations, such as 'great music' and 'charming and witty'. It does not cite viewer ratings, audience scores, or what other families thought. The line that adults and kids 'both enjoy' is a general claim, not a reference to reviews.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1343,
+   "output_tokens": 138,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:preference_following:1",
+  "item": 0,
+  "score": 1.0,
+  "reason": "The response recommends movies and specifically gives language options for one of them. It says The Secret of Kells is 'Available in English and Spanish, which could support her bilingual learning.' It also offers to look for a Spanish-language option. That meets the criterion of mentioning movies with language options. The response is on-topic and answers the question.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1374,
+   "output_tokens": 119,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:preference_following:1",
+  "item": 1,
+  "score": 0.5,
+  "reason": "The response answers the question with movie suggestions. It mentions language availability only for The Secret of Kells ('Available in English and Spanish'). That is audio or language availability, and it is not clearly subtitles. It says nothing about subtitle availability for the other films, so the criterion is only partly met at best.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1375,
+   "output_tokens": 112,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the user sought movie recommendations for young children of differing ages, with adventure, comedy, and educational themes, to engage both toddlers and older kids. The response summarizes the watchlist, schedule, themed nights, and snacks. It mentions 'Adventure Night' and a few movie suggestions in passing. It never says the user asked for recommendations s",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1700,
+   "output_tokens": 181,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response is on-topic but never mentions a family weekend in early April or adjusting movie choices for guests who preferred quieter evening films. It only says the April 6 entry is incomplete, and the rest covers late March planning and the May 11–12 weekend. The required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1691,
+   "output_tokens": 105,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:0",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response never mentions exploring ways to save money on movie rentals or comparing rental costs with subscription fees. It mentions a $100 entertainment budget and choosing titles on platforms the user already subscribes to, but that does not amount to a rental-versus-subscription cost comparison.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1680,
+   "output_tokens": 108,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:0",
+  "item": 3,
+  "score": 0.5,
+  "reason": "The response describes a May 11–12 weekend family-friendly movie marathon, including the schedule and family involvement (Mason, Emily, kids). It does not mention factoring in guests' schedules or dietary preferences. It mentions themed snacks and a budget, but these are not dietary preferences. The core event is present, but the scheduling and dietary-consideration element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1684,
+   "output_tokens": 137,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to say the project started with initial planning and resource gathering. The response says it has no clear record of a specific project and cannot reconstruct a timeline. It lists family-scheduling tools and routines, but does not describe a project beginning with planning and resource gathering.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1358,
+   "output_tokens": 105,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The response says it has no clear record of a project and cannot reconstruct a timeline. It describes family scheduling tools and routines, not initial planning and resource gathering followed by a main development phase where key tasks were completed. The required narrative structure is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1370,
+   "output_tokens": 96,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:summarization:1",
+  "item": 2,
+  "score": 0.0,
+  "reason": "The response never says the project moved into testing and review to check that requirements were met. It describes family scheduling tools and routines and says it has no clear record of a specific project, so the required element is missing.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1364,
+   "output_tokens": 74,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:temporal_reasoning:0",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric requires the response to state 17 days. The response gives 19 days as its main answer and mentions 18 days as an alternative. It never states 17 days, so the required figure is missing and the answer is incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1079,
+   "output_tokens": 85,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:temporal_reasoning:0",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the period to run from March 20 to April 6 (17 days). The response gives April 8 as the completion date and answers 19 days, with 18 days as an alternative. It never states April 6, so it does not match.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1084,
+   "output_tokens": 87,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:temporal_reasoning:1",
+  "item": 0,
+  "score": 0.0,
+  "reason": "The rubric expects the answer '6 days'. The response's main answer is '2 days' between the May 5 deadline and the May 3 conversation date. It does mention '6 days' only as the gap between the deadline and the game night itself, which is a different quantity and not the answer to the question. The final answer is therefore incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1068,
+   "output_tokens": 119,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ },
+ {
+  "arm": "wos",
+  "qid": "14:temporal_reasoning:1",
+  "item": 1,
+  "score": 0.0,
+  "reason": "The rubric expects the answer to be the span from May 5 to May 11 (6 days), with May 11 as the date of Mason's game night suggestion. The response instead gives May 3 to May 5 (2 days) as the main answer. It does mention May 11 and 6 days after the May 5 deadline, but only as the game night's scheduled date, not as the answer. The headline answer of 2 days is incorrect.",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1073,
+   "output_tokens": 149,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  }
+ }
+]

@@ -1,0 +1,91 @@
+[
+ {
+  "turns": 34,
+  "turns_touching_memory": 0,
+  "memory_tool_calls": 0,
+  "memory_tool_calls_by_name": {},
+  "all_tool_calls": 0,
+  "usage": {
+   "active_seconds": 154.106,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 33812
+   },
+   "cache_read_input_tokens": 737522,
+   "input_tokens": 136,
+   "list_cost": {
+    "amount": "13",
+    "currency": "USD"
+   },
+   "output_tokens": 27239,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  },
+  "seconds": 145.2,
+  "session": "s0"
+ },
+ {
+  "turns": 35,
+  "turns_touching_memory": 3,
+  "memory_tool_calls": 4,
+  "memory_tool_calls_by_name": {
+   "grep": 2,
+   "glob": 1,
+   "write": 1
+  },
+  "all_tool_calls": 4,
+  "usage": {
+   "active_seconds": 181.453,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 37174
+   },
+   "cache_read_input_tokens": 976895,
+   "input_tokens": 148,
+   "list_cost": {
+    "amount": "16",
+    "currency": "USD"
+   },
+   "output_tokens": 32559,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  },
+  "seconds": 172.5,
+  "session": "s1"
+ },
+ {
+  "turns": 49,
+  "turns_touching_memory": 2,
+  "memory_tool_calls": 3,
+  "memory_tool_calls_by_name": {
+   "grep": 1,
+   "read": 1,
+   "edit": 1
+  },
+  "all_tool_calls": 5,
+  "usage": {
+   "active_seconds": 264.33,
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 54032
+   },
+   "cache_read_input_tokens": 1858812,
+   "input_tokens": 206,
+   "list_cost": {
+    "amount": "25",
+    "currency": "USD"
+   },
+   "output_tokens": 48205,
+   "server_tool_use": {
+    "web_fetch_requests": 0,
+    "web_search_requests": 0
+   }
+  },
+  "seconds": 251.7,
+  "session": "s2"
+ }
+]

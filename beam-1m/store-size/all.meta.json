@@ -1,0 +1,2503 @@
+{
+ "fracs": [
+  0.002,
+  0.005,
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.5,
+  1.0
+ ],
+ "conc": 8,
+ "started": 1791116548.5061216,
+ "finished": 1791117529.4191782,
+ "convs": [
+  {
+   "cid": "1",
+   "n_turns": 1710,
+   "n_points": 57872,
+   "conv_tokens": 970963,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 2017,
+     "visible": 117,
+     "time_to": "2026-08-16T09:35:32.958649Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 3839,
+     "visible": 228,
+     "time_to": "2026-08-16T09:35:40.188032Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 8597,
+     "visible": 564,
+     "time_to": "2026-08-16T09:35:54.240961Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 35,
+     "conv_tokens": 20294,
+     "visible": 1237,
+     "time_to": "2026-08-16T09:36:47.358871Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 86,
+     "conv_tokens": 53758,
+     "visible": 3312,
+     "time_to": "2026-08-16T09:38:42.561999Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 171,
+     "conv_tokens": 94098,
+     "visible": 5926,
+     "time_to": "2026-08-16T09:42:17.793392Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 342,
+     "conv_tokens": 179770,
+     "visible": 11329,
+     "time_to": "2026-08-16T09:47:49.822908Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 855,
+     "conv_tokens": 488629,
+     "visible": 28192,
+     "time_to": "2026-08-16T10:40:04.024621Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1710,
+     "conv_tokens": 970963,
+     "visible": 57872,
+     "time_to": "2026-08-16T11:19:07.091362Z"
+    }
+   ]
+  },
+  {
+   "cid": "2",
+   "n_turns": 1780,
+   "n_points": 55174,
+   "conv_tokens": 930684,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1324,
+     "visible": 79,
+     "time_to": "2026-08-16T09:35:32.235241Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 2421,
+     "visible": 143,
+     "time_to": "2026-08-16T09:35:37.041909Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 6514,
+     "visible": 379,
+     "time_to": "2026-08-16T09:35:46.469752Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 36,
+     "conv_tokens": 18373,
+     "visible": 1133,
+     "time_to": "2026-08-16T09:36:35.727920Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 89,
+     "conv_tokens": 46006,
+     "visible": 2788,
+     "time_to": "2026-08-16T09:38:31.188148Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 178,
+     "conv_tokens": 91326,
+     "visible": 5664,
+     "time_to": "2026-08-16T09:42:15.315421Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 356,
+     "conv_tokens": 183346,
+     "visible": 11189,
+     "time_to": "2026-08-16T09:48:12.372951Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 890,
+     "conv_tokens": 455530,
+     "visible": 27517,
+     "time_to": "2026-08-16T10:39:29.174438Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1780,
+     "conv_tokens": 930684,
+     "visible": 55174,
+     "time_to": "2026-08-16T11:18:21.669433Z"
+    }
+   ]
+  },
+  {
+   "cid": "3",
+   "n_turns": 1556,
+   "n_points": 48599,
+   "conv_tokens": 814015,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1058,
+     "visible": 70,
+     "time_to": "2026-08-16T09:35:31.715101Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 8,
+     "conv_tokens": 1927,
+     "visible": 128,
+     "time_to": "2026-08-16T09:35:34.367135Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 16,
+     "conv_tokens": 6728,
+     "visible": 410,
+     "time_to": "2026-08-16T09:35:45.887144Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 32,
+     "conv_tokens": 15931,
+     "visible": 1012,
+     "time_to": "2026-08-16T09:36:30.260461Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 78,
+     "conv_tokens": 41218,
+     "visible": 2651,
+     "time_to": "2026-08-16T09:38:03.099357Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 156,
+     "conv_tokens": 82575,
+     "visible": 5209,
+     "time_to": "2026-08-16T09:41:08.083611Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 312,
+     "conv_tokens": 168709,
+     "visible": 10347,
+     "time_to": "2026-08-16T09:46:53.791081Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 778,
+     "conv_tokens": 412951,
+     "visible": 24824,
+     "time_to": "2026-08-16T10:34:18.531062Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1556,
+     "conv_tokens": 814015,
+     "visible": 48599,
+     "time_to": "2026-08-16T11:04:19.931218Z"
+    }
+   ]
+  },
+  {
+   "cid": "4",
+   "n_turns": 1600,
+   "n_points": 49372,
+   "conv_tokens": 807294,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1405,
+     "visible": 88,
+     "time_to": "2026-08-16T09:35:31.932090Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 8,
+     "conv_tokens": 2612,
+     "visible": 164,
+     "time_to": "2026-08-16T09:35:36.342742Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 16,
+     "conv_tokens": 6516,
+     "visible": 406,
+     "time_to": "2026-08-16T09:35:46.131845Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 32,
+     "conv_tokens": 14283,
+     "visible": 918,
+     "time_to": "2026-08-16T09:36:25.052576Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 80,
+     "conv_tokens": 40847,
+     "visible": 2584,
+     "time_to": "2026-08-16T09:38:02.417914Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 160,
+     "conv_tokens": 83531,
+     "visible": 5240,
+     "time_to": "2026-08-16T09:41:33.186771Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 320,
+     "conv_tokens": 163937,
+     "visible": 10269,
+     "time_to": "2026-08-16T09:46:56.901443Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 800,
+     "conv_tokens": 403550,
+     "visible": 24831,
+     "time_to": "2026-08-16T10:35:17.750923Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1600,
+     "conv_tokens": 807294,
+     "visible": 49372,
+     "time_to": "2026-08-16T11:07:13.370724Z"
+    }
+   ]
+  },
+  {
+   "cid": "5",
+   "n_turns": 1600,
+   "n_points": 57510,
+   "conv_tokens": 841858,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1960,
+     "visible": 52716,
+     "time_to": "2026-08-16T11:10:14.900663Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 8,
+     "conv_tokens": 4015,
+     "visible": 52818,
+     "time_to": "2026-08-16T11:10:25.336231Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 16,
+     "conv_tokens": 8366,
+     "visible": 53117,
+     "time_to": "2026-08-16T11:10:45.847222Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 32,
+     "conv_tokens": 18021,
+     "visible": 53728,
+     "time_to": "2026-08-16T11:11:18.843080Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 80,
+     "conv_tokens": 44347,
+     "visible": 55284,
+     "time_to": "2026-08-16T11:14:16.422908Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 160,
+     "conv_tokens": 87578,
+     "visible": 57510,
+     "time_to": "2026-08-16T11:18:00.973883Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 320,
+     "conv_tokens": 169776,
+     "visible": 57510,
+     "time_to": "2026-08-16T11:18:00.973883Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 800,
+     "conv_tokens": 428284,
+     "visible": 57510,
+     "time_to": "2026-08-16T11:18:00.973883Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1600,
+     "conv_tokens": 841858,
+     "visible": 57510,
+     "time_to": "2026-08-16T11:18:00.973883Z"
+    }
+   ]
+  },
+  {
+   "cid": "6",
+   "n_turns": 1772,
+   "n_points": 31371,
+   "conv_tokens": 1089528,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1502,
+     "visible": 62,
+     "time_to": "2026-08-16T09:35:29.941173Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 2729,
+     "visible": 95,
+     "time_to": "2026-08-16T09:35:33.219614Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 7326,
+     "visible": 233,
+     "time_to": "2026-08-16T09:35:40.559267Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 36,
+     "conv_tokens": 15358,
+     "visible": 487,
+     "time_to": "2026-08-16T09:36:01.456770Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 89,
+     "conv_tokens": 44384,
+     "visible": 1357,
+     "time_to": "2026-08-16T09:37:20.549010Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 178,
+     "conv_tokens": 81731,
+     "visible": 2495,
+     "time_to": "2026-08-16T09:38:51.999531Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 355,
+     "conv_tokens": 175418,
+     "visible": 5617,
+     "time_to": "2026-08-16T09:43:47.501450Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 886,
+     "conv_tokens": 488403,
+     "visible": 14949,
+     "time_to": "2026-08-16T10:26:46.072006Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1772,
+     "conv_tokens": 1089528,
+     "visible": 31371,
+     "time_to": "2026-08-16T10:51:03.543339Z"
+    }
+   ]
+  },
+  {
+   "cid": "7",
+   "n_turns": 1662,
+   "n_points": 33340,
+   "conv_tokens": 993679,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 912,
+     "visible": 49,
+     "time_to": "2026-08-16T09:35:29.302455Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 3165,
+     "visible": 108,
+     "time_to": "2026-08-16T09:35:33.892117Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 17,
+     "conv_tokens": 6298,
+     "visible": 212,
+     "time_to": "2026-08-16T09:35:40.140976Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 34,
+     "conv_tokens": 13812,
+     "visible": 452,
+     "time_to": "2026-08-16T09:35:57.626045Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 84,
+     "conv_tokens": 35746,
+     "visible": 1165,
+     "time_to": "2026-08-16T09:36:56.747728Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 167,
+     "conv_tokens": 77435,
+     "visible": 2461,
+     "time_to": "2026-08-16T09:38:35.951248Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 333,
+     "conv_tokens": 169498,
+     "visible": 6381,
+     "time_to": "2026-08-16T09:43:21.309304Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 831,
+     "conv_tokens": 493895,
+     "visible": 16781,
+     "time_to": "2026-08-16T10:26:18.360909Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1662,
+     "conv_tokens": 993679,
+     "visible": 33340,
+     "time_to": "2026-08-16T10:49:13.562834Z"
+    }
+   ]
+  },
+  {
+   "cid": "8",
+   "n_turns": 1764,
+   "n_points": 31533,
+   "conv_tokens": 980913,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1426,
+     "visible": 76,
+     "time_to": "2026-08-16T09:35:28.958994Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 3465,
+     "visible": 185,
+     "time_to": "2026-08-16T09:35:35.976523Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 7291,
+     "visible": 369,
+     "time_to": "2026-08-16T09:35:43.790437Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 36,
+     "conv_tokens": 15060,
+     "visible": 741,
+     "time_to": "2026-08-16T09:36:06.852013Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 89,
+     "conv_tokens": 34818,
+     "visible": 1697,
+     "time_to": "2026-08-16T09:37:24.011498Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 177,
+     "conv_tokens": 82074,
+     "visible": 3529,
+     "time_to": "2026-08-16T09:39:25.958909Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 353,
+     "conv_tokens": 162327,
+     "visible": 6210,
+     "time_to": "2026-08-16T09:43:33.960049Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 882,
+     "conv_tokens": 514779,
+     "visible": 15284,
+     "time_to": "2026-08-16T10:26:18.823560Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1764,
+     "conv_tokens": 980913,
+     "visible": 31533,
+     "time_to": "2026-08-16T10:50:05.333126Z"
+    }
+   ]
+  },
+  {
+   "cid": "9",
+   "n_turns": 1802,
+   "n_points": 48601,
+   "conv_tokens": 913866,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1314,
+     "visible": 68,
+     "time_to": "2026-08-16T09:35:28.652279Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 2403,
+     "visible": 116,
+     "time_to": "2026-08-16T09:35:32.941724Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 19,
+     "conv_tokens": 5353,
+     "visible": 284,
+     "time_to": "2026-08-16T09:35:42.074475Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 37,
+     "conv_tokens": 13145,
+     "visible": 752,
+     "time_to": "2026-08-16T09:36:16.180718Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 91,
+     "conv_tokens": 36659,
+     "visible": 1990,
+     "time_to": "2026-08-16T09:37:35.058996Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 181,
+     "conv_tokens": 74092,
+     "visible": 4128,
+     "time_to": "2026-08-16T09:39:27.133228Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 361,
+     "conv_tokens": 158037,
+     "visible": 7625,
+     "time_to": "2026-08-16T09:44:23.622206Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 901,
+     "conv_tokens": 407530,
+     "visible": 22464,
+     "time_to": "2026-08-16T10:28:06.773291Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1802,
+     "conv_tokens": 913866,
+     "visible": 48601,
+     "time_to": "2026-08-16T10:54:49.440955Z"
+    }
+   ]
+  },
+  {
+   "cid": "10",
+   "n_turns": 1776,
+   "n_points": 49008,
+   "conv_tokens": 963777,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1636,
+     "visible": 99,
+     "time_to": "2026-08-16T09:35:30.282879Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 9,
+     "conv_tokens": 4245,
+     "visible": 224,
+     "time_to": "2026-08-16T09:35:37.907944Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 18,
+     "conv_tokens": 9361,
+     "visible": 540,
+     "time_to": "2026-08-16T09:35:53.155815Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 36,
+     "conv_tokens": 16888,
+     "visible": 954,
+     "time_to": "2026-08-16T09:36:30.540088Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 89,
+     "conv_tokens": 38642,
+     "visible": 2106,
+     "time_to": "2026-08-16T09:37:51.939479Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 178,
+     "conv_tokens": 87758,
+     "visible": 4640,
+     "time_to": "2026-08-16T09:40:08.732215Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 356,
+     "conv_tokens": 181241,
+     "visible": 10219,
+     "time_to": "2026-08-16T09:46:06.291631Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 888,
+     "conv_tokens": 456273,
+     "visible": 22637,
+     "time_to": "2026-08-16T10:34:32.165600Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1776,
+     "conv_tokens": 963777,
+     "visible": 49008,
+     "time_to": "2026-08-16T11:05:55.832578Z"
+    }
+   ]
+  },
+  {
+   "cid": "11",
+   "n_turns": 2294,
+   "n_points": 71897,
+   "conv_tokens": 1049580,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 986,
+     "visible": 87,
+     "time_to": "2026-08-16T09:35:31.850120Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 2725,
+     "visible": 229,
+     "time_to": "2026-08-16T09:35:37.124011Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 23,
+     "conv_tokens": 6076,
+     "visible": 507,
+     "time_to": "2026-08-16T09:35:57.298480Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 46,
+     "conv_tokens": 15779,
+     "visible": 1283,
+     "time_to": "2026-08-16T09:36:50.175599Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 115,
+     "conv_tokens": 46114,
+     "visible": 3435,
+     "time_to": "2026-08-16T09:39:19.628839Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 230,
+     "conv_tokens": 108391,
+     "visible": 6696,
+     "time_to": "2026-08-16T09:43:58.462368Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 459,
+     "conv_tokens": 211805,
+     "visible": 13899,
+     "time_to": "2026-08-16T10:22:40.630108Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1147,
+     "conv_tokens": 535199,
+     "visible": 36408,
+     "time_to": "2026-08-16T10:51:51.542867Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2294,
+     "conv_tokens": 1049580,
+     "visible": 71897,
+     "time_to": "2026-08-16T11:40:55.284386Z"
+    }
+   ]
+  },
+  {
+   "cid": "12",
+   "n_turns": 2214,
+   "n_points": 72393,
+   "conv_tokens": 1032791,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 895,
+     "visible": 73,
+     "time_to": "2026-08-16T09:35:31.179396Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 3279,
+     "visible": 276,
+     "time_to": "2026-08-16T09:35:39.061359Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 23,
+     "conv_tokens": 7173,
+     "visible": 585,
+     "time_to": "2026-08-16T09:36:02.865405Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 45,
+     "conv_tokens": 16222,
+     "visible": 1242,
+     "time_to": "2026-08-16T09:36:54.231063Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 111,
+     "conv_tokens": 44408,
+     "visible": 3184,
+     "time_to": "2026-08-16T09:38:55.707452Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 222,
+     "conv_tokens": 90763,
+     "visible": 6375,
+     "time_to": "2026-08-16T09:43:29.482911Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 443,
+     "conv_tokens": 187328,
+     "visible": 13052,
+     "time_to": "2026-08-16T10:21:20.541899Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1107,
+     "conv_tokens": 476646,
+     "visible": 33306,
+     "time_to": "2026-08-16T10:49:28.616443Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2214,
+     "conv_tokens": 1032791,
+     "visible": 72393,
+     "time_to": "2026-08-16T11:42:27.473292Z"
+    }
+   ]
+  },
+  {
+   "cid": "13",
+   "n_turns": 2988,
+   "n_points": 93568,
+   "conv_tokens": 1409224,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 6,
+     "conv_tokens": 1836,
+     "visible": 161,
+     "time_to": "2026-08-16T09:35:31.982903Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 15,
+     "conv_tokens": 4580,
+     "visible": 384,
+     "time_to": "2026-08-16T09:35:46.540973Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 30,
+     "conv_tokens": 11329,
+     "visible": 892,
+     "time_to": "2026-08-16T09:36:17.730692Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 60,
+     "conv_tokens": 25913,
+     "visible": 1800,
+     "time_to": "2026-08-16T09:37:30.548397Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 150,
+     "conv_tokens": 68289,
+     "visible": 4458,
+     "time_to": "2026-08-16T09:40:19.943245Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 299,
+     "conv_tokens": 138462,
+     "visible": 9031,
+     "time_to": "2026-08-16T09:46:22.483650Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 598,
+     "conv_tokens": 268382,
+     "visible": 17407,
+     "time_to": "2026-08-16T10:27:00.557810Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1494,
+     "conv_tokens": 696543,
+     "visible": 45949,
+     "time_to": "2026-08-16T11:05:20.139268Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2988,
+     "conv_tokens": 1409224,
+     "visible": 93568,
+     "time_to": "2026-08-16T12:08:57.553890Z"
+    }
+   ]
+  },
+  {
+   "cid": "14",
+   "n_turns": 2694,
+   "n_points": 79724,
+   "conv_tokens": 1204380,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 6,
+     "conv_tokens": 1480,
+     "visible": 116,
+     "time_to": "2026-08-16T09:35:30.841793Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 14,
+     "conv_tokens": 4150,
+     "visible": 307,
+     "time_to": "2026-08-16T09:35:40.281593Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 27,
+     "conv_tokens": 8550,
+     "visible": 646,
+     "time_to": "2026-08-16T09:36:07.571510Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 54,
+     "conv_tokens": 19514,
+     "visible": 1480,
+     "time_to": "2026-08-16T09:37:03.442898Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 135,
+     "conv_tokens": 52277,
+     "visible": 3690,
+     "time_to": "2026-08-16T09:39:26.515910Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 270,
+     "conv_tokens": 108752,
+     "visible": 7591,
+     "time_to": "2026-08-16T09:44:51.527135Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 539,
+     "conv_tokens": 223308,
+     "visible": 15616,
+     "time_to": "2026-08-16T10:24:51.920333Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1347,
+     "conv_tokens": 572605,
+     "visible": 39364,
+     "time_to": "2026-08-16T10:54:54.151465Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2694,
+     "conv_tokens": 1204380,
+     "visible": 79724,
+     "time_to": "2026-08-16T11:50:46.636998Z"
+    }
+   ]
+  },
+  {
+   "cid": "15",
+   "n_turns": 1936,
+   "n_points": 56190,
+   "conv_tokens": 902224,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 905,
+     "visible": 77,
+     "time_to": "2026-08-16T09:35:29.045232Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 2563,
+     "visible": 201,
+     "time_to": "2026-08-16T09:35:34.850832Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 5290,
+     "visible": 394,
+     "time_to": "2026-08-16T09:35:44.541650Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 39,
+     "conv_tokens": 13395,
+     "visible": 786,
+     "time_to": "2026-08-16T09:36:16.100171Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 97,
+     "conv_tokens": 41898,
+     "visible": 2428,
+     "time_to": "2026-08-16T09:38:13.177464Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 194,
+     "conv_tokens": 89910,
+     "visible": 5346,
+     "time_to": "2026-08-16T09:42:15.971271Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 388,
+     "conv_tokens": 175253,
+     "visible": 10632,
+     "time_to": "2026-08-16T09:48:28.605150Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 968,
+     "conv_tokens": 450843,
+     "visible": 28061,
+     "time_to": "2026-08-16T10:41:14.690631Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1936,
+     "conv_tokens": 902224,
+     "visible": 56190,
+     "time_to": "2026-08-16T11:23:40.539731Z"
+    }
+   ]
+  },
+  {
+   "cid": "16",
+   "n_turns": 2182,
+   "n_points": 61777,
+   "conv_tokens": 934452,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 564,
+     "visible": 41,
+     "time_to": "2026-08-16T09:35:29.271760Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 1878,
+     "visible": 147,
+     "time_to": "2026-08-16T09:35:35.962819Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 22,
+     "conv_tokens": 5421,
+     "visible": 426,
+     "time_to": "2026-08-16T09:35:48.150987Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 44,
+     "conv_tokens": 12364,
+     "visible": 945,
+     "time_to": "2026-08-16T09:36:30.661299Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 110,
+     "conv_tokens": 33628,
+     "visible": 2447,
+     "time_to": "2026-08-16T09:38:12.723420Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 219,
+     "conv_tokens": 74354,
+     "visible": 5270,
+     "time_to": "2026-08-16T09:42:26.808680Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 437,
+     "conv_tokens": 174124,
+     "visible": 11676,
+     "time_to": "2026-08-16T10:19:22.110982Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1091,
+     "conv_tokens": 459661,
+     "visible": 30461,
+     "time_to": "2026-08-16T10:46:31.005222Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2182,
+     "conv_tokens": 934452,
+     "visible": 61777,
+     "time_to": "2026-08-16T11:31:09.521084Z"
+    }
+   ]
+  },
+  {
+   "cid": "17",
+   "n_turns": 1966,
+   "n_points": 56055,
+   "conv_tokens": 863644,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 871,
+     "visible": 71,
+     "time_to": "2026-08-16T10:49:19.309801Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 2306,
+     "visible": 184,
+     "time_to": "2026-08-16T10:49:26.694921Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 5413,
+     "visible": 427,
+     "time_to": "2026-08-16T10:49:41.103919Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 40,
+     "conv_tokens": 12478,
+     "visible": 935,
+     "time_to": "2026-08-16T10:50:09.214462Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 99,
+     "conv_tokens": 37339,
+     "visible": 2840,
+     "time_to": "2026-08-16T10:52:08.810568Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 197,
+     "conv_tokens": 81075,
+     "visible": 5906,
+     "time_to": "2026-08-16T10:55:34.461254Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 394,
+     "conv_tokens": 169400,
+     "visible": 11807,
+     "time_to": "2026-08-16T11:04:45.428974Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 983,
+     "conv_tokens": 421895,
+     "visible": 27957,
+     "time_to": "2026-08-16T11:29:28.470175Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1966,
+     "conv_tokens": 863644,
+     "visible": 56055,
+     "time_to": "2026-08-16T12:03:43.422861Z"
+    }
+   ]
+  },
+  {
+   "cid": "18",
+   "n_turns": 2612,
+   "n_points": 82109,
+   "conv_tokens": 1212019,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 6,
+     "conv_tokens": 885,
+     "visible": 72,
+     "time_to": "2026-08-16T10:50:10.529504Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 14,
+     "conv_tokens": 3262,
+     "visible": 269,
+     "time_to": "2026-08-16T10:50:18.860590Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 27,
+     "conv_tokens": 6879,
+     "visible": 551,
+     "time_to": "2026-08-16T10:50:35.970905Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 53,
+     "conv_tokens": 16235,
+     "visible": 1209,
+     "time_to": "2026-08-16T10:51:12.795985Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 131,
+     "conv_tokens": 52159,
+     "visible": 3773,
+     "time_to": "2026-08-16T10:53:43.401887Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 262,
+     "conv_tokens": 122769,
+     "visible": 7948,
+     "time_to": "2026-08-16T10:58:36.681803Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 523,
+     "conv_tokens": 239949,
+     "visible": 16110,
+     "time_to": "2026-08-16T11:11:15.869895Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1306,
+     "conv_tokens": 597801,
+     "visible": 40520,
+     "time_to": "2026-08-16T11:41:16.072218Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2612,
+     "conv_tokens": 1212019,
+     "visible": 82109,
+     "time_to": "2026-08-16T12:56:45.855021Z"
+    }
+   ]
+  },
+  {
+   "cid": "19",
+   "n_turns": 1970,
+   "n_points": 62820,
+   "conv_tokens": 1007336,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 858,
+     "visible": 63,
+     "time_to": "2026-08-16T10:51:08.561304Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 2437,
+     "visible": 187,
+     "time_to": "2026-08-16T10:51:19.549097Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 5931,
+     "visible": 496,
+     "time_to": "2026-08-16T10:51:32.405410Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 40,
+     "conv_tokens": 13631,
+     "visible": 1028,
+     "time_to": "2026-08-16T10:52:07.722636Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 99,
+     "conv_tokens": 42697,
+     "visible": 2961,
+     "time_to": "2026-08-16T10:54:11.621230Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 197,
+     "conv_tokens": 93046,
+     "visible": 6217,
+     "time_to": "2026-08-16T10:58:12.698558Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 394,
+     "conv_tokens": 179787,
+     "visible": 12382,
+     "time_to": "2026-08-16T11:08:01.921372Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 985,
+     "conv_tokens": 511548,
+     "visible": 30566,
+     "time_to": "2026-08-16T11:32:05.021404Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1970,
+     "conv_tokens": 1007336,
+     "visible": 62820,
+     "time_to": "2026-08-16T12:12:06.186623Z"
+    }
+   ]
+  },
+  {
+   "cid": "20",
+   "n_turns": 2410,
+   "n_points": 69351,
+   "conv_tokens": 1105082,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1050,
+     "visible": 78,
+     "time_to": "2026-08-16T10:54:56.641342Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 13,
+     "conv_tokens": 3483,
+     "visible": 255,
+     "time_to": "2026-08-16T10:55:07.401210Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 25,
+     "conv_tokens": 8469,
+     "visible": 588,
+     "time_to": "2026-08-16T10:55:30.569906Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 49,
+     "conv_tokens": 18122,
+     "visible": 1157,
+     "time_to": "2026-08-16T10:56:11.093433Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 121,
+     "conv_tokens": 48913,
+     "visible": 3257,
+     "time_to": "2026-08-16T10:58:58.670402Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 241,
+     "conv_tokens": 98824,
+     "visible": 6642,
+     "time_to": "2026-08-16T11:04:36.501222Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 482,
+     "conv_tokens": 197342,
+     "visible": 12763,
+     "time_to": "2026-08-16T11:15:15.682726Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1205,
+     "conv_tokens": 564008,
+     "visible": 33335,
+     "time_to": "2026-08-16T11:40:52.881553Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2410,
+     "conv_tokens": 1105082,
+     "visible": 69351,
+     "time_to": "2026-08-16T12:38:17.064832Z"
+    }
+   ]
+  },
+  {
+   "cid": "21",
+   "n_turns": 2334,
+   "n_points": 71722,
+   "conv_tokens": 1066915,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1104,
+     "visible": 92,
+     "time_to": "2026-08-16T11:04:35.528785Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 3149,
+     "visible": 247,
+     "time_to": "2026-08-16T11:04:50.447612Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 24,
+     "conv_tokens": 7100,
+     "visible": 517,
+     "time_to": "2026-08-16T11:05:31.313037Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 47,
+     "conv_tokens": 15980,
+     "visible": 1162,
+     "time_to": "2026-08-16T11:06:19.183545Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 117,
+     "conv_tokens": 47398,
+     "visible": 3512,
+     "time_to": "2026-08-16T11:10:41.195814Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 234,
+     "conv_tokens": 98225,
+     "visible": 6955,
+     "time_to": "2026-08-16T11:16:27.614997Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 467,
+     "conv_tokens": 214038,
+     "visible": 14748,
+     "time_to": "2026-08-16T11:26:47.499697Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1167,
+     "conv_tokens": 515397,
+     "visible": 35080,
+     "time_to": "2026-08-16T11:49:43.189062Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2334,
+     "conv_tokens": 1066915,
+     "visible": 71722,
+     "time_to": "2026-08-16T12:59:54.717009Z"
+    }
+   ]
+  },
+  {
+   "cid": "22",
+   "n_turns": 2202,
+   "n_points": 64854,
+   "conv_tokens": 958669,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1146,
+     "visible": 96,
+     "time_to": "2026-08-16T11:06:04.640145Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 3875,
+     "visible": 299,
+     "time_to": "2026-08-16T11:06:13.764149Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 23,
+     "conv_tokens": 7739,
+     "visible": 583,
+     "time_to": "2026-08-16T11:06:48.727975Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 45,
+     "conv_tokens": 16419,
+     "visible": 1164,
+     "time_to": "2026-08-16T11:08:21.923758Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 111,
+     "conv_tokens": 43910,
+     "visible": 3024,
+     "time_to": "2026-08-16T11:10:51.878178Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 221,
+     "conv_tokens": 87790,
+     "visible": 6039,
+     "time_to": "2026-08-16T11:15:25.071670Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 441,
+     "conv_tokens": 176592,
+     "visible": 12129,
+     "time_to": "2026-08-16T11:24:27.961016Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1101,
+     "conv_tokens": 465048,
+     "visible": 31089,
+     "time_to": "2026-08-16T11:44:59.758733Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2202,
+     "conv_tokens": 958669,
+     "visible": 64854,
+     "time_to": "2026-08-16T12:39:29.785638Z"
+    }
+   ]
+  },
+  {
+   "cid": "23",
+   "n_turns": 2016,
+   "n_points": 61215,
+   "conv_tokens": 973200,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 814,
+     "visible": 53,
+     "time_to": "2026-08-16T11:07:35.291208Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 2597,
+     "visible": 195,
+     "time_to": "2026-08-16T11:08:01.059865Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 21,
+     "conv_tokens": 6182,
+     "visible": 455,
+     "time_to": "2026-08-16T11:08:27.317412Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 41,
+     "conv_tokens": 16487,
+     "visible": 1057,
+     "time_to": "2026-08-16T11:09:04.479552Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 101,
+     "conv_tokens": 45155,
+     "visible": 2908,
+     "time_to": "2026-08-16T11:11:26.383417Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 202,
+     "conv_tokens": 94427,
+     "visible": 5789,
+     "time_to": "2026-08-16T11:17:00.980865Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 404,
+     "conv_tokens": 198660,
+     "visible": 12051,
+     "time_to": "2026-08-16T11:25:02.674372Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1008,
+     "conv_tokens": 481225,
+     "visible": 30122,
+     "time_to": "2026-08-16T11:44:16.704166Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2016,
+     "conv_tokens": 973200,
+     "visible": 61215,
+     "time_to": "2026-08-16T12:25:08.032647Z"
+    }
+   ]
+  },
+  {
+   "cid": "24",
+   "n_turns": 1894,
+   "n_points": 62430,
+   "conv_tokens": 1141325,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1223,
+     "visible": 94,
+     "time_to": "2026-08-16T11:18:07.253983Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 3830,
+     "visible": 270,
+     "time_to": "2026-08-16T11:18:17.546793Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 19,
+     "conv_tokens": 7506,
+     "visible": 540,
+     "time_to": "2026-08-16T11:19:06.613844Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 38,
+     "conv_tokens": 19250,
+     "visible": 1230,
+     "time_to": "2026-08-16T11:20:29.111217Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 95,
+     "conv_tokens": 59092,
+     "visible": 2968,
+     "time_to": "2026-08-16T11:22:20.882265Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 190,
+     "conv_tokens": 116091,
+     "visible": 6633,
+     "time_to": "2026-08-16T11:25:24.428285Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 379,
+     "conv_tokens": 224378,
+     "visible": 13047,
+     "time_to": "2026-08-16T11:32:04.359908Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 947,
+     "conv_tokens": 565896,
+     "visible": 31137,
+     "time_to": "2026-08-16T11:51:22.700519Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1894,
+     "conv_tokens": 1141325,
+     "visible": 62430,
+     "time_to": "2026-08-16T12:46:24.089509Z"
+    }
+   ]
+  },
+  {
+   "cid": "25",
+   "n_turns": 3008,
+   "n_points": 103356,
+   "conv_tokens": 1510518,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 7,
+     "conv_tokens": 941,
+     "visible": 69,
+     "time_to": "2026-08-16T11:18:42.170527Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 16,
+     "conv_tokens": 3373,
+     "visible": 255,
+     "time_to": "2026-08-16T11:19:30.721692Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 31,
+     "conv_tokens": 9232,
+     "visible": 716,
+     "time_to": "2026-08-16T11:20:28.580932Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 61,
+     "conv_tokens": 22040,
+     "visible": 1708,
+     "time_to": "2026-08-16T11:21:32.560086Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 151,
+     "conv_tokens": 67072,
+     "visible": 4876,
+     "time_to": "2026-08-16T11:24:47.940800Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 301,
+     "conv_tokens": 138221,
+     "visible": 9562,
+     "time_to": "2026-08-16T11:29:43.049119Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 602,
+     "conv_tokens": 283382,
+     "visible": 18976,
+     "time_to": "2026-08-16T11:39:41.092782Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1504,
+     "conv_tokens": 745264,
+     "visible": 50401,
+     "time_to": "2026-08-16T12:20:49.759974Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 3008,
+     "conv_tokens": 1510518,
+     "visible": 103356,
+     "time_to": "2026-08-16T13:44:32.894982Z"
+    }
+   ]
+  },
+  {
+   "cid": "26",
+   "n_turns": 1994,
+   "n_points": 81321,
+   "conv_tokens": 990809,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 954,
+     "visible": 66766,
+     "time_to": "2026-08-16T13:04:06.762527Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 3591,
+     "visible": 66962,
+     "time_to": "2026-08-16T13:04:16.443003Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 8478,
+     "visible": 67373,
+     "time_to": "2026-08-16T13:05:02.404125Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 40,
+     "conv_tokens": 18436,
+     "visible": 68111,
+     "time_to": "2026-08-16T13:05:50.246625Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 100,
+     "conv_tokens": 45720,
+     "visible": 70083,
+     "time_to": "2026-08-16T13:08:02.572626Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 200,
+     "conv_tokens": 94285,
+     "visible": 73387,
+     "time_to": "2026-08-16T13:11:46.099236Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 399,
+     "conv_tokens": 194123,
+     "visible": 80512,
+     "time_to": "2026-08-16T13:19:15.621030Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 997,
+     "conv_tokens": 504706,
+     "visible": 81321,
+     "time_to": "2026-08-16T13:19:51.284632Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1994,
+     "conv_tokens": 990809,
+     "visible": 81321,
+     "time_to": "2026-08-16T13:19:51.284632Z"
+    }
+   ]
+  },
+  {
+   "cid": "27",
+   "n_turns": 2210,
+   "n_points": 60928,
+   "conv_tokens": 927682,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 439,
+     "visible": 31,
+     "time_to": "2026-08-16T11:23:45.461150Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 1932,
+     "visible": 144,
+     "time_to": "2026-08-16T11:23:50.827554Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 23,
+     "conv_tokens": 5022,
+     "visible": 383,
+     "time_to": "2026-08-16T11:24:10.931616Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 45,
+     "conv_tokens": 13607,
+     "visible": 996,
+     "time_to": "2026-08-16T11:24:41.203983Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 111,
+     "conv_tokens": 40689,
+     "visible": 2817,
+     "time_to": "2026-08-16T11:26:28.129613Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 221,
+     "conv_tokens": 87045,
+     "visible": 5977,
+     "time_to": "2026-08-16T11:29:38.162526Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 442,
+     "conv_tokens": 187384,
+     "visible": 12735,
+     "time_to": "2026-08-16T11:37:05.832341Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1105,
+     "conv_tokens": 464174,
+     "visible": 30865,
+     "time_to": "2026-08-16T11:58:49.486981Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2210,
+     "conv_tokens": 927682,
+     "visible": 60928,
+     "time_to": "2026-08-16T13:01:32.243267Z"
+    }
+   ]
+  },
+  {
+   "cid": "28",
+   "n_turns": 2356,
+   "n_points": 70667,
+   "conv_tokens": 1114497,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 684,
+     "visible": 50,
+     "time_to": "2026-08-16T11:31:16.760641Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 2471,
+     "visible": 192,
+     "time_to": "2026-08-16T11:31:23.373102Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 24,
+     "conv_tokens": 6982,
+     "visible": 530,
+     "time_to": "2026-08-16T11:31:44.381314Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 48,
+     "conv_tokens": 16029,
+     "visible": 1221,
+     "time_to": "2026-08-16T11:32:26.694399Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 118,
+     "conv_tokens": 48327,
+     "visible": 2989,
+     "time_to": "2026-08-16T11:34:28.762861Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 236,
+     "conv_tokens": 103954,
+     "visible": 6051,
+     "time_to": "2026-08-16T11:37:57.083159Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 472,
+     "conv_tokens": 211679,
+     "visible": 13005,
+     "time_to": "2026-08-16T11:45:53.008881Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1178,
+     "conv_tokens": 538561,
+     "visible": 34189,
+     "time_to": "2026-08-16T12:13:23.521492Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2356,
+     "conv_tokens": 1114497,
+     "visible": 70667,
+     "time_to": "2026-08-16T13:18:43.500258Z"
+    }
+   ]
+  },
+  {
+   "cid": "29",
+   "n_turns": 2026,
+   "n_points": 58518,
+   "conv_tokens": 930644,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1388,
+     "visible": 102,
+     "time_to": "2026-08-16T11:41:05.668938Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 3367,
+     "visible": 254,
+     "time_to": "2026-08-16T11:41:14.151398Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 21,
+     "conv_tokens": 6717,
+     "visible": 496,
+     "time_to": "2026-08-16T11:41:27.811073Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 41,
+     "conv_tokens": 13531,
+     "visible": 1104,
+     "time_to": "2026-08-16T11:42:06.861140Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 102,
+     "conv_tokens": 43660,
+     "visible": 2926,
+     "time_to": "2026-08-16T11:43:54.837545Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 203,
+     "conv_tokens": 83603,
+     "visible": 5454,
+     "time_to": "2026-08-16T11:47:08.676668Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 406,
+     "conv_tokens": 178181,
+     "visible": 11596,
+     "time_to": "2026-08-16T11:54:09.247478Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1013,
+     "conv_tokens": 442729,
+     "visible": 27722,
+     "time_to": "2026-08-16T12:17:58.314472Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2026,
+     "conv_tokens": 930644,
+     "visible": 58518,
+     "time_to": "2026-08-16T13:16:38.615369Z"
+    }
+   ]
+  },
+  {
+   "cid": "30",
+   "n_turns": 2356,
+   "n_points": 64603,
+   "conv_tokens": 998796,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 896,
+     "visible": 64,
+     "time_to": "2026-08-16T11:42:36.100169Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 12,
+     "conv_tokens": 2769,
+     "visible": 206,
+     "time_to": "2026-08-16T11:42:42.287143Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 24,
+     "conv_tokens": 7221,
+     "visible": 518,
+     "time_to": "2026-08-16T11:43:00.043188Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 48,
+     "conv_tokens": 16885,
+     "visible": 1194,
+     "time_to": "2026-08-16T11:43:46.991146Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 118,
+     "conv_tokens": 49007,
+     "visible": 3350,
+     "time_to": "2026-08-16T11:46:10.132095Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 236,
+     "conv_tokens": 96148,
+     "visible": 6525,
+     "time_to": "2026-08-16T11:49:34.575399Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 472,
+     "conv_tokens": 188186,
+     "visible": 12461,
+     "time_to": "2026-08-16T11:56:27.483500Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1178,
+     "conv_tokens": 511827,
+     "visible": 32167,
+     "time_to": "2026-08-16T12:23:45.706954Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2356,
+     "conv_tokens": 998796,
+     "visible": 64603,
+     "time_to": "2026-08-16T13:21:39.480241Z"
+    }
+   ]
+  },
+  {
+   "cid": "31",
+   "n_turns": 1982,
+   "n_points": 54345,
+   "conv_tokens": 802492,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 1198,
+     "visible": 95,
+     "time_to": "2026-08-16T11:50:53.512489Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 2863,
+     "visible": 223,
+     "time_to": "2026-08-16T11:51:01.207185Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 6568,
+     "visible": 489,
+     "time_to": "2026-08-16T11:51:15.828903Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 40,
+     "conv_tokens": 12715,
+     "visible": 945,
+     "time_to": "2026-08-16T11:51:51.424447Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 100,
+     "conv_tokens": 38975,
+     "visible": 2562,
+     "time_to": "2026-08-16T11:53:41.871644Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 199,
+     "conv_tokens": 80384,
+     "visible": 5337,
+     "time_to": "2026-08-16T11:56:55.919124Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 397,
+     "conv_tokens": 152898,
+     "visible": 10292,
+     "time_to": "2026-08-16T12:02:45.139628Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 991,
+     "conv_tokens": 390089,
+     "visible": 26330,
+     "time_to": "2026-08-16T12:30:55.581734Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1982,
+     "conv_tokens": 802492,
+     "visible": 54345,
+     "time_to": "2026-08-16T13:19:04.102017Z"
+    }
+   ]
+  },
+  {
+   "cid": "32",
+   "n_turns": 2088,
+   "n_points": 57826,
+   "conv_tokens": 848317,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1038,
+     "visible": 78,
+     "time_to": "2026-08-16T12:03:55.165778Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 3221,
+     "visible": 242,
+     "time_to": "2026-08-16T12:04:05.800574Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 21,
+     "conv_tokens": 7269,
+     "visible": 550,
+     "time_to": "2026-08-16T12:04:26.549914Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 42,
+     "conv_tokens": 16384,
+     "visible": 1144,
+     "time_to": "2026-08-16T12:05:07.734908Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 105,
+     "conv_tokens": 40999,
+     "visible": 2730,
+     "time_to": "2026-08-16T12:08:36.759034Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 209,
+     "conv_tokens": 80550,
+     "visible": 5369,
+     "time_to": "2026-08-16T12:12:25.802541Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 418,
+     "conv_tokens": 164864,
+     "visible": 10950,
+     "time_to": "2026-08-16T12:19:35.310961Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1044,
+     "conv_tokens": 433091,
+     "visible": 28727,
+     "time_to": "2026-08-16T13:02:27.424880Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2088,
+     "conv_tokens": 848317,
+     "visible": 57826,
+     "time_to": "2026-08-16T13:33:28.800916Z"
+    }
+   ]
+  },
+  {
+   "cid": "33",
+   "n_turns": 2106,
+   "n_points": 74048,
+   "conv_tokens": 1039989,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1557,
+     "visible": 66921,
+     "time_to": "2026-08-16T13:47:33.647793Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 3942,
+     "visible": 67115,
+     "time_to": "2026-08-16T13:47:42.168628Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 22,
+     "conv_tokens": 8673,
+     "visible": 67486,
+     "time_to": "2026-08-16T13:47:54.778729Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 43,
+     "conv_tokens": 20068,
+     "visible": 68187,
+     "time_to": "2026-08-16T13:48:26.929725Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 106,
+     "conv_tokens": 49547,
+     "visible": 70299,
+     "time_to": "2026-08-16T13:51:19.688840Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 211,
+     "conv_tokens": 108019,
+     "visible": 74048,
+     "time_to": "2026-08-16T13:56:30.680756Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 422,
+     "conv_tokens": 204764,
+     "visible": 74048,
+     "time_to": "2026-08-16T13:56:30.680756Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1053,
+     "conv_tokens": 535010,
+     "visible": 74048,
+     "time_to": "2026-08-16T13:56:30.680756Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2106,
+     "conv_tokens": 1039989,
+     "visible": 74048,
+     "time_to": "2026-08-16T13:56:30.680756Z"
+    }
+   ]
+  },
+  {
+   "cid": "34",
+   "n_turns": 1934,
+   "n_points": 93936,
+   "conv_tokens": 1008085,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 4,
+     "conv_tokens": 837,
+     "visible": 66782,
+     "time_to": "2026-08-16T13:51:30.031006Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 10,
+     "conv_tokens": 1860,
+     "visible": 66870,
+     "time_to": "2026-08-16T13:51:37.931294Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 20,
+     "conv_tokens": 4765,
+     "visible": 67099,
+     "time_to": "2026-08-16T13:52:03.681436Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 39,
+     "conv_tokens": 12765,
+     "visible": 67569,
+     "time_to": "2026-08-16T13:52:47.871458Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 97,
+     "conv_tokens": 40383,
+     "visible": 69357,
+     "time_to": "2026-08-16T13:55:09.992218Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 194,
+     "conv_tokens": 88029,
+     "visible": 72322,
+     "time_to": "2026-08-16T13:59:07.260951Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 387,
+     "conv_tokens": 173671,
+     "visible": 77952,
+     "time_to": "2026-08-16T14:07:32.568642Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 967,
+     "conv_tokens": 436361,
+     "visible": 93936,
+     "time_to": "2026-08-16T14:38:10.888780Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 1934,
+     "conv_tokens": 1008085,
+     "visible": 93936,
+     "time_to": "2026-08-16T14:38:10.888780Z"
+    }
+   ]
+  },
+  {
+   "cid": "35",
+   "n_turns": 2116,
+   "n_points": 64471,
+   "conv_tokens": 965329,
+   "cuts": [
+    {
+     "frac": 0.002,
+     "turns": 5,
+     "conv_tokens": 1114,
+     "visible": 84,
+     "time_to": "2026-08-16T12:25:40.207525Z"
+    },
+    {
+     "frac": 0.005,
+     "turns": 11,
+     "conv_tokens": 3002,
+     "visible": 218,
+     "time_to": "2026-08-16T12:26:01.902672Z"
+    },
+    {
+     "frac": 0.01,
+     "turns": 22,
+     "conv_tokens": 5322,
+     "visible": 392,
+     "time_to": "2026-08-16T12:26:21.911469Z"
+    },
+    {
+     "frac": 0.02,
+     "turns": 43,
+     "conv_tokens": 12853,
+     "visible": 922,
+     "time_to": "2026-08-16T12:28:59.380153Z"
+    },
+    {
+     "frac": 0.05,
+     "turns": 106,
+     "conv_tokens": 39949,
+     "visible": 2782,
+     "time_to": "2026-08-16T12:36:06.946919Z"
+    },
+    {
+     "frac": 0.1,
+     "turns": 212,
+     "conv_tokens": 86813,
+     "visible": 5749,
+     "time_to": "2026-08-16T12:45:44.929628Z"
+    },
+    {
+     "frac": 0.2,
+     "turns": 424,
+     "conv_tokens": 172316,
+     "visible": 11154,
+     "time_to": "2026-08-16T12:59:22.350010Z"
+    },
+    {
+     "frac": 0.5,
+     "turns": 1058,
+     "conv_tokens": 471293,
+     "visible": 31200,
+     "time_to": "2026-08-16T13:19:07.812530Z"
+    },
+    {
+     "frac": 1.0,
+     "turns": 2116,
+     "conv_tokens": 965329,
+     "visible": 64471,
+     "time_to": "2026-08-16T13:57:13.412677Z"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "claude": {
+  "all": 37.1,
+  "abstention": 100.0,
+  "contradiction_resolution": 12.5,
+  "event_ordering": 0.0,
+  "information_extraction": 58.3,
+  "instruction_following": 100.0,
+  "knowledge_update": 0.0,
+  "multi_session_reasoning": 0.0,
+  "preference_following": 87.5,
+  "summarization": 12.5,
+  "temporal_reasoning": 0.0
+ },
+ "wos": {
+  "all": 63.4,
+  "abstention": 50.0,
+  "contradiction_resolution": 56.2,
+  "event_ordering": 65.0,
+  "information_extraction": 100.0,
+  "instruction_following": 100.0,
+  "knowledge_update": 100.0,
+  "multi_session_reasoning": 50.0,
+  "preference_following": 62.5,
+  "summarization": 50.0,
+  "temporal_reasoning": 0.0
+ }
+}

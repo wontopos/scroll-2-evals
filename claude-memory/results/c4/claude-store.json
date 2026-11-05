@@ -1,0 +1,16 @@
+[
+ {
+  "content_size_bytes": 536,
+  "created_at": "2026-10-14T04:47:04.474944Z",
+  "path": "/congruence-proof-preference.md",
+  "updated_at": "2026-10-14T04:47:04.474944Z",
+  "content": "## Standing instruction: congruence proofs (keywords: congruence, SSS, SAS, ASA, proof outline, diagrams)\n- User (June 2024) asked: always give detailed proof outlines WITH diagrams whenever they ask about triangle congruence criteria (SSS, SAS, ASA, AAS).\n- Format that worked: label vertices in matching order; mark given parts on ASCII diagram; choose criterion by checking \"included\" position; two-column Statement | Reason table; conclude with criterion name.\n- Always flag SSA (not valid) and AAA (similarity only) when relevant.\n"
+ },
+ {
+  "content_size_bytes": 809,
+  "created_at": "2026-10-14T04:35:43.853071Z",
+  "path": "/preferences.md",
+  "updated_at": "2026-10-14T04:40:49.245939Z",
+  "content": "\n## User preferences (keywords: diagram, visual, triangle classification, learning style)\n- Christina (colour technologist, learning triangle geometry, prefers visual learning).\n- Standing request: when asking about triangle classification methods, always give step-by-step geometric diagrams (ASCII is fine).\n- Her notes say she gets triangle classification mostly right (15 problems, >80%), she's working on Law of Cosines, Triangle Sum Theorem, Pythagorean theorem.\n\n## Standing instruction: triangle area answers (keywords: area, comparative analysis, solution methods)\n- When asked about triangle area calculations, always include a comparative analysis of multiple solution methods (e.g., base-height, Heron's, shoelace/coordinates, trig ½ab·sinC), stating which is most efficient for the given data.\n"
+ }
+]
